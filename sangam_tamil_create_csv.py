@@ -4,12 +4,12 @@ from pandas.tests.io.parser import index_col
 #str = "புறநானூறு 3, பாடியவர்: இரும்பிடர்த்தலையார், பாடப்பட்டோன்: பாண்டியன் கருங்கை ஒள்வாள் பெரும்பெயர் வழுதி, திணை: பாடாண், துறை: செவியறிவுறூஉ  வாழ்த்தியல்"
 #match = regex.match(r"\s?புறநானுறு|புறநானூறு\s?(\d+)[,]\s?பாடியவர்[:]([\p{L}*+|\p{L}\p{M}*+].*)\s?[,]பாடப்பட்டோன்[:]([\p{L}*+|\p{L}\p{M}*+].*)\s?[-]\s?([\p{L}*+|\p{L}\p{M}*+].*)", str)
 sangam_text_folder = "./sangam_tamil_text/"
-sangam_poem = "sirupaanaatrupadai" #'purananuru # "agananuru" # kalithokai # kurunthokai #natrinai #ainkurunuru #pathitrupathu
+sangam_poem = "ainthinaiezhupathu" #'purananuru # "agananuru" # kalithokai # kurunthokai #natrinai #ainkurunuru #pathitrupathu
 text_file = sangam_poem+".txt"
 csv_file = sangam_text_folder+sangam_poem+".csv" # agananuru
-ta_poem_str1="சிறுபாணாற்றுப்படை" #"நற்றிணை" #"புறநானுறு" # "அகநானுறு" # கலித்தொகை # குறுந்தொகை #நற்றிணை #ஐங்குறுநூறு #பதிற்றுப்பத்து
-ta_poem_str2="சிறுபாணாற்றுப்படை" #"நற்றிணை" #"புறநானூறு" # "அகநானுறு" # கலித்தொகை # குறுந்தொகை #நற்றிணை #ஐங்குறுநூறு #பதிற்றுப்பத்து
-en_poem_str = "Sirupaanaatrupadai" #"Puranānūru" # "Akanānūru" # Kalithokai # Kurunthokai #Natrinai #Ainkurunūru #Pathitruppathu
+ta_poem_str1="ஐந்திணை எழுபது" #"நற்றிணை" #"புறநானுறு" # "அகநானுறு" # கலித்தொகை # குறுந்தொகை #நற்றிணை #ஐங்குறுநூறு #பதிற்றுப்பத்து
+ta_poem_str2="ஐந்திணை எழுபது" #"நற்றிணை" #"புறநானூறு" # "அகநானுறு" # கலித்தொகை # குறுந்தொகை #நற்றிணை #ஐங்குறுநூறு #பதிற்றுப்பத்து
+en_poem_str = "Ainthinai Ezhupathu" #"Puranānūru" # "Akanānūru" # Kalithokai # Kurunthokai #Natrinai #Ainkurunūru #Pathitruppathu
 _RE_DICT = {"poem_info_t": regex.compile("r^அகநானுறு|அகநானூறு\s?(?P<poem_info>.*)",regex.IGNORECASE|regex.UNICODE), 
            'poem_tamil_t': regex.compile(r"^\s?(?P<poem_tamil>[\p{L}*+|\p{L}\p{M}*+].*)\s?.*", regex.IGNORECASE|regex.UNICODE),
            "translation_e" : regex.compile(r"\s?(?P<translation>\b\w+\b)",regex.IGNORECASE), 

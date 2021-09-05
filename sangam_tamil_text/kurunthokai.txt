@@ -356,7 +356,7 @@ Notes:  The foster mother told the heroine’s mother about the wedding of the h
 
 Meanings:   பறைபட – as parai drums roared, as parai drums were beat, பணிலம் ஆர்ப்ப – conch shells created loud sounds, இறை கொள்பு – staying, தொன் மூது – old and ancient, ஆலத்து – banyan tree’s, Ficus bengalensis, பொதியில் – underneath the tree in the common grounds, பொது இல், பொது இடத்தில், தோன்றிய – appeared, நாலூர் – four villages, கோசர் – Kosar tribe, நன் மொழி – infallible words, போல – like, வாயாகின்று – this is the truth, ஏ – அசைநிலை, an expletive, தோழி – O friend, ஆய் கழல் – beautiful warrior anklets, சேய் இலை – red tip, வெள்வேல் – white spear, விடலையொடு – with the young man, தொகு வளை – bangles that are together, rows of bangles, முன் கை – forearms, மடந்தை நட்பு – the young woman’s friendship, ஏ – அசைநிலை, an expletive
 
-குறுந்தொகை 16, சேரமான் பாலை பாடிய பெருங்கடுங்கோ – பாலைத் திணை,  தோழி சொன்னது
+குறுந்தொகை 16, சேரமான் பாலை பாடிய பெருங்கடுங்கோ,பாலைத் திணை,  தோழி சொன்னது
 உள்ளார் கொல்லோ தோழி, கள்வர் தம்
 பொன் புனை பகழி செப்பங்கொண்மார்
 உகிர் நுதி புரட்டும் ஓசை போலச்
@@ -3649,7 +3649,7 @@ Notes:  The heroine urged her friend to request the hero to come and marry her. 
 
 Meanings:  குன்றக் கூகை குழறினும் – even if an owl hooted on the hill, முன்றில் பலவின் – of the jackfruit tree in our front yard (முன்றில் – இல்முன்), இருஞ்சினை – big branches, கலை பாய்ந்து உகளினும் – even if a male monkey jumped and leaped, அஞ்சுமன் அளித்து என் நெஞ்சம் – my pitiful heart would be afraid (மன் – கழிவுக் குறிப்பு, what was in the past), இனி – now, ஏ – அசைநிலை, an expletive, ஆர் இருள் கங்குல் – in the pitch darkness of night, அவர் வயின் – to him, சாரல் – mountain slopes, நீள் இடை – long path, செலவு – going, ஆனாது – it does not stop, ஏ – அசைநிலை, an expletive
 
-குறுந்தொகை 154, மதுரைச் சீத்தலைச் சாத்தனார் – பாலைத் திணை – தலைவி தோழியிடம் சொன்னது
+குறுந்தொகை 154, மதுரைச் சீத்தலைச் சாத்தனார்,பாலைத் திணை – தலைவி தோழியிடம் சொன்னது
 யாங்கு அறிந்தனர் கொல் தோழி, பாம்பின்
 உரி நிமிர்ந்தன்ன உருப்பு அவிர் அமையத்து,
 இரை வேட்டு எழுந்த சேவல் உள்ளிப்
@@ -5785,7 +5785,7 @@ Notes:  The hero said this to the notherly wind, for the charioteer to hear, whi
 
 Meanings:  ஓம்புமதி – protect her (மதி – முன்னிலை அசை, an expletive of the second person), வாழி – may you live long, ஓ – அசைநிலை, an expletive, வாடை – O cold northern wind, பாம்பின் – of snakes, தூங்கு தோல் – hanging skins, கடுக்கும் – like, தூ வெள் அருவி – pure white waterfalls, கல் உயர் – mountain top, நண்ணியது – it is nearby, it is there, ஏ – அசைநிலை, an expletive, நெல்லி – gooseberries, மரை இனம் – marai deer herd, ஆரும் – they eat, முன்றில் – front of the house, front yard (முன்றில் – இல்முன்), புல் – grass, வேய் – woven, குரம்பை – huts, நல்லோள் – the good woman’s, the beautiful woman’s, ஊர் – town, ஏ – அசைநிலை, an expletive
 
-குறுந்தொகை 236, நரிவெரூ உத்தலையார், நெய்தற் திணை – தோழி தலைவனிடம் சொன்னது, தலைவி கூறுவதைப் போல்
+குறுந்தொகை 236, நரிவெரூஉத் தலையார், நெய்தற் திணை – தோழி தலைவனிடம் சொன்னது, தலைவி கூறுவதைப் போல்
 விட்டென விடுக்கு நாள் வருக, அது நீ
 நேர்ந்தனை ஆயின், தந்தனை சென்மோ,
 குன்றத்து அன்ன குவவு மணல் அடைகரை
