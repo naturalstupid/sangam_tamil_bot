@@ -36,10 +36,12 @@ for col in headers:
 data_folder = "./sangam_tamil_csv/"
 data_files = ['agananuru','purananuru','ainkurunuru','kalithokai', 'kurunthokai', 'natrinai', 'pathitrupathu', 'pattinapaalai', 
               'mullaipaattu', 'nedunalvaadai', 'kurinjipaattu','malaipadukadaam','maduraikaanji','porunaraatrupadai',
-              'perumpaanaatrupadai', 'sirupaanaatrupadai', 'thirumurugaatrupadai', 'ainthinaiezhupathu']#, 'thirukkural' ]
+              'perumpaanaatrupadai', 'sirupaanaatrupadai', 'thirumurugaatrupadai', 'ainthinaiezhupathu', 'ainthinaiaimpathu',
+              'kaarnaarpathu','thinaimozhiaimpathu','kainnilai','thinaimaalainootraimbathu']#, 'thirukkural' ]
 POEM_TYPES = ['அகநானூறு', 'புறநானூறு', 'ஐங்குறுநூறு', 'கலித்தொகை', 'குறுந்தொகை', 'நற்றிணை', 'பதிற்றுப்பத்து', 'பட்டினப்பாலை', 
               'முல்லைப்பாட்டு', 'நெடுநல்வாடை','குறிஞ்சிப்பாட்டு','மலைபடுகடாம்', 'மதுரைக்காஞ்சி','பொருநராற்றுப்படை',
-              'பெரும்பாணாற்றுப்படை', 'சிறுபாணாற்றுப்படை','திருமுருகாற்றுப்படை','ஐந்திணை எழுபது']#,'திருக்குறள்']
+              'பெரும்பாணாற்றுப்படை', 'சிறுபாணாற்றுப்படை','திருமுருகாற்றுப்படை','ஐந்திணை எழுபது','ஐந்திணை ஐம்பது','கார் நாற்பது',
+              'திணைமொழி ஐம்பது','கைந்நிலை','திணைமாலை நூற்றைம்பது']#,'திருக்குறள்']
 
 def get_wikipedia_response(input,lang=WIKI_DEFAULT_LANG):
     wiki = ''
@@ -92,6 +94,7 @@ class SangamPoems():
     def __init__(self):
         self.df = self.get_poem_data()
         self.nigandu = self._get_nigandu_from_file()
+        print("There are {} words in sangam nigandu".format(len(self.nigandu)))
         self.tk = thirukkural.Thirukural(data_folder+'thirukkural.csv')
     def get_meaning(self, text):
         meaning = dict()
@@ -139,8 +142,8 @@ class SangamPoems():
         for word_pair in meanings:
             word = ''
             meaning = ''
-            #print('word_pair\n',word_pair)
             if "–" in word_pair:
+                #print('word_pair',word_pair)
                 word, meaning = word_pair.split("–",1)
                 word = word.strip()
                 meaning = meaning.strip()
@@ -244,7 +247,7 @@ class SangamPoems():
                     return get_google_search_response(bot_user_input)
                 return response
             elif key =='poet_poems':
-                print('value',value)
+                #print('value',value)
                 response = self.list_poems_by_poet(poem_type, value)
                 #print(poem_type,'key == ends_with',value,response)
                 if not response:
@@ -263,11 +266,14 @@ class SangamPoems():
             elif poem_type.lower() == "meaning" or key.lower() == "meaning":
                 #print('inside meaning',inputs)
                 if len(inputs)>1:
-                    meaning = self.get_meaning(inputs[1])
-                    #print('meaning',meaning)
-                    response = ''
-                    for key,value in meaning.items():
-                        response += key+"="+''.join(value) +"\n"
+                    try:
+                        meaning = self.get_meaning(inputs[1])
+                        #print('meaning',meaning)
+                        response = ''
+                        for key,value in meaning.items():
+                            response += key+"="+''.join(value) +"\n"
+                    except:
+                        return bot_user_input + config["SEARCH_FAIL_MSG"]
             elif poem_type.lower() == "greet" or key.lower() == "greet":
                 response = config["GREET_MSG"]
             elif poem_type.lower() == "quit" or key.lower() == "quit":
@@ -301,10 +307,14 @@ class SangamPoems():
         print(key_words)
         return key_words
     def _get_poem_min_max(self, poem_type):
+        if not poem_type in POEM_TYPES:
+            return config["INVALID_POEM_TYPE_MSG"]
         poem_id_min = self.df.loc[self.df['poem_type']==poem_type]['poem_id'].min()
         poem_id_max = self.df.loc[self.df['poem_type']==poem_type]['poem_id'].max()
         return poem_id_min, poem_id_max
     def list_poems_by_poet(self,poem_type,poet_name):
+        if not poem_type in POEM_TYPES:
+            return config["INVALID_POEM_TYPE_MSG"]
         print('list_poems_by_poet',poem_type,poet_name)
         poems_by_poet = self.df.index[(self.df['poem_type']==poem_type) & 
                         (self.df['poet_name'].str.contains(poet_name)) | 
@@ -334,7 +344,7 @@ class SangamPoems():
             result = '\n'.join([poet+" எழுதிய பாடல்கள்:"+str(count) for poet,count in poet_list])
             return result1 + "\n" + result
         else:
-            return config['SEARCH_FAIL_MSG']
+            return config["INVALID_POEM_TYPE_MSG"]
 if __name__ == "__main__":
     #user_message = "help 12"
     #user_message = "kalitogai உடைய மதுகையால்"
@@ -354,14 +364,14 @@ if __name__ == "__main__":
     #user_message = "Help"
     #user_message = "Bye"
     #user_message = "thirukural  get 12"
-    user_message = "ஐந்திணை எழுபது 39"
+    user_message = 'திணை மாலை நூற்று ஐம்பது list of poets'
     #user_message = "thirukural contains தாள்சேர்ந்தார்க்"
     #user_message = "திருக்குறள் ends கற்றதனால்"
     #user_message = "திருக்குறள் ends with பாற்று"
     #user_message="pathitrupathu 91"
     #user_message="dictionary சுவல் "
     sp = SangamPoems()
-    #print(sp.list_of_poets('நற்றிணை'))
+    #print(sp.list_of_poets('திணை மாலை நூற்று ஐம்பது'))
     #exit()
     bot_response = sp.respond_to_bot_user_input(user_message)
     print('bot_response',bot_response)

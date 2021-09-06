@@ -19,6 +19,7 @@ headers = []
 columns_to_display = []
 headers = ["poem_type", "poet_name", "poem", "translation","notes", "meaning", "poem_id", "poet_name_e",]
 columns_to_display= []
+config["show_columns"]['show_poem']="True"
 _config_show = config["show_columns"]
 for col in headers:
     key = 'show_'+col
@@ -245,7 +246,7 @@ class SangamPoems():
         tokens_per_sentence = 4
         cdeeplearn.set_parameters(corpus_file='sangam_corpus.json', model_weights_file='sangam_corpus.h5',
                        starting_word_file='sangam_starting_words.json', ending_word_file='sangam_ending_words.json',
-                       batch_size=16, number_of_epochs=25)
+                       batch_size=16, number_of_epochs=100)
         result = cdeeplearn.generate_tokens_from_corpus(corpus_files=poem_files, 
                         length=poem_token_count, save_to_file='sangam_corpus.h5',perform_training=perform_training,
                         tokens_per_sentence=5)
