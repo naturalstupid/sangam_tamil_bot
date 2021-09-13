@@ -16,7 +16,7 @@ CHORD_LENGTH = 1
 EPOCHS = 75
 MODEL_WEIGHTS_FILE = 'corpus.h5'
 corpus_json_file = 'corpus.json'
-LOG_FILE = "logs.txt"
+LOG_FILE = "log.txt"
 starting_word_json_file = corpus_json_file.replace(".json", '') + 'starting_words.json'
 ending_word_json_file = corpus_json_file.replace(".json", '') + 'ending_words.json'
 TOKEN_PATTERN = r"[\w]+" #r"[\\X+]" #r"[\w']+" #r"[\w']+|[.,!?;]" r"[^\x00-\x7F]+"
@@ -48,7 +48,7 @@ def set_parameters(batch_size=None, number_of_epochs=None,model_weights_folder= 
     @param starting_word_file: File containing dictionary of starting tokens. Default:"starting_words.json"
     @param ending_word_file: File containing dictionary of ending tokens. Default:"ending_words.json"
     @param model_weights_file: File containing trained weights. Default:"<raagam_name>_corpus.h5"
-    @param log_file: File containing loss and accuracy at end of each epoch. Default:"logs.txt"
+    @param log_file: File containing loss and accuracy at end of each epoch. Default:"log.txt"
     @param token_pattern: default regex pattern for collecting tokens/words from corpus file. Default: r"[\w']+|[.,!?;]" 
     """
     global BATCH_SIZE, EPOCHS, model_weights_directory, corpus_json_file, MODEL_WEIGHTS_FILE, TOKEN_PATTERN, starting_word_json_file, ending_word_json_file
