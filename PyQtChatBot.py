@@ -2,7 +2,6 @@ from PyQt6 import QtTest
 from PyQt6.QtCore import *
 from PyQt6.QtWidgets import *
 from requests import Session
-from threading import Thread
 from time import sleep
 import regex
 import json

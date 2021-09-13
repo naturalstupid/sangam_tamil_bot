@@ -4,20 +4,41 @@ import numpy as np
 import pandas as pd
 from keras.models import Sequential
 from keras.layers import LSTM, Dropout, TimeDistributed, Dense, Activation, Embedding
-
-#charIndex_json = "char_to_index.json"
-model_weights_directory = 'model_weights/'
+"""
+from google.colab import drive
+drive.mount('/content/gdrive/')
+google_drive = '/content/gdrive/MyDrive/'
+"""
+google_drive = './'
+model_weights_directory = google_drive+'model_weights/'
 BATCH_SIZE = 15
 CHORD_LENGTH = 1
-EPOCHS = 90
+EPOCHS = 75
 MODEL_WEIGHTS_FILE = 'corpus.h5'
 corpus_json_file = 'corpus.json'
+LOG_FILE = "logs.txt"
 starting_word_json_file = corpus_json_file.replace(".json", '') + 'starting_words.json'
 ending_word_json_file = corpus_json_file.replace(".json", '') + 'ending_words.json'
-TOKEN_PATTERN = r"[\w']+" #r"[\w']+|[.,!?;]"
+TOKEN_PATTERN = r"[\w]+" #r"[\\X+]" #r"[\w']+" #r"[\w']+|[.,!?;]" r"[^\x00-\x7F]+"
+def _get_all_tamil_characters(include_space=True, include_vadamozhi=False):
+    TAMIL_UNICODE_1_TA = ["க","ங","ச","ஞ","ட","ண","த","ந","ன","ப","ம","ய","ர","ற","ல","ள","ழ","வ"]
+    TAMIL_UNICODE_1_SAN = ["ஜ", "ஷ", "ஸ", "ஹ", "க்ஷ"]
+    TAMIL_UNICODE_1 = TAMIL_UNICODE_1_TA+TAMIL_UNICODE_1_SAN
+    TAMIL_UNICODE_2 = ["ா","ி","ீ","ூ","ு","ெ","ே","ை","ொ","ோ","ௌ","்"]
+    UYIRGAL = ["அ","ஆ","இ","ஈ","உ","ஊ","எ","ஏ","ஐ","ஒ","ஓ","ஔ"]
+    MEYGAL= [tu1+TAMIL_UNICODE_2[-1] for tu1 in TAMIL_UNICODE_1 ]
+    all_tamil_chars = []
+    if include_space:
+        all_tamil_chars = [' ']
+    T_U_1 = TAMIL_UNICODE_1_TA
+    if include_vadamozhi:
+        T_U_1 += TAMIL_UNICODE_1_SAN 
+    all_tamil_chars += UYIRGAL+['ஃ']+T_U_1+ [t1+t2 for t1 in T_U_1 for t2 in TAMIL_UNICODE_2]
+    return all_tamil_chars
+
 def set_parameters(batch_size=None, number_of_epochs=None,model_weights_folder= None,
                    corpus_file=None, model_weights_file=None, token_pattern=None,
-                   starting_word_file=None, ending_word_file=None):
+                   starting_word_file=None, ending_word_file=None,log_file=None):
     """
     Set parameters of deep learning method:
     @param batch_size: Batch size for training. Default=16
@@ -27,6 +48,7 @@ def set_parameters(batch_size=None, number_of_epochs=None,model_weights_folder= 
     @param starting_word_file: File containing dictionary of starting tokens. Default:"starting_words.json"
     @param ending_word_file: File containing dictionary of ending tokens. Default:"ending_words.json"
     @param model_weights_file: File containing trained weights. Default:"<raagam_name>_corpus.h5"
+    @param log_file: File containing loss and accuracy at end of each epoch. Default:"logs.txt"
     @param token_pattern: default regex pattern for collecting tokens/words from corpus file. Default: r"[\w']+|[.,!?;]" 
     """
     global BATCH_SIZE, EPOCHS, model_weights_directory, corpus_json_file, MODEL_WEIGHTS_FILE, TOKEN_PATTERN, starting_word_json_file, ending_word_json_file
@@ -54,6 +76,9 @@ def set_parameters(batch_size=None, number_of_epochs=None,model_weights_folder= 
     if model_weights_file:
         MODEL_WEIGHTS_FILE = model_weights_file
         print('MODEL_WEIGHTS_FILE set to:',MODEL_WEIGHTS_FILE)
+    if log_file:
+        LOG_FILE = log_file
+        print('LOG FILE set to:',LOG_FILE)
 def are_deeplearning_parameters_defined():
     parameters_are_set = (CHORD_LENGTH >0 ) and (BATCH_SIZE>0) and (EPOCHS>0) and (corpus_json_file != '') and (MODEL_WEIGHTS_FILE != '') and (TOKEN_PATTERN != '')
     print("parameters_are_set to:",parameters_are_set)
@@ -135,7 +160,7 @@ def _train_the_model(data, epoch_max):
     log_frame["Epoch"] = epoch_number
     log_frame["Loss"] = loss
     log_frame["Accuracy"] = accuracy
-    log_frame.to_csv("log.txt", index = False)
+    log_frame.to_csv(LOG_FILE, index = False)
     
 def _make_model(unique_chars):
     model = Sequential()
@@ -158,29 +183,23 @@ def _make_model(unique_chars):
     model.add(Activation("softmax"))
     
     return model
-def _generate_sequence(starting_token, ending_token, seq_length, random_start_end=False):
+def _generate_sequence(starting_token, ending_token, seq_length):
     global MODEL_WEIGHTS_FILE, corpus_json_file,starting_word_json_file, ending_word_json_file
     print('_generate_sequence','corpus_json_file',corpus_json_file,'MODEL_WEIGHTS_FILE',MODEL_WEIGHTS_FILE)
     with open(os.path.join(model_weights_directory, corpus_json_file),encoding='utf-8') as f:
         char_to_index = json.load(f)
     index_to_char = {i:ch for ch, i in char_to_index.items()}
     unique_chars = len(index_to_char)
-    if random_start_end:
-        starting_token = np.random.choice(list(char_to_index))
-    else:
-        if starting_token == None or starting_token.trim() == '':
-            with open(os.path.join(model_weights_directory,starting_word_json_file),mode='r',encoding='utf-8') as f:
-                starting_words = json.load(f)
-            starting_token = np.random.choice(list(starting_words))
-            print("Starting Token: ", starting_token)
-    if random_start_end:
-        ending_token = np.random.choice(list(char_to_index))
-    else:
-        if ending_token == None or ending_token.trim() == '':
-            with open(os.path.join(model_weights_directory,ending_word_json_file),mode='r',encoding='utf-8') as f:
-                ending_words = json.load(f)
-            ending_token = np.random.choice(list(ending_words))
-            print("Ending Token: ", ending_token)
+    if starting_token == None or starting_token.trim() == '':
+        with open(os.path.join(model_weights_directory,starting_word_json_file),mode='r',encoding='utf-8') as f:
+            starting_words = json.load(f)
+        starting_token = np.random.choice(list(starting_words))
+        print("Starting Token: ", starting_token)
+    if ending_token == None or ending_token.trim() == '':
+        with open(os.path.join(model_weights_directory,ending_word_json_file),mode='r',encoding='utf-8') as f:
+            ending_words = json.load(f)
+        ending_token = np.random.choice(list(ending_words))
+        print("Ending Token: ", ending_token)
     initial_index = char_to_index[starting_token]
     ending_index = char_to_index[ending_token]
     
@@ -207,6 +226,7 @@ def _get_tokens_from_file(file, _TOKEN_PATTERN):
         line = file_object.readline()
         while line:
             tokens = regex.findall(_TOKEN_PATTERN, line)
+            #tokens = line.split()
             token_array += tokens
             line = file_object.readline()
     file_object.close()
@@ -229,23 +249,86 @@ def _create_corpus_files(data_files,corpus_file=None, starting_word_file=None, e
         if not os.path.exists(data_file):
             Exception("Data file:",data_file," does not exist")
         if end_token_boundary is None:
+            f= open(data_file,"r",encoding='utf-8')
+            file_contents = f.read()
+            import string
+            file_contents = file_contents.translate(str.maketrans('', '', string.punctuation))
+            file_contents = file_contents.replace("‘", '')
+            file_contents = file_contents.replace("’", '')
+            file_contents = file_contents.replace("“", '')
+            file_contents = file_contents.replace("”", '')
+            file_contents = regex.sub("\d+",'',file_contents)
+            line_data= file_contents.split("\n\n")
+            data += [item for item in file_contents.split() if item != '']
+            f.close()
+            starting_words += [item.split()[0] for item in line_data if item != '']
+            ending_words += [item.split()[-1] for item in line_data if item != '']
+            #print(starting_words, ending_words,len(data))
+        else:
+            data += _get_tokens_from_file (data_file, TOKEN_PATTERN)
+            starting_words += data[0::end_token_boundary]
+            ending_words = +data[end_token_boundary-1::end_token_boundary]
+        print(data_file,len(starting_words),len(ending_words),len(data),len(set(data)))
+    data = sorted(list(set(data)),key=lambda x: (x[0] == "", x[0]))
+    char_to_index = {ch: i for (i, ch) in enumerate(data)}
+    #char_to_index = {ch: i for (i, ch) in enumerate(list(set(data)))}
+    print("Number of unique tokens in corpus data = {}".format(len(char_to_index)),corpus_json_file) #87
+    with open(os.path.join(model_weights_directory,corpus_json_file), mode = "w",encoding='utf-8') as f:
+        json.dump(char_to_index, f)
+    starting_words = sorted(list(set(starting_words)),key=lambda x: (x[0] == "", x[0]))
+    char_to_index = {ch: i for (i, ch) in enumerate(starting_words)}
+    #char_to_index = {ch: i for (i, ch) in enumerate(list(set(starting_words)))}
+    print(list(char_to_index.items())[:5])
+    print("Number of unique starting words in corpus data = {}".format(len(char_to_index)),starting_word_json_file) #87
+    with open(os.path.join(model_weights_directory,starting_word_json_file), mode = "w",encoding='utf-8') as f:
+        json.dump(char_to_index, f)
+    ending_words = sorted(list(set(ending_words)),key=lambda x: (x[0] == "", x[0]))
+    char_to_index = {ch: i for (i, ch) in enumerate(ending_words)}
+    #char_to_index = {ch: i for (i, ch) in enumerate(list(set(ending_words)))}
+    print(list(char_to_index.items())[:5])
+    print("Number of unique ending words in corpus data = {}".format(len(char_to_index)),ending_word_json_file) #87
+    with open(os.path.join(model_weights_directory,ending_word_json_file), mode = "w",encoding='utf-8') as f:
+        json.dump(char_to_index, f)
+    return data,starting_words,ending_words
+def _create_corpus_files_old(data_files,corpus_file=None, starting_word_file=None, ending_word_file=None,end_token_boundary=7):
+    global MODEL_WEIGHTS_FILE, corpus_json_file,starting_word_json_file, ending_word_json_file
+    if corpus_file:
+        set_parameters(corpus_file=corpus_file)
+    if starting_word_file:
+        set_parameters(starting_word_file=starting_word_file)
+    if ending_word_file:
+        set_parameters(ending_word_file=ending_word_file)
+
+    print(model_weights_directory, corpus_json_file, starting_word_json_file, ending_word_json_file)
+    end_token_boundary = end_token_boundary
+    starting_words = []
+    ending_words = []
+    data =[]
+    for data_file in data_files:
+        if not os.path.exists(data_file):
+            Exception("Data file:",data_file," does not exist")
+        if end_token_boundary is None:
             with open(data_file,"r",encoding='utf-8') as f:
                 line = f.readline()
                 start_index = 0
-                end_index = 0
+                end_index = -1
                 while line:
                     #print(line)
                     temp_list = line.split()
                     token_count = len(temp_list)
                     if line == "\n" or token_count == 0:
-                        end_index -= 1
+                        print('end of poem reached',start_index,end_index)
                         starting_words.append(data[start_index])
                         ending_words.append(data[end_index])
+                        end_index -= 1
+                        print(data_file,start_index,data[start_index],end_index,data[end_index])
                         start_index = end_index + 1
                         end_index = start_index
                     else:
+                        print("inside the poem",start_index,end_index)
                         end_index += token_count
                         data += temp_list
+                    print(line,token_count,start_index,data[start_index],end_index,data[end_index])
                     line = f.readline()
             end_index -= 1
             starting_words.append(data[start_index])
@@ -254,19 +337,22 @@ def _create_corpus_files(data_files,corpus_file=None, starting_word_file=None, e
         else:
             data += _get_tokens_from_file (data_file, TOKEN_PATTERN)
             starting_words += data[0::end_token_boundary]
-            ending_words = +data[end_token_boundary-1::end_token_boundary]
-        print(data_file,len(starting_words),len(ending_words),len(data))
+            ending_words += data[end_token_boundary-1::end_token_boundary]
+        print(data_file,len(starting_words),len(ending_words),len(data),len(set(data)))
     
-    char_to_index = {ch: i for (i, ch) in enumerate(sorted(list(set(data)),key=lambda x: (x[0] == "", x[0])))}
+    #char_to_index = {ch: i for (i, ch) in enumerate(sorted(list(set(data)),key=lambda x: (x[0] == "", x[0])))}
+    char_to_index = {ch: i for (i, ch) in enumerate(list(set(data)))}
     print("Number of unique tokens in corpus data = {}".format(len(char_to_index)),corpus_json_file) #87
     with open(os.path.join(model_weights_directory,corpus_json_file), mode = "w",encoding='utf-8') as f:
         json.dump(char_to_index, f)
-    char_to_index = {ch: i for (i, ch) in enumerate(sorted(list(set(starting_words)),key=lambda x: (x[0] == "", x[0])))}
+    #char_to_index = {ch: i for (i, ch) in enumerate(sorted(list(set(starting_words)),key=lambda x: (x[0] == "", x[0])))}
+    char_to_index = {ch: i for (i, ch) in enumerate(list(set(starting_words)))}
     print(list(char_to_index.items())[:5])
     print("Number of unique starting words in corpus data = {}".format(len(char_to_index)),starting_word_json_file) #87
     with open(os.path.join(model_weights_directory,starting_word_json_file), mode = "w",encoding='utf-8') as f:
         json.dump(char_to_index, f)
-    char_to_index = {ch: i for (i, ch) in enumerate(sorted(list(set(ending_words)),key=lambda x: (x[0] == "", x[0])))}
+    #char_to_index = {ch: i for (i, ch) in enumerate(sorted(list(set(ending_words)),key=lambda x: (x[0] == "", x[0])))}
+    char_to_index = {ch: i for (i, ch) in enumerate(list(set(ending_words)))}
     print(list(char_to_index.items())[:5])
     print("Number of unique ending words in corpus data = {}".format(len(char_to_index)),ending_word_json_file) #87
     with open(os.path.join(model_weights_directory,ending_word_json_file), mode = "w",encoding='utf-8') as f:
@@ -298,28 +384,50 @@ def generate_tokens_from_corpus(corpus_files:list,starting_token:str=None, endin
     result = ''
     for i in range(0, len(tokens), tokens_per_sentence):
         result += ' '.join(tokens[i:i+tokens_per_sentence]) + "\n"
+    if save_to_file:
+        with open(save_to_file,"w",encoding="utf-8") as f:
+            f.write(result)
     return result
 
 if __name__ == "__main__":
     """
     data_files = ['agananuru','purananuru','ainkurunuru','kalithokai', 'kurunthokai', 'natrinai', 'pathitrupathu', 'pattinapaalai', 
-                  'mullaipaattu', 'nedunalvaadai', 'kurinjipaattu','malaipadukadaam','maduraikaanji','porunaraatrupadai',
-                  'perumpaanaatrupadai', 'sirupaanaatrupadai', 'thirumurugaatrupadai' ]
+              'mullaipaattu', 'nedunalvaadai', 'kurinjipaattu','malaipadukadaam','maduraikaanji','porunaraatrupadai',
+              'perumpaanaatrupadai', 'sirupaanaatrupadai', 'thirumurugaatrupadai', 'ainthinaiezhupathu', 'ainthinaiaimpathu',
+              'kaarnaarpathu','thinaimozhiaimpathu','kainnilai','thinaimaalainootraimbathu']#, 'thirukkural' ]
+    #data_files = ['delme','delme2','delme3']
     data_files = ["./sangam_tamil_poems/" + d + "_poems.txt" for d in data_files]
     set_parameters(corpus_file='sangam_corpus.json', model_weights_file='sangam_corpus.h5',
                        starting_word_file='sangam_starting_words.json', ending_word_file='sangam_ending_words.json')
-    _create_corpus_files(data_files,end_token_boundary=None)
+    #_create_corpus_files_old(data_files,end_token_boundary=None)
+    #_,_,_=_create_corpus_files(data_files,end_token_boundary=None)
+    exit()
     """
     """
-    poem = "agananuru_poems" # 'thirukural1'# 
+    f = open(data_files[0],"r",encoding='utf-8')
+    data = f.read().split("\n\n")
+    starting_words = [item.split()[0] for item in data if item != '']
+    ending_words = [item.split()[-1] for item in data if item != '']
+    print(starting_words)
+    print(ending_words)
+    """
+    #"""
+    data_files = ['agananuru','purananuru','ainkurunuru','kalithokai', 'kurunthokai', 'natrinai', 'pathitrupathu', 'pattinapaalai', 
+                  'mullaipaattu', 'nedunalvaadai', 'kurinjipaattu','malaipadukadaam','maduraikaanji','porunaraatrupadai',
+                  'perumpaanaatrupadai', 'sirupaanaatrupadai', 'thirumurugaatrupadai', 'ainthinaiezhupathu', 'ainthinaiaimpathu',
+                  'kaarnaarpathu','thinaimozhiaimpathu','kainnilai','thinaimaalainootraimbathu']#, 'thirukkural' ]
+    poem = "kurunthokai_poems" # 'thirukural1'# 
     perform_training = False
-    poem_token_count = 94 # 7 for Kural  76 for sangam aga,/puram
-    tokens_per_sentence = 4
+    tokens_per_sentence = 5
+    poem_token_count = 13 * tokens_per_sentence # 7 for Kural  76 for sangam aga,/puram
+    data_files = [poem+'.txt']
+    data_files = ["./sangam_tamil_poems/"+data_file for data_file in data_files]
     set_parameters(corpus_file=poem+'_corpus.json', model_weights_file=poem+'_corpus.h5', starting_word_file=poem+'_starting_words.json', 
                    ending_word_file=poem+'_ending_words.json')
-    result = generate_tokens_from_corpus(corpus_files=[poem+'.txt'], 
+    _,_,_=_create_corpus_files(data_files,end_token_boundary=None)
+    result = generate_tokens_from_corpus(corpus_files=data_files, 
                     length=poem_token_count, save_to_file=poem+'_corpus.h5',perform_training=perform_training,
-                    tokens_per_sentence=5)
+                    tokens_per_sentence=tokens_per_sentence)
     print(result)
     """
     #"""

@@ -27,7 +27,7 @@ _RE_DICT = {
     'Help':regex.compile(r"^\s?Help|உதவி\s?.*", regex.IGNORECASE),
     'Quit':regex.compile(r"^\s?Quit|Thanks|Bye|நன்றி\s?.*", regex.IGNORECASE),
     'Greet':regex.compile(r"^\s?Welcome|Greet|Hello|வணக்கம்|வாழ்த்து|நல்வரவு\s?.*", regex.IGNORECASE),
-    'New':regex.compile(r"^\s?New|Generate|Create|புதிய|வாழ்த்து|உருவாக்கு\s?.*", regex.IGNORECASE),
+    'New':regex.compile(r"^\s?New|Generate|Create|புதிய|உருவாக்கு\s?.*", regex.IGNORECASE),
     }
 END_OF_KURAL = "."
 flatten_list = lambda list: [item for sublist in list for item in sublist]
@@ -174,6 +174,7 @@ class Thirukural:
         return self._format_output(temp_str)
     def respond_to_bot_user_input(self, bot_user_input):
         key, match = self._parse_line(bot_user_input)
+        print('thirukural key match',key,match[:])
         response = ""
         if key == "contains":
             word = match.group("contains")
@@ -187,6 +188,7 @@ class Thirukural:
                 return bot_user_input + config["SEARCH_FAIL_MSG"]
         elif key == "starts_with" or key == "starts_with_1":
             word = match.group("starts_with")
+            response = self.startswith(word)
             if not response:
                 return bot_user_input + config["SEARCH_FAIL_MSG"]
             response = self.startswith(word)
@@ -217,8 +219,11 @@ class Thirukural:
             if not response:
                 return bot_user_input + config["SEARCH_FAIL_MSG"]
         elif key == "New":
-            response = cdeeplearn.generate_tokens_from_corpus(corpus_files=['thirukural1.txt'], 
-                    length=7, save_to_file='kural_model.h5',perform_training=False)
+            poem = "kural"
+            cdeeplearn.set_parameters(corpus_file=poem+'_corpus.json', model_weights_file=poem+'_corpus.h5', starting_word_file=poem+'_starting_words.json', 
+                   ending_word_file=poem+'_ending_words.json')
+            response = cdeeplearn.generate_tokens_from_corpus(corpus_files=['sangam_tamil_poems/thirukural_poems.txt'], 
+                    length=7,perform_training=False)
         elif key == "Help":
             response = config["HELP_MSG"]
         elif key == "Greet":

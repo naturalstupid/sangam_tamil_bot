@@ -1,9 +1,8 @@
-poem_id,poet_name,poem,translation,notes,meaning,poet_name_e,title
+poem_id,poet_name,poem,translation,notes,meaning,poet_name_e,title,title_e
 1.0, முடத்தாமக் கண்ணியார்,"அறாஅ யாணர் அகன்தலைப் பேரூர்
-சாறு கழி வழிநாள் சோறு நசை உறாது,
-வேறு புலம் முன்னிய விரகு அறி பொருந! (1-3)
-","Paadaan Thinai No Title
-O bard who always knows
+சாறு கழி வழிநாள் சோறு நசை உறாது
+வேறு புலம் முன்னிய விரகு அறி பொருந 
+","O bard who always knows
 to do the proper thing!
 Not desiring food given out
 on the day after the festivals
@@ -11,31 +10,29 @@ end, in the big town with vast
 land and unending prosperity,
 you want to leave for the next
 country!
-","  பொருந (3) – பொ. வே. சோமசுந்தரனார் உரை – பொருநர் என்பவர் ஏர்க்களம் பாடுவோர் போர்க்களம் பாடுவோர் பரணி பாடுவோர் எனப் பல திறப்படுவோர்.  யாணர் – புதிதுபடற் பொருட்டே யாணர்க் கிளவி (தொல்காப்பியம், உரியியல் 83).
-","  அறாஅ யாணர் – unending prosperity, continued prosperity (அறாஅ – இசை நிறை அளபெடை), அகன்தலை – wide space, பேரூர் – big town, சாறு கழி – after the festivities are over, வழிநாள் – the next day, சோறு நசை உறாது – not desiring rice/food, வேறு புலம் முன்னிய – desiring to go to another land, விரகு அறி பொருந – O bard who knows what is right, O bard who is intelligent (Porunars were war bards who sang the praises of the kings during war)
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) No Title
+","பொருந (3) – பொ. வே. சோமசுந்தரனார் உரை – பொருநர் என்பவர் ஏர்க்களம் பாடுவோர் போர்க்களம் பாடுவோர் பரணி பாடுவோர் எனப் பல திறப்படுவோர்.  யாணர் – புதிதுபடற் பொருட்டே யாணர்க் கிளவி (தொல்காப்பியம், உரியியல் 83).","அறாஅ யாணர் – unending prosperity, continued prosperity (அறாஅ – இசை நிறை அளபெடை), அகன்தலை – wide space, பேரூர் – big town, சாறு கழி – after the festivities are over, வழிநாள் – the next day, சோறு நசை உறாது – not desiring rice/food, வேறு புலம் முன்னிய – desiring to go to another land, விரகு அறி பொருந – O bard who knows what is right, O bard who is intelligent (Porunars were war bards who sang the praises of the kings during war)", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) No Title
+","Paadaan Thinai No Title
 "
-2.0, முடத்தாமக் கண்ணியார்,"குளப்புவழி அன்ன கவடுபடு பத்தல்,
-விளக்கு அழல் உருவின் விசி உறு பச்சை,   5
+2.0, முடத்தாமக் கண்ணியார்,"குளப்புவழி அன்ன கவடுபடு பத்தல்
+விளக்கு அழல் உருவின் விசி உறு பச்சை   
 எய்யா இளஞ்சூல் செய்யோள் அவ்வயிற்று
 ஐது மயிர் ஒழுகிய தோற்றம் போல
-பொல்லம் பொத்திய பொதியுறு போர்வை,
+பொல்லம் பொத்திய பொதியுறு போர்வை
 அளை வாழ் அலவன் கண் கண்டன்ன
-துளைவாய் தூர்ந்த துரப்பு அமை ஆணி,   10
+துளைவாய் தூர்ந்த துரப்பு அமை ஆணி   
 எண் நாள் திங்கள் வடிவிற்று ஆகி
-அண்ணா வில்லா அமைவரு வறுவாய்ப்,
-பாம்பு அணந்தன்ன ஓங்கு இரு மருப்பின்,
-மாயோள் முன் கை ஆய் தொடி கடுக்கும்,
-கண்கூடு இருக்கைத் திண் பிணித் திவவின்,   15
-ஆய் தினையரிசி அவையல் அன்ன,
+அண்ணா வில்லா அமைவரு வறுவாய்ப்
+பாம்பு அணந்தன்ன ஓங்கு இரு மருப்பின்
+மாயோள் முன் கை ஆய் தொடி கடுக்கும்
+கண்கூடு இருக்கைத் திண் பிணித் திவவின்   
+ஆய் தினையரிசி அவையல் அன்ன
 வேய்வை போகிய விரல் உளர் நரம்பின்
 கேள்வி போகிய நீள் விசித் தொடையல்
-மணம் கமழ் மாதரை மண்ணியன்ன,
-அணங்கு மெய்ந்நின்ற அமைவரு காட்சி   20
+மணம் கமழ் மாதரை மண்ணியன்ன
+அணங்கு மெய்ந்நின்ற அமைவரு காட்சி   
 ஆறலைக் கள்வர் படை விட அருளின்
-மாறு தலைபெயர்க்கும் மருவு இன் பாலை, (4 – 22)
-","Paadaan Thinai Description of the Pālai Lute
-The Pālai lute is shaped like the
+மாறு தலைபெயர்க்கும் மருவு இன் பாலை  – 
+","The Pālai lute is shaped like the
 hoof track of a deer, its pot
 section has two parts and is slanting
 on the sides, its tightly tied leather
@@ -61,47 +58,43 @@ fragrant, decorated woman, sweet
 like possessing a goddess within, faultless,
 making even wayside bandits lose
 their harshness and drop their weapons.
-","  குளப்புவழி (4) – பொ. வே. சோமசுந்தரனார் உரை –  குளப்புவழி  என வேற்றுமைப் புணர்ச்சியில் வன் தொடராயிற்று.  மருவு இன் பாலை (22) – பொ. வே. சோமசுந்தரனார் உரை – மருவு இன் பாலை என்றது கேட்குந்தோறும் பயிலுந்தோறும் வெறாஅது இனிமை மிகுதற்கியன்ற பாலை யாழ் என்றவாறு.
-","  குளப்புவழி அன்ன – like the imprint of hoof (of a deer), கவடுபடு பத்தல் – pot which is of two parts with a split part on one end (and the center high and the sides low according to Po. Ve. Somasundaranar urai), விளக்கு அழல் உருவின் – like the color of flame from a lamp (உருவின் – இன் ஒப்புப்பொருளில் வந்தது, ஐந்தாம் வேற்றுமை உருபு), விசியுறு பச்சை – tied leather, எய்யா இளஞ்சூல் – unaware of early pregnancy, செய்யோள் – red colored woman, perfect woman, அவ் வயிற்று – with a beautiful stomach, ஐது மயிர் – delicate hair, ஒழுகிய – in a proper manner, தோற்றம் போல – appearing like, பொல்லம் பொத்திய – pieces sewn and attached, பொதியுறு போர்வை – lid that covers, அளை வாழ் அலவன் – crabs that live in holes, கண் கண்டன்ன – like seeing their eyes, துளைவாய் – hole openings, தூர்ந்த – filled, closed, துரப்பு அமை ஆணி – nails that are driven in, எண் நாள் திங்கள் – eighth day moon, வடிவிற்று ஆகி – got that shape, அண் நா இல்லா – without inner tongue, அமைவரு – suitably வறுவாய் – sound hole/mouth without tongue, பாம்பு அணந்து அன்ன – like a snake/cobra lifting its head, ஓங்கு – long, இரு – dark, மருப்பின் – with a stem, மாயோள் முன் கை ஆய் தொடி கடுக்கும் – like the fine bangles on the forearms of a dark woman, கண்கூடு இருக்கை – close to each other, திண் பிணி – tightly tied, திவவின் – with frets, ஆய் தினை அரிசி – tiny/chosen/beautiful millet grain, அவையல் அன்ன – like pounded, வேய்வை போகிய – fault removed, விரல் உளர் நரம்பின் – with strings plucked by fingers, கேள்வி போகிய – music ended, நீள் விசித் தொடையல் – long tightly tied strings, மணங்கமழ் மாதரை – the fragrant women, the women getting married, மண்ணி அன்ன – make up like, அணங்கு – goddess, மெய்ந்நின்ற – existed in the body, அமைவரு – in the proper methods, காட்சி – appearing, ஆறலைக் கள்வர் – wayside bandits (கள்வர் – கள்வரும் எனற்பாலது செய்யுள் விகாரத்தால் உம்மை தொக்கு.  ஆறலைக்கள்வரும்), படை விட – to drop their weapons, அருளின் மாறு தலைபெயர்க்கும் – it removes what is opposite of kindness/harshness from there, மருவு இன் – with sweetness when listening to the music that arises, பாலை –pālai lute
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) பாலை யாழின் வருணனை
+",குளப்புவழி (4) – பொ. வே. சோமசுந்தரனார் உரை –  குளப்புவழி  என வேற்றுமைப் புணர்ச்சியில் வன் தொடராயிற்று.  மருவு இன் பாலை (22) – பொ. வே. சோமசுந்தரனார் உரை – மருவு இன் பாலை என்றது கேட்குந்தோறும் பயிலுந்தோறும் வெறாஅது இனிமை மிகுதற்கியன்ற பாலை யாழ் என்றவாறு.,"குளப்புவழி அன்ன – like the imprint of hoof (of a deer), கவடுபடு பத்தல் – pot which is of two parts with a split part on one end (and the center high and the sides low according to Po. Ve. Somasundaranar urai), விளக்கு அழல் உருவின் – like the color of flame from a lamp (உருவின் – இன் ஒப்புப்பொருளில் வந்தது, ஐந்தாம் வேற்றுமை உருபு), விசியுறு பச்சை – tied leather, எய்யா இளஞ்சூல் – unaware of early pregnancy, செய்யோள் – red colored woman, perfect woman, அவ் வயிற்று – with a beautiful stomach, ஐது மயிர் – delicate hair, ஒழுகிய – in a proper manner, தோற்றம் போல – appearing like, பொல்லம் பொத்திய – pieces sewn and attached, பொதியுறு போர்வை – lid that covers, அளை வாழ் அலவன் – crabs that live in holes, கண் கண்டன்ன – like seeing their eyes, துளைவாய் – hole openings, தூர்ந்த – filled, closed, துரப்பு அமை ஆணி – nails that are driven in, எண் நாள் திங்கள் – eighth day moon, வடிவிற்று ஆகி – got that shape, அண் நா இல்லா – without inner tongue, அமைவரு – suitably வறுவாய் – sound hole/mouth without tongue, பாம்பு அணந்து அன்ன – like a snake/cobra lifting its head, ஓங்கு – long, இரு – dark, மருப்பின் – with a stem, மாயோள் முன் கை ஆய் தொடி கடுக்கும் – like the fine bangles on the forearms of a dark woman, கண்கூடு இருக்கை – close to each other, திண் பிணி – tightly tied, திவவின் – with frets, ஆய் தினை அரிசி – tiny/chosen/beautiful millet grain, அவையல் அன்ன – like pounded, வேய்வை போகிய – fault removed, விரல் உளர் நரம்பின் – with strings plucked by fingers, கேள்வி போகிய – music ended, நீள் விசித் தொடையல் – long tightly tied strings, மணங்கமழ் மாதரை – the fragrant women, the women getting married, மண்ணி அன்ன – make up like, அணங்கு – goddess, மெய்ந்நின்ற – existed in the body, அமைவரு – in the proper methods, காட்சி – appearing, ஆறலைக் கள்வர் – wayside bandits (கள்வர் – கள்வரும் எனற்பாலது செய்யுள் விகாரத்தால் உம்மை தொக்கு.  ஆறலைக்கள்வரும்), படை விட – to drop their weapons, அருளின் மாறு தலைபெயர்க்கும் – it removes what is opposite of kindness/harshness from there, மருவு இன் – with sweetness when listening to the music that arises, பாலை –pālai lute", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) பாலை யாழின் வருணனை
+","Paadaan Thinai Description of the Pālai Lute
 "
-3.0, முடத்தாமக் கண்ணியார்,"வாரியும், வடித்தும், உந்தியும், உறழ்ந்தும்,
-சீருடை நன் மொழி நீரொடு சிதறி; (23-24)
-","Paadaan Thinai Playing the Lute
-Stroking with the index finger,
+3.0, முடத்தாமக் கண்ணியார்,"வாரியும் வடித்தும் உந்தியும் உறழ்ந்தும்
+சீருடை நன் மொழி நீரொடு சிதறி 
+","Stroking with the index finger,
 strumming with the thumb and index fingers
 together, plucking gently and strongly the different
 strings, it creates vibrating music, sung with lovely
 lyrics.
-","  பொ. வே. சோமசுந்தரனார் உரை – வார்தல் என்றது சுட்டு விரல் செய்தொழில்.  வடித்தல் என்றது சுட்டுவிரலும் பெருவிரலும் கூட்டி நரம்பை அகமும் புறமும் ஆராய்தல்.  உந்தல் என்றது நரம்புகளை உந்தி வலிவிற்பட்டதும், மெலிவிற்பட்டதும், நிரல்பட்டதும், நிரலிலி பட்டதும் என்றறிதல்.  உறழ்தல் என்றது ஒன்றை இட்டும் இரண்டை இட்டும் ஆராய்தல்.  சிலப்பதிகாரம் – வார்தல் வடித்தல் உந்தல் உறழ்தல் சீருடன். (கானல் – 12-13).
-","  வாரியும் – stroking with index finger, வடித்தும் – strumming with thumb and index finger together, உந்தியும் – plucking gently and in a strong manner, உறழ்ந்தும் – plucking different strings – using the left index finger, using the right index finger, index finger and thumb together, with both thumbs together, சீருடை நன் மொழி – special fine songs with rhythm, நீரொடு – with fine nature, சிதறி – spreading
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) யாழை வாசிக்கும் முறை
+","பொ. வே. சோமசுந்தரனார் உரை – வார்தல் என்றது சுட்டு விரல் செய்தொழில்.  வடித்தல் என்றது சுட்டுவிரலும் பெருவிரலும் கூட்டி நரம்பை அகமும் புறமும் ஆராய்தல்.  உந்தல் என்றது நரம்புகளை உந்தி வலிவிற்பட்டதும், மெலிவிற்பட்டதும், நிரல்பட்டதும், நிரலிலி பட்டதும் என்றறிதல்.  உறழ்தல் என்றது ஒன்றை இட்டும் இரண்டை இட்டும் ஆராய்தல்.  சிலப்பதிகாரம் – வார்தல் வடித்தல் உந்தல் உறழ்தல் சீருடன். (கானல் – 12-13).","வாரியும் – stroking with index finger, வடித்தும் – strumming with thumb and index finger together, உந்தியும் – plucking gently and in a strong manner, உறழ்ந்தும் – plucking different strings – using the left index finger, using the right index finger, index finger and thumb together, with both thumbs together, சீருடை நன் மொழி – special fine songs with rhythm, நீரொடு – with fine nature, சிதறி – spreading", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) யாழை வாசிக்கும் முறை
+","Paadaan Thinai Playing the Lute
 "
-4.0, முடத்தாமக் கண்ணியார்,"அறல் போல் கூந்தல், பிறை போல் திரு நுதல்,   25
-கொலை வில் புருவத்துக் கொழுங்கடை மழைக் கண்,
+4.0, முடத்தாமக் கண்ணியார்,"அறல் போல் கூந்தல் பிறை போல் திரு நுதல்   
+கொலை வில் புருவத்துக் கொழுங்கடை மழைக் கண்
 இலவிதழ் புரையும் இன் மொழித் துவர் வாய்ப்
-பல உறு முத்தின் பழி தீர் வெண்பல்,
+பல உறு முத்தின் பழி தீர் வெண்பல்
 மயிர் குறை கருவி மாண் கடையன்ன
-பூங்குழை ஊசல் பொறை சால் காதின்,  30
-நாண் அடச் சாய்ந்த நலங்கிளர் எருத்தின்,
-ஆடு அமைப் பணைத் தோள் அரி மயிர் முன்கை,
-நெடுவரை மிசைஇய காந்தள் மெல் விரல்,
-கிளி வாய் ஒப்பின் ஒளி விடு வள் உகிர்,
-அணங்கென உருத்த சுணங்கணி ஆகத்து   35
-ஈர்க்கு இடை போகா ஏர் இள வன முலை,
+பூங்குழை ஊசல் பொறை சால் காதின்  
+நாண் அடச் சாய்ந்த நலங்கிளர் எருத்தின்
+ஆடு அமைப் பணைத் தோள் அரி மயிர் முன்கை
+நெடுவரை மிசைஇய காந்தள் மெல் விரல்
+கிளி வாய் ஒப்பின் ஒளி விடு வள் உகிர்
+அணங்கென உருத்த சுணங்கணி ஆகத்து   
+ஈர்க்கு இடை போகா ஏர் இள வன முலை
 நீர்ப் பெயர் சுழியின் நிறைந்த கொப்பூழ்
 உண்டென உணரா உயவும் நடுவின்
-வண்டு இருப்பு அன்ன பல் காழ் அல்குல்,
-இரும் பிடித் தடக் கையின் செறிந்து திரள் குறங்கின்   40
-பொருந்து மயிர் ஒழுகிய திருந்து தாட்கு ஒப்ப,
-வருந்து நாய் நாவின் பெருந்தகு சீறடி,
+வண்டு இருப்பு அன்ன பல் காழ் அல்குல்
+இரும் பிடித் தடக் கையின் செறிந்து திரள் குறங்கின்   
+பொருந்து மயிர் ஒழுகிய திருந்து தாட்கு ஒப்ப
+வருந்து நாய் நாவின் பெருந்தகு சீறடி
 அரக்கு உருக்கு அன்ன செந்நிலன் ஒதுங்கலின்
 பரல் பகை உழந்த நோயொடு சிவணி
-மரல் பழுத்தன்ன மறுகு நீர் மொக்குள்,   45
+மரல் பழுத்தன்ன மறுகு நீர் மொக்குள்   
 நன்பகல் அந்தி நடையிடை விலங்கலின்
-பெடை மயில் உருவில் பெருந்தகு பாடினி; (25-47)
-","Paadaan Thinai Description of the Female Singer
-The greatly esteemed singer’s hair is like
+பெடை மயில் உருவில் பெருந்தகு பாடினி 
+","The greatly esteemed singer’s hair is like
 fine flowing sand, her beautiful forehead is
 like the crescent moon, curving eyebrows
 appear like bows of warriors who kill, moist
@@ -131,36 +124,33 @@ like melted wax, causing pain to her feet.
 The boils on her soles, with liquid, appear like
 maral fruits.  She, who avoids walking on the
 street at mid-day, is delicate like a peahen.
-","  நாயின் நாக்கு அன்ன அடி:  நற்றிணை 252 – கத நாய் நல் நாப் புரையும் சீறடி, மலைபடுகடாம் 42-43 – ஞமலி நாவின் அன்ன துளங்கு இயல் மெலிந்த கல்பொரு சீறடி, பொருநராற்றுப்படை 42 – வருந்து நாய் நாவின் பெருந்தகு சீறடி, சிறுபாணாற்றுப்படை 17-18 – உயங்கு நாய் நாவின் நல் எழில் அசைஇ வயங்கு இழை உலறிய அடியின் அடி. பிடி யானையின் தும்பிக்கையைப் போன்ற தொடை: சிறுபாணாற்றுப்படை 19-20 – இரும் பிடித் தடக் கையின் சேர்ந்து உடன் செறிந்த குறங்கின் குறங்கு.  காந்தள் இதழ் போன்ற விரல்:  முல்லைப்பாட்டு 95 – கோடல் குவி முகை அங்கை அவிழ, குறுந்தொகை 167 – காந்தள் மெல்விரல், பரிபாடல் 19 – கை போல் பூத்த கமழ் குலைக் காந்தள், பொருநராற்றுப்படை 33 – காந்தள் மெல் விரல், புறநானூறு 144 – காந்தள் முகை புரை விரலின்.  முத்தைப் போன்ற பற்கள்: அகநானூறு 27 – முத்தின் அன்ன நகைப் பொலிந்து இலங்கும் எயிறு, ஐங்குறுநூறு 185 – இலங்கு முத்து உறைக்கும் எயிறு, ஐங்குறுநூறு 380 – முத்து ஏர் வெண்பல், கலித்தொகை 64 – முத்து ஏர் முறுவலாய், கலித்தொகை 93 – முத்து ஏர் முறுவலாய், கலித்தொகை 97 – முத்து ஏர் முறுவலாய், கலித்தொகை 97 – முத்து ஏய்க்கும் வெண்பல், கலித்தொகை 131 – முத்தின் தகை ஏய்க்கும் முறுவலாய், பரிபாடல் 8 – எழில் முத்து ஏய்க்கும் வெண்பல், பரிபாடல் திரட்டு 2 – முத்த முறுவல்,  பொருநராற்றுப்படை 27 – துவர் வாய்ப் பல உறு முத்தின் பழி தீர் வெண்பல், சிறுபாணாற்றுப்படை 57 – நகாஅர் அன்ன நளி நீர் முத்தம், நெடுநல்வாடை 37 – முத்து உறழ் முறுவல்.  அறல் போல் கூந்தல்:  அகநானூறு 142 – அறல் அன்ன இரும் பல் கூந்தல், அகநானூறு 162 – அறல் என அவிர்வரும் கூந்தல், அகநானூறு 213 – அறலென நெறிந்த கூந்தல், அகநானூறு 265 – அறலின் நெறித்த கூந்தல், அகநானூறு 299 – அறல் மருள் கூந்தலின், குறுந்தொகை 116 – தேம் பாய் கூந்தல் வளங் கெழு சோழர் உறந்தைப் பெருந்துறை நுண் மணல் அறல் வார்ந்தன்ன, குறுந்தொகை 286 – அறல் போல் கூந்தல், கலித்தொகை 71 – கதுப்பு அறல், கலித்தொகை 98 – நீள் நீர் நெறி கதுப்பு வாரும் அறல் ஆக, பொருநராற்றுப்படை 25 – அறல் போல் கூந்தல்.  பெடை மயில் உருவில் பெருந்தகு பாடினி (47) – நச்சினார்க்கினியர் உரை, பொ. வே. சோமசுந்தரனார் உரை – பெடை மயிலின் அருகுநின்ற மயில்போலும் சாயலினையுடைய கல்விப்பெருமை தக்கிருக்கின்ற பாடினி, வை. மு. கோபாலகிருஷ்ணமாசாரி உரை – பெட்டை மயில் போலும் சாயலினைக் கொண்ட கல்விப்பெருமை தக்கிருக்கின்ற பாடினி.  தட – தடவும் கயவும் நளியும் பெருமை (தொல்காப்பியம், உரியியல் 24).
-","  அறல் போல் கூந்தல் – flowing hair that is like fine black sand, பிறை போல் திரு நுதல் – beautiful forehead like the crescent moon, கொலை வில் புருவத்து – with curved murderous bow-like eyebrows, கொழுங்கடை – big sides, மழைக்கண் – moist eyes, இலவிதழ் – ilavam flower petals, silk cotton tree,  Aerua javanica (இலவு – மலர்க்கு ஆகுபெயர்), புரையும் – like (உவம உருபு, a comparison word), இன் மொழி – sweet words, துவர் வாய் – red mouth, coral-like mouth, பல உறு முத்தின் – like many pearls placed together (முத்தின் – இன் ஒப்புப்பொருளில் வந்தது, ஐந்தாம் வேற்றுமை உருபு), பழி தீர் – faultless, வெண்பல் – white teeth, மயிர் குறை கருவி – scissors, மாண் கடையன்ன – splendid on the sides, பூங்குழை ஊசல் பொறை சால் காதின் – with patient ears bearing beautiful dangling earrings, நாண் அடச் சாய்ந்த – slanting due to distressing shyness, நலங்கிளர் எருத்தின் – with a beautiful splendid neck, ஆடு அமை – swaying bamboo like, பணைத் தோள் – thick arms, அரி மயிர் முன்கை – delicate hair on her forearm, நெடுவரை – tall mountains, மிசைஇய – existing above (சொல்லிசை அளபெடை), காந்தள் மெல் விரல் (long petaled) kānthal-like fingers, malabar glory lilies, கிளி வாய் ஒப்பின் – like parrot beaks, ஒளி விடு – bright, வள் உகிர் – proud fingernails, lovely fingernails, அணங்கென – causing fear in others, உருத்த சுணங்கணி ஆகத்து – with a chest with beauty spots (சுணங்கு – தேமல்), ஈர்க்கு – rib of a palm leaf, இடை போகா – does not go between, ஏர் – beautiful, இள வன முலை – young voluptuous breasts, நீர்ப் பெயர் சுழியின் – like a whirlpool that swirls in flowing water (சுழியின் – இன் ஐந்தாம் வேற்றுமை உருபு, ஒப்புப் பொருளில் வந்தது), நிறைந்த – filled, கொப்பூழ் – belly button, navel, உண்டென உணரா – not aware that it exists, உயவும் – delicate/sad, நடுவின் – with a waist, வண்டு இருப்பு அன்ன – like honeybees abode, பல் காழ் அல்குல் – many colored (gems strung) mound, waist, loins, இரும்பிடி – big female elephant, தடக் கையின் – like a big trunk, செறிந்து திரள் குறங்கின் – with thighs that are together and thick, பொருந்து மயிர் – perfect hair, fitting hair, ஒழுகிய – perfect, திருந்து தாட்கு – to perfect legs, ஒப்ப – comparable, like, வருந்து நாய் – tired dogs, நாவின் – like the tongues , பெருந்தகு சீறடி – proud small feet, அரக்கு உருக்கு அன்ன – like wax melted, செந்நிலன் – red land (நிலன் – நிலம் என்பதன் போலி), ஒதுங்கலின் – while walking, பரல் பகை – pebbles causing pain, உழந்த – hurting, causing pain (walking on it), நோயொடு சிவணி – with pain, மரல் – bowstring hemp plant, Sansevieria trifasciata, பழுத்தன்ன – like ripe, like fruits, மறுகு நீர் – moving liquid, moving water, மொக்குள் – blisters, boils, sores, கொப்புளம், நன்பகல் – mid-day, அந்தி – street junction, நடையிடை விலங்கலின் – due to avoiding walking, பெடை  மயில் உருவில் – delicate like a female peacock, பெருந்தகு பாடினி – greatly esteemed female singer
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) பாடினியின் வருணனை
+","நாயின் நாக்கு அன்ன அடி:  நற்றிணை 252 – கத நாய் நல் நாப் புரையும் சீறடி, மலைபடுகடாம் 42-43 – ஞமலி நாவின் அன்ன துளங்கு இயல் மெலிந்த கல்பொரு சீறடி, பொருநராற்றுப்படை 42 – வருந்து நாய் நாவின் பெருந்தகு சீறடி, சிறுபாணாற்றுப்படை 17-18 – உயங்கு நாய் நாவின் நல் எழில் அசைஇ வயங்கு இழை உலறிய அடியின் அடி. பிடி யானையின் தும்பிக்கையைப் போன்ற தொடை: சிறுபாணாற்றுப்படை 19-20 – இரும் பிடித் தடக் கையின் சேர்ந்து உடன் செறிந்த குறங்கின் குறங்கு.  காந்தள் இதழ் போன்ற விரல்:  முல்லைப்பாட்டு 95 – கோடல் குவி முகை அங்கை அவிழ, குறுந்தொகை 167 – காந்தள் மெல்விரல், பரிபாடல் 19 – கை போல் பூத்த கமழ் குலைக் காந்தள், பொருநராற்றுப்படை 33 – காந்தள் மெல் விரல், புறநானூறு 144 – காந்தள் முகை புரை விரலின்.  முத்தைப் போன்ற பற்கள்: அகநானூறு 27 – முத்தின் அன்ன நகைப் பொலிந்து இலங்கும் எயிறு, ஐங்குறுநூறு 185 – இலங்கு முத்து உறைக்கும் எயிறு, ஐங்குறுநூறு 380 – முத்து ஏர் வெண்பல், கலித்தொகை 64 – முத்து ஏர் முறுவலாய், கலித்தொகை 93 – முத்து ஏர் முறுவலாய், கலித்தொகை 97 – முத்து ஏர் முறுவலாய், கலித்தொகை 97 – முத்து ஏய்க்கும் வெண்பல், கலித்தொகை 131 – முத்தின் தகை ஏய்க்கும் முறுவலாய், பரிபாடல் 8 – எழில் முத்து ஏய்க்கும் வெண்பல், பரிபாடல் திரட்டு 2 – முத்த முறுவல்,  பொருநராற்றுப்படை 27 – துவர் வாய்ப் பல உறு முத்தின் பழி தீர் வெண்பல், சிறுபாணாற்றுப்படை 57 – நகாஅர் அன்ன நளி நீர் முத்தம், நெடுநல்வாடை 37 – முத்து உறழ் முறுவல்.  அறல் போல் கூந்தல்:  அகநானூறு 142 – அறல் அன்ன இரும் பல் கூந்தல், அகநானூறு 162 – அறல் என அவிர்வரும் கூந்தல், அகநானூறு 213 – அறலென நெறிந்த கூந்தல், அகநானூறு 265 – அறலின் நெறித்த கூந்தல், அகநானூறு 299 – அறல் மருள் கூந்தலின், குறுந்தொகை 116 – தேம் பாய் கூந்தல் வளங் கெழு சோழர் உறந்தைப் பெருந்துறை நுண் மணல் அறல் வார்ந்தன்ன, குறுந்தொகை 286 – அறல் போல் கூந்தல், கலித்தொகை 71 – கதுப்பு அறல், கலித்தொகை 98 – நீள் நீர் நெறி கதுப்பு வாரும் அறல் ஆக, பொருநராற்றுப்படை 25 – அறல் போல் கூந்தல்.  பெடை மயில் உருவில் பெருந்தகு பாடினி (47) – நச்சினார்க்கினியர் உரை, பொ. வே. சோமசுந்தரனார் உரை – பெடை மயிலின் அருகுநின்ற மயில்போலும் சாயலினையுடைய கல்விப்பெருமை தக்கிருக்கின்ற பாடினி, வை. மு. கோபாலகிருஷ்ணமாசாரி உரை – பெட்டை மயில் போலும் சாயலினைக் கொண்ட கல்விப்பெருமை தக்கிருக்கின்ற பாடினி.  தட – தடவும் கயவும் நளியும் பெருமை (தொல்காப்பியம், உரியியல் 24).","அறல் போல் கூந்தல் – flowing hair that is like fine black sand, பிறை போல் திரு நுதல் – beautiful forehead like the crescent moon, கொலை வில் புருவத்து – with curved murderous bow-like eyebrows, கொழுங்கடை – big sides, மழைக்கண் – moist eyes, இலவிதழ் – ilavam flower petals, silk cotton tree,  Aerua javanica (இலவு – மலர்க்கு ஆகுபெயர்), புரையும் – like (உவம உருபு, a comparison word), இன் மொழி – sweet words, துவர் வாய் – red mouth, coral-like mouth, பல உறு முத்தின் – like many pearls placed together (முத்தின் – இன் ஒப்புப்பொருளில் வந்தது, ஐந்தாம் வேற்றுமை உருபு), பழி தீர் – faultless, வெண்பல் – white teeth, மயிர் குறை கருவி – scissors, மாண் கடையன்ன – splendid on the sides, பூங்குழை ஊசல் பொறை சால் காதின் – with patient ears bearing beautiful dangling earrings, நாண் அடச் சாய்ந்த – slanting due to distressing shyness, நலங்கிளர் எருத்தின் – with a beautiful splendid neck, ஆடு அமை – swaying bamboo like, பணைத் தோள் – thick arms, அரி மயிர் முன்கை – delicate hair on her forearm, நெடுவரை – tall mountains, மிசைஇய – existing above (சொல்லிசை அளபெடை), காந்தள் மெல் விரல் (long petaled) kānthal-like fingers, malabar glory lilies, கிளி வாய் ஒப்பின் – like parrot beaks, ஒளி விடு – bright, வள் உகிர் – proud fingernails, lovely fingernails, அணங்கென – causing fear in others, உருத்த சுணங்கணி ஆகத்து – with a chest with beauty spots (சுணங்கு – தேமல்), ஈர்க்கு – rib of a palm leaf, இடை போகா – does not go between, ஏர் – beautiful, இள வன முலை – young voluptuous breasts, நீர்ப் பெயர் சுழியின் – like a whirlpool that swirls in flowing water (சுழியின் – இன் ஐந்தாம் வேற்றுமை உருபு, ஒப்புப் பொருளில் வந்தது), நிறைந்த – filled, கொப்பூழ் – belly button, navel, உண்டென உணரா – not aware that it exists, உயவும் – delicate/sad, நடுவின் – with a waist, வண்டு இருப்பு அன்ன – like honeybees abode, பல் காழ் அல்குல் – many colored (gems strung) mound, waist, loins, இரும்பிடி – big female elephant, தடக் கையின் – like a big trunk, செறிந்து திரள் குறங்கின் – with thighs that are together and thick, பொருந்து மயிர் – perfect hair, fitting hair, ஒழுகிய – perfect, திருந்து தாட்கு – to perfect legs, ஒப்ப – comparable, like, வருந்து நாய் – tired dogs, நாவின் – like the tongues , பெருந்தகு சீறடி – proud small feet, அரக்கு உருக்கு அன்ன – like wax melted, செந்நிலன் – red land (நிலன் – நிலம் என்பதன் போலி), ஒதுங்கலின் – while walking, பரல் பகை – pebbles causing pain, உழந்த – hurting, causing pain (walking on it), நோயொடு சிவணி – with pain, மரல் – bowstring hemp plant, Sansevieria trifasciata, பழுத்தன்ன – like ripe, like fruits, மறுகு நீர் – moving liquid, moving water, மொக்குள் – blisters, boils, sores, கொப்புளம், நன்பகல் – mid-day, அந்தி – street junction, நடையிடை விலங்கலின் – due to avoiding walking, பெடை  மயில் உருவில் – delicate like a female peacock, பெருந்தகு பாடினி – greatly esteemed female singer", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) பாடினியின் வருணனை
+","Paadaan Thinai Description of the Female Singer
 "
-5.0, முடத்தாமக் கண்ணியார்,"பாடின பாணிக்கு ஏற்ப, நாள்தொறும்
-களிறு வழங்கு அதர்க் கானத்து அல்கி,
-இலை இல் மராஅத்த எவ்வம் தாங்கி,   50
-வலை வலந்தன்ன மென் நிழல் மருங்கில்,
-காடு உறை கடவுள் கடன் கழிப்பிய பின்றைப், (48 – 52)
-","Paadaan Thinai The Bard Guides the other Bard
-Singing to the rhythmic beats of the female
+5.0, முடத்தாமக் கண்ணியார்,"பாடின பாணிக்கு ஏற்ப நாள்தொறும்
+களிறு வழங்கு அதர்க் கானத்து அல்கி
+இலை இல் மராஅத்த எவ்வம் தாங்கி   
+வலை வலந்தன்ன மென் நிழல் மருங்கில்
+காடு உறை கடவுள் கடன் கழிப்பிய பின்றைப்  – 
+","Singing to the rhythmic beats of the female
 singer every day, you stay in the forest on a path,
 where bull elephants roam, under kadampam trees
 without leaves, their meager shade like nets
 tied on them,
 and make your offerings to the god who dwells in
 the forest.  After that,
-",,"  பாடின பாணிக்கு ஏற்ப – according to the song sung with rhythmic beats, நாள்தோறும் – each day, களிறு வழங்கு அதர் – paths where male elephants roam, கானத்து – in the forest, அல்கி – staying, இலை இல் மராஅத்த – of kadampam trees without leaves, Kadampa Oak, Anthocephalus cadamba (அத்துச்சாரியை அகர விகுதி பெற்றது), எவ்வம் தாங்கி – tolerating sorrow, வலை வலந்தன்ன – like a net was tied above, மென் நிழல் மருங்கில் – in a place with very little shade, காடு உறை கடவுள் கடன் கழிப்பிய பின்றை – after doing the offerings to the forest-dwelling god
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) வழிப்படுத்தும் பொருநன்
+",Not available,"பாடின பாணிக்கு ஏற்ப – according to the song sung with rhythmic beats, நாள்தோறும் – each day, களிறு வழங்கு அதர் – paths where male elephants roam, கானத்து – in the forest, அல்கி – staying, இலை இல் மராஅத்த – of kadampam trees without leaves, Kadampa Oak, Anthocephalus cadamba (அத்துச்சாரியை அகர விகுதி பெற்றது), எவ்வம் தாங்கி – tolerating sorrow, வலை வலந்தன்ன – like a net was tied above, மென் நிழல் மருங்கில் – in a place with very little shade, காடு உறை கடவுள் கடன் கழிப்பிய பின்றை – after doing the offerings to the forest-dwelling god", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) வழிப்படுத்தும் பொருநன்
+","Paadaan Thinai The Bard Guides the other Bard
 "
-6.0, முடத்தாமக் கண்ணியார்,"பீடு கெழு திருவின் பெரும் பெயர் நோன் தாள்,
-முரசு முழங்கு தானை மூவருங்கூடி,
-அரசவை இருந்த தோற்றம் போலப்   55
+6.0, முடத்தாமக் கண்ணியார்,"பீடு கெழு திருவின் பெரும் பெயர் நோன் தாள்
+முரசு முழங்கு தானை மூவருங்கூடி
+அரசவை இருந்த தோற்றம் போலப்   
 பாடல் பற்றிய பயனுடைய எழாஅல்
-கோடியர் தலைவ கொண்டது அறிந!
+கோடியர் தலைவ கொண்டது அறிந
 அறியாமையின் நெறி திரிந்து ஒராஅது
-ஆற்று எதிர்ப் படுதலும் நோற்றதன் பயனே,
-போற்றிக் கேண்மதி, புகழ் மேம்படுந! (53 – 60)
-","Paadaan Thinai No Title
-you playing the lute with benefits of songs,
+ஆற்று எதிர்ப் படுதலும் நோற்றதன் பயனே
+போற்றிக் கேண்மதி புகழ் மேம்படுந  – 
+","you playing the lute with benefits of songs,
 is like seeing the three great kings together
 in an assembly, who have great pride, fame,
 and effort, who own armies with victorious,
@@ -171,25 +161,23 @@ your way in ignorance.  It is the benefit
 of your penance that we met on this path.
 Listen with respect to what I have to say,
 you with a great reputation!
-","  மதி – மியா இக மோ மதி இகும் சின் என்னும் ஆவயின் ஆறும் முன்னிலை அசைச்சொல் (தொல்காப்பியம்.  சொல்லதிகாரம்.  இடையியல் 26).
-","  பீடு கெழு திருவின் – with wealth with pride, பெரும் பெயர் – great fame, நோன் தாள் – strong efforts, முரசு முழங்கு தானை – army with roaring drums, மூவருங் கூடி அரசவை இருந்த தோற்றம் போல – appearance like the three kings (Chōlan, Chēran and Pāndiyan) being together in the royal assembly, பாடல் பற்றிய பயனுடைய – with benefits of the song, எழாஅல் – musical notes of the lute (இசை நிறை அளபெடை), கோடியர் தலைவ – O leader of musician/artists, கொண்டது அறிந – O you who understands what others think, அறியாமையின் நெறி திரிந்து – losing the way in ignorance, ஒராஅது – not moving away (இசைநிறை அளபெடை), ஆற்று எதிர்ப்படுதலும் – meeting on the path, நோற்றதன் பயனே – it is due to the benefit of your penances, போற்றிக் கேண்மதி – respect and listen to what I say (கேண்மதி – மதி முன்னிலையசை, an expletive of the second person), புகழ் மேம்படுந – O you who has great fame
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா)  No tile
+",மதி – மியா இக மோ மதி இகும் சின் என்னும் ஆவயின் ஆறும் முன்னிலை அசைச்சொல் (தொல்காப்பியம்.  சொல்லதிகாரம்.  இடையியல் 26).,"பீடு கெழு திருவின் – with wealth with pride, பெரும் பெயர் – great fame, நோன் தாள் – strong efforts, முரசு முழங்கு தானை – army with roaring drums, மூவருங் கூடி அரசவை இருந்த தோற்றம் போல – appearance like the three kings (Chōlan, Chēran and Pāndiyan) being together in the royal assembly, பாடல் பற்றிய பயனுடைய – with benefits of the song, எழாஅல் – musical notes of the lute (இசை நிறை அளபெடை), கோடியர் தலைவ – O leader of musician/artists, கொண்டது அறிந – O you who understands what others think, அறியாமையின் நெறி திரிந்து – losing the way in ignorance, ஒராஅது – not moving away (இசைநிறை அளபெடை), ஆற்று எதிர்ப்படுதலும் – meeting on the path, நோற்றதன் பயனே – it is due to the benefit of your penances, போற்றிக் கேண்மதி – respect and listen to what I say (கேண்மதி – மதி முன்னிலையசை, an expletive of the second person), புகழ் மேம்படுந – O you who has great fame", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா)  No tile
+","Paadaan Thinai No Title
 "
-7.0,முடத்தாமக் கண்ணியார்,"ஆடு பசி உழந்த நின் இரும்பேர் ஒக்கலொடு,
-நீடு பசி ஒராஅல் வேண்டின், நீடு இன்று
-எழுமதி, வாழி! ஏழின் கிழவ!
-பழுமரம் உள்ளிய பறவையின், யானும் அவன்
-இழுமென் சும்மை இடனுடைய வரைப்பின்   65
+7.0,முடத்தாமக் கண்ணியார்,"ஆடு பசி உழந்த நின் இரும்பேர் ஒக்கலொடு
+நீடு பசி ஒராஅல் வேண்டின் நீடு இன்று
+எழுமதி வாழி ஏழின் கிழவ
+பழுமரம் உள்ளிய பறவையின் யானும் அவன்
+இழுமென் சும்மை இடனுடைய வரைப்பின்   
 நசையுநர்த் தடையா நன் பெருவாயில்
 இசையேன் புக்கு என் இடும்பை தீர
-எய்த்த மெய்யேன் எய்யேன் ஆகிப்,
+எய்த்த மெய்யேன் எய்யேன் ஆகிப்
 பைத்த பாம்பின் துத்தி ஏய்ப்ப
-கைக் கசடு இருந்த என் கண் அகன் தடாரி  70
-இரு சீர்ப் பாணிக்கு ஏற்ப, விரி கதிர்
-வெள்ளி முளைத்த நள்ளிருள் விடியல்,
-ஒன்றியான் பெட்டா அளவையின் ஒன்றிய, (61 – 73)
-","Paadaan Thinai No Title
-If you desire to remove the long-
+கைக் கசடு இருந்த என் கண் அகன் தடாரி  
+இரு சீர்ப் பாணிக்கு ஏற்ப விரி கதிர்
+வெள்ளி முளைத்த நள்ளிருள் விடியல்
+ஒன்றியான் பெட்டா அளவையின் ஒன்றிய  – 
+","If you desire to remove the long-
 lasting, killer hunger of your very
 large clan and yourself, rise up without
 delay.  May you live long, O lord of the
@@ -206,22 +194,20 @@ beats, in a desired manner on my thadāri
 drum whose wide eyes had my finger
 marks that resembled the spots on the
 spread hood of a cobra,
-","  யாழின் ஏழு நரம்புகள்:  குரல், கைக்கிளை, உழை, இளி, துத்தம், விளரி, தாரம்.  வெள்ளி தோன்ற:  புறநானூறு 385 – வெள்ளி தோன்றப் புள்ளுக் குரல் இயம்ப புலரி விடியல், புறநானூறு 397 – வெள்ளியும் இரு விசும்பு ஏர்தரும் புள்ளும் உயர் சினைக் குடம்பைக் குரல் தோற்றினவே பொய்கையும் போது கண் விழித்தன பையச் சுடரும் சுருங்கின்று ஒளியே பாடெழுந்து இரங்கு குரல் முரசமொடு வலம்புரி ஆர்ப்ப இரவுப் புறங்கண்ட காலைத் தோன்றி, புறநானூறு 398 – மதி நிலாக் கரப்ப வெள்ளி ஏர்தர வகை மாண் நல் இல், பொருநராற்றுப்படை 72 – வெள்ளி முளைத்த நள்ளிருள் விடியல்.  பழ மரமும் புள்ளும்:  புறநானூறு 173 – பழுமரம் புள் இமிழ்ந்தன்ன, புறநானூறு 370 – பழுமரம் உள்ளிய பறவை போல, பெரும்பாணாற்றுப்படை 20 – பழுமரம் தேரும் பறவை போல, பொருநராற்றுப்படை 64 – பழுமரம் உள்ளிய பறவையின், மதுரைக்காஞ்சி 576 – பழம் தேர் வாழ்க்கைப் பறவை போல.  பாம்பின் பொறி: குறுந்தொகை 294 – தித்தி பரந்த பைத்து அகல் அல்குல்.  இரும்பேர் ஒக்கல் – நச்சினார்க்கினியர் உரை, பொ. வே. சோமசுந்தரனார் உரை – பொருநராற்றுப்படை 61, சிறுபாணாற்றுப்படை 139, 144, பெரும்பாணாற்றுப்படை 25, 470, மலைபடுகடாம் 157 – கரிய பெரிய சுற்றம், ஒளவை துரைசாமி உரை – புறநானூறு பாடல்கள் 69, 150, 370, 378, 390, 391, 393, 394, 396 – மிக்க பெரிய சுற்றத்தார், மிகப் பெரிய சுற்றம், புறநானூறு 320 – கரிய பெரிய சுற்றத்தார், பொ. வே. சோமசுந்தரனார் உரை, இரா. வேங்கடாசலம் பிள்ளை, ந. மு. வேங்கடசாமி நாட்டார் உரை – அகநானூறு 301 – மிகப் பெரிய சுற்றத்தார்.  மதி – மியா இக மோ மதி இகும் சின் என்னும் ஆவயின் ஆறும் முன்னிலை அசைச்சொல் (தொல்காப்பியம்.  சொல்லதிகாரம்.  இடையியல் 26).  சும்மை – கம்பலை சும்மை கலியே அழுங்கல் என்று இவை நான்கும் அரவப் பொருள (தொல்காப்பியம், உரியியல் 51).  பெட்டா – பெள் என்னும் பகுதியின் அடியாகப் பிறந்த எதிர்மறைப் பெயரெச்சம்.  புறநானூறு 399 – ஒன்றியான் பெட்டா அளவை.
-","  ஆடு பசி உழந்த – suffering from killer hunger (பொ. வே. சோமசுந்தரனார் உரை – அடு பசி – ஆடு பசி என முதனீண்டது), நின் இரும் பேர் ஒக்கலொடு – with your very large clan (இரும்பேர் – ஒருபொருட் பன்மொழி), with your dark large clan, நீடு பசி ஒராஅல் வேண்டின் – if you desire to remove great hunger, if you desire to remove your hunger that you have had for a long time (ஒராஅல் – இசைநிறை அளபெடை), நீடு இன்று எழுமதி – rise up without delay (மதி – முன்னிலையசை, an expletive of the second person), வாழி – may you live long, ஏழின் கிழவ – O lord of the seven strings of the lute, பழுமரம் உள்ளிய – thinking about fruit trees (பழுமரம் – வினைத்தொகை), பறவையின் – like birds (இன் ஐந்தாம் வேற்றுமை உருபு, ஒப்புப் பொருளில் வந்தது), யானும் – I, அவன் – his, இழுமென் சும்மை – with loud sounds (இழுமென் – ஒலிக்குறிப்பு), இடன் உடைய – his wide space (இடன் – அகலம், இடம் என்பதன் போலி), வரைப்பின் – to the palace walls, to the limits of his palace, நசையுநர் – those who come with the desire to get gifts, தடையா நன் பெருவாயில் – fine huge gate that does not block, இசையேன் புக்கு – I entered without announcing, என் இடும்பை தீர – for my sorrow to end, எய்த்த மெய்யேன் – I with a weak body, எய்யேன் ஆகி – I became cheerful, பைத்த பாம்பின் துத்தி ஏய்ப்ப – like the spots of a snake’s spread hood (பைத்த – பெயரெச்சம், ஏய்ப்ப – உவம உருபு, a comparison word), கைக் கசடு இருந்த– finger marks, scars (on the drum eyes where I hit the drum), என் – my, கண் அகன் – wide drum eye, தடாரி – thadāri drum (உடுக்கை), இரு சீர்ப் பாணிக்கு ஏற்ப – according to double beats, விரி கதிர் – spread rays, வெள்ளி முளைத்த – Venus rose, நள்ளிருள் – pitch darkness, விடியல் – dawn, ஒன்று யான் பெட்டா அளவையின் – even before I sang a song with desire
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) No Title
+","யாழின் ஏழு நரம்புகள்:  குரல், கைக்கிளை, உழை, இளி, துத்தம், விளரி, தாரம்.  வெள்ளி தோன்ற:  புறநானூறு 385 – வெள்ளி தோன்றப் புள்ளுக் குரல் இயம்ப புலரி விடியல், புறநானூறு 397 – வெள்ளியும் இரு விசும்பு ஏர்தரும் புள்ளும் உயர் சினைக் குடம்பைக் குரல் தோற்றினவே பொய்கையும் போது கண் விழித்தன பையச் சுடரும் சுருங்கின்று ஒளியே பாடெழுந்து இரங்கு குரல் முரசமொடு வலம்புரி ஆர்ப்ப இரவுப் புறங்கண்ட காலைத் தோன்றி, புறநானூறு 398 – மதி நிலாக் கரப்ப வெள்ளி ஏர்தர வகை மாண் நல் இல், பொருநராற்றுப்படை 72 – வெள்ளி முளைத்த நள்ளிருள் விடியல்.  பழ மரமும் புள்ளும்:  புறநானூறு 173 – பழுமரம் புள் இமிழ்ந்தன்ன, புறநானூறு 370 – பழுமரம் உள்ளிய பறவை போல, பெரும்பாணாற்றுப்படை 20 – பழுமரம் தேரும் பறவை போல, பொருநராற்றுப்படை 64 – பழுமரம் உள்ளிய பறவையின், மதுரைக்காஞ்சி 576 – பழம் தேர் வாழ்க்கைப் பறவை போல.  பாம்பின் பொறி: குறுந்தொகை 294 – தித்தி பரந்த பைத்து அகல் அல்குல்.  இரும்பேர் ஒக்கல் – நச்சினார்க்கினியர் உரை, பொ. வே. சோமசுந்தரனார் உரை – பொருநராற்றுப்படை 61, சிறுபாணாற்றுப்படை 139, 144, பெரும்பாணாற்றுப்படை 25, 470, மலைபடுகடாம் 157 – கரிய பெரிய சுற்றம், ஒளவை துரைசாமி உரை – புறநானூறு பாடல்கள் 69, 150, 370, 378, 390, 391, 393, 394, 396 – மிக்க பெரிய சுற்றத்தார், மிகப் பெரிய சுற்றம், புறநானூறு 320 – கரிய பெரிய சுற்றத்தார், பொ. வே. சோமசுந்தரனார் உரை, இரா. வேங்கடாசலம் பிள்ளை, ந. மு. வேங்கடசாமி நாட்டார் உரை – அகநானூறு 301 – மிகப் பெரிய சுற்றத்தார்.  மதி – மியா இக மோ மதி இகும் சின் என்னும் ஆவயின் ஆறும் முன்னிலை அசைச்சொல் (தொல்காப்பியம்.  சொல்லதிகாரம்.  இடையியல் 26).  சும்மை – கம்பலை சும்மை கலியே அழுங்கல் என்று இவை நான்கும் அரவப் பொருள (தொல்காப்பியம், உரியியல் 51).  பெட்டா – பெள் என்னும் பகுதியின் அடியாகப் பிறந்த எதிர்மறைப் பெயரெச்சம்.  புறநானூறு 399 – ஒன்றியான் பெட்டா அளவை.","ஆடு பசி உழந்த – suffering from killer hunger (பொ. வே. சோமசுந்தரனார் உரை – அடு பசி – ஆடு பசி என முதனீண்டது), நின் இரும் பேர் ஒக்கலொடு – with your very large clan (இரும்பேர் – ஒருபொருட் பன்மொழி), with your dark large clan, நீடு பசி ஒராஅல் வேண்டின் – if you desire to remove great hunger, if you desire to remove your hunger that you have had for a long time (ஒராஅல் – இசைநிறை அளபெடை), நீடு இன்று எழுமதி – rise up without delay (மதி – முன்னிலையசை, an expletive of the second person), வாழி – may you live long, ஏழின் கிழவ – O lord of the seven strings of the lute, பழுமரம் உள்ளிய – thinking about fruit trees (பழுமரம் – வினைத்தொகை), பறவையின் – like birds (இன் ஐந்தாம் வேற்றுமை உருபு, ஒப்புப் பொருளில் வந்தது), யானும் – I, அவன் – his, இழுமென் சும்மை – with loud sounds (இழுமென் – ஒலிக்குறிப்பு), இடன் உடைய – his wide space (இடன் – அகலம், இடம் என்பதன் போலி), வரைப்பின் – to the palace walls, to the limits of his palace, நசையுநர் – those who come with the desire to get gifts, தடையா நன் பெருவாயில் – fine huge gate that does not block, இசையேன் புக்கு – I entered without announcing, என் இடும்பை தீர – for my sorrow to end, எய்த்த மெய்யேன் – I with a weak body, எய்யேன் ஆகி – I became cheerful, பைத்த பாம்பின் துத்தி ஏய்ப்ப – like the spots of a snake’s spread hood (பைத்த – பெயரெச்சம், ஏய்ப்ப – உவம உருபு, a comparison word), கைக் கசடு இருந்த– finger marks, scars (on the drum eyes where I hit the drum), என் – my, கண் அகன் – wide drum eye, தடாரி – thadāri drum (உடுக்கை), இரு சீர்ப் பாணிக்கு ஏற்ப – according to double beats, விரி கதிர் – spread rays, வெள்ளி முளைத்த – Venus rose, நள்ளிருள் – pitch darkness, விடியல் – dawn, ஒன்று யான் பெட்டா அளவையின் – even before I sang a song with desire", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) No Title
+","Paadaan Thinai No Title
 "
-8.0,முடத்தாமக் கண்ணியார்,"கேளிர் போலக் கேள் கொளல் வேண்டி,
-வேளாண் வாயில் வேட்பக் கூறி,   75
-கண்ணில் காண நண்ணுவழி இரீஇ,
-பருகு அன்ன அருகா நோக்கமொடு,
-உருகுபவை போல் என்பு குளிர் கொளீஇ,
+8.0,முடத்தாமக் கண்ணியார்,"கேளிர் போலக் கேள் கொளல் வேண்டி
+வேளாண் வாயில் வேட்பக் கூறி   
+கண்ணில் காண நண்ணுவழி இரீஇ
+பருகு அன்ன அருகா நோக்கமொடு
+உருகுபவை போல் என்பு குளிர் கொளீஇ
 ஈரும் பேனும் இருந்து இறை கூடி
-வேரொடு நனைந்து வேற்று இழை நுழைந்த   80
-துன்னல் சிதாஅர் துவர நீக்கி,
+வேரொடு நனைந்து வேற்று இழை நுழைந்த   
+துன்னல் சிதாஅர் துவர நீக்கி
 நோக்கு நுழைகல்லா நுண்மைய பூக்கனிந்து
-அரவு உரி அன்ன அறுவை நல்கி, (74 – 83)
-","Paadaan Thinai The Hospitality of the King
-the king treated me like a relative,
+அரவு உரி அன்ன அறுவை நல்கி  – 
+","the king treated me like a relative,
 was one with me desiring friendship,
 made me stay near him with hospitality
 and kind words, and looked at
@@ -233,18 +219,16 @@ threads and ruled by lice and nits, and
 gave me clothing filled with flower designs,
 so fine like the skin of a snake,
 that I was unable to see the weave.
-","  வேற்று இழை:  புறநானூறு 69 – வேற்று இழை நுழைந்த வேர் நனை சிதாஅர், பொருநராற்றுப்படை 80 – வேற்று இழை நுழைந்த துன்னல் சிதாஅர்.  பாம்பின் தோல் அன்ன ஆடை:  புறநானூறு 283 – பாம்பு உரி அன்ன வடிவின காம்பின் கழைபடு சொலியின் இழை அணி வாரா ஒண் பூங்கலிங்கம் உடீஇ, பொருநராற்றுப்படை – 83 – அரவு உரி அன்ன அறுவை நல்கி.
-","  கேளிர் போல – like relatives, ஒன்றிய – with oneness, கேள் கொளல் வேண்டி – desiring a relationship, desiring a friendship, வேளாண் வாயில் – with hospitality, வேட்பக் கூறி – he spoke kindly, கண்ணில் காண – to keep me within sight, to keep me within view, நண்ணுவழி – nearby place, இரீஇ – made me stay (இரீஇ – சொல்லிசை அளபெடை), பருகு அன்ன – like drinking, அருகா நோக்கமொடு – with un-abating looks, with unspoilt looks, உருகுபவை போல் – like those that melt – like butter, என்பு குளிர் கொளீஇ – making my bones tender and cold (கொளீஇ – சொல்லிசை அளபெடை), ஈரும் பேனும் – lice and eggs, இருந்து இறை கூடி – ruled together, வேரொடு நனைந்து – wet with sweat, வேற்றிழை நுழைந்த துன்னல் – stitched with different threads, darned, சிதாஅர் – rags, torn clothes (சிதாஅர் – இசை நிறை அளபெடை), துவர நீக்கி – totally removed, நோக்கு நுழைகல்லா – unable to see (the fine weave), unable for the eyesight to enter and see, நுண்மைய – fine, பூக் கனிந்து – with completed flower designs, அரவுரி அன்ன – like snake skin, அறுவை நல்கி – he gave me clothing
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) அரசனின் விருந்தோம்பும் பண்பு
+","வேற்று இழை:  புறநானூறு 69 – வேற்று இழை நுழைந்த வேர் நனை சிதாஅர், பொருநராற்றுப்படை 80 – வேற்று இழை நுழைந்த துன்னல் சிதாஅர்.  பாம்பின் தோல் அன்ன ஆடை:  புறநானூறு 283 – பாம்பு உரி அன்ன வடிவின காம்பின் கழைபடு சொலியின் இழை அணி வாரா ஒண் பூங்கலிங்கம் உடீஇ, பொருநராற்றுப்படை – 83 – அரவு உரி அன்ன அறுவை நல்கி.","கேளிர் போல – like relatives, ஒன்றிய – with oneness, கேள் கொளல் வேண்டி – desiring a relationship, desiring a friendship, வேளாண் வாயில் – with hospitality, வேட்பக் கூறி – he spoke kindly, கண்ணில் காண – to keep me within sight, to keep me within view, நண்ணுவழி – nearby place, இரீஇ – made me stay (இரீஇ – சொல்லிசை அளபெடை), பருகு அன்ன – like drinking, அருகா நோக்கமொடு – with un-abating looks, with unspoilt looks, உருகுபவை போல் – like those that melt – like butter, என்பு குளிர் கொளீஇ – making my bones tender and cold (கொளீஇ – சொல்லிசை அளபெடை), ஈரும் பேனும் – lice and eggs, இருந்து இறை கூடி – ruled together, வேரொடு நனைந்து – wet with sweat, வேற்றிழை நுழைந்த துன்னல் – stitched with different threads, darned, சிதாஅர் – rags, torn clothes (சிதாஅர் – இசை நிறை அளபெடை), துவர நீக்கி – totally removed, நோக்கு நுழைகல்லா – unable to see (the fine weave), unable for the eyesight to enter and see, நுண்மைய – fine, பூக் கனிந்து – with completed flower designs, அரவுரி அன்ன – like snake skin, அறுவை நல்கி – he gave me clothing", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) அரசனின் விருந்தோம்பும் பண்பு
+","Paadaan Thinai The Hospitality of the King
 "
-9.0,முடத்தாமக் கண்ணியார்,"மழை என மருளும் மகிழ் செய் மாடத்து,
-இழை அணி வனப்பின் இன்னகை மகளிர்,   85
+9.0,முடத்தாமக் கண்ணியார்,"மழை என மருளும் மகிழ் செய் மாடத்து
+இழை அணி வனப்பின் இன்னகை மகளிர்   
 போக்கு இல் பொலங்கலம் நிறையப் பல் கால்
-வாக்குபு தரத்தர வருத்தம் வீட,
+வாக்குபு தரத்தர வருத்தம் வீட
 ஆர உண்டு பேரஞர் போக்கிச்
-செருக்கொடு நின்ற காலை மற்று அவன்(84 – 89)
-","Paadaan Thinai Serving Liquor
-Living on the happy upper floors,
+செருக்கொடு நின்ற காலை மற்று அவன் – 
+","Living on the happy upper floors,
 they awe those who see them,
 with hair like clouds, pretty women
 with sweet smiles, wearing beautiful
@@ -252,19 +236,17 @@ jewels, who poured many servings of
 liquor in perfect gold bowls.
 For my great sorrow to vanish, I
 drank a lot, and stood up with joy.
-","  மழை என மருளும் (1) – பொ. வே. சோமசுந்தரனார் உரை – மழை – முகில், மழையென என்ற உவமைக்குத் தகுதியாற் கூந்தல் வருவித்துரைக்கப்பட்டது.
-","  மழை என மருளும் – awed by their hair that are like they are clouds (மழை – ஆகுபெயர் முகிலுக்கு), மகிழ் செய் – causing happiness (liquor), மாடத்து – on the upper floors, இழை அணி – beautifully made jewels, wearing jewels, வனப்பின் – with beauty, இன் நகை மகளிர் – women with sweet smiles, போக்கு இல் பொலங்கலம் – faultless gold bowls (போக்கு – குற்றம்), நிறைய – full, பல் கால் – many times, வாக்குபு தரத்தர – poured and gave constantly, வருத்தம் வீட – for sorrow to be removed, ஆர உண்டு – drank a lot, பேர் அஞர் போக்கி – removed the great sorrow, செருக்கொடு நின்ற காலை – when I stood with joy, when I stood up intoxicated
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) கள் கொடுத்தல்
+","மழை என மருளும் (1) – பொ. வே. சோமசுந்தரனார் உரை – மழை – முகில், மழையென என்ற உவமைக்குத் தகுதியாற் கூந்தல் வருவித்துரைக்கப்பட்டது.","மழை என மருளும் – awed by their hair that are like they are clouds (மழை – ஆகுபெயர் முகிலுக்கு), மகிழ் செய் – causing happiness (liquor), மாடத்து – on the upper floors, இழை அணி – beautifully made jewels, wearing jewels, வனப்பின் – with beauty, இன் நகை மகளிர் – women with sweet smiles, போக்கு இல் பொலங்கலம் – faultless gold bowls (போக்கு – குற்றம்), நிறைய – full, பல் கால் – many times, வாக்குபு தரத்தர – poured and gave constantly, வருத்தம் வீட – for sorrow to be removed, ஆர உண்டு – drank a lot, பேர் அஞர் போக்கி – removed the great sorrow, செருக்கொடு நின்ற காலை – when I stood with joy, when I stood up intoxicated", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) கள் கொடுத்தல்
+","Paadaan Thinai Serving Liquor
 "
 10.0,முடத்தாமக் கண்ணியார்,"செருக்கொடு நின்ற காலை மற்று அவன்
-திருக்கிளர் கோயில் ஒரு சிறைத் தங்கி,   90
+திருக்கிளர் கோயில் ஒரு சிறைத் தங்கி   
 தவம் செய் மாக்கள் தம் உடம்பு இடாஅது
-அதன் பயம் எய்திய அளவை மான,
-ஆறு செல் வருத்தம் அகல நீக்கி,
+அதன் பயம் எய்திய அளவை மான
+ஆறு செல் வருத்தம் அகல நீக்கி
 அனந்தர் நடுக்கம் அல்லது யாவதும்
-மனம் கவல்பு இன்றி, மாழாந்து எழுந்து, (89 – 95)
-","Paadaan Thinai Providing a Place to Stay
-I stayed on one side of his rich palace.
+மனம் கவல்பு இன்றி மாழாந்து எழுந்து  – 
+","I stayed on one side of his rich palace.
 I felt giddy because of my drinking,
 trembled, but was totally rid of my
 distress of going on paths seeking
@@ -274,18 +256,17 @@ their bodies without dying.
 Other than the trembling due to alcohol,
 I did not have any other mental confusion.
 I slept very well and woke up.
-",,"  மற்று அவன் திருக் கிளர் கோயில் – after that in his wealthy palace, ஒரு சிறைத் தங்கி – staying on one side, தவம் செய் மாக்கள் – those who do penances, தம் உடம்பு இடாஅது – not abandoning their bodies (இடாஅது – இசை நிறை அளபெடை), அதன் பயம் எய்திய – attained its benefits, அளவை மான – like that method (மான – உவம உருபு, a comparison word), ஆறு செல் – going on paths, வருத்தம் – sorrow, அகல நீக்கி – totally removed, அனந்தர் – intoxication, giddiness, நடுக்கம் – trembling, அல்லது – other, யாவதும் – even a little bit, மனம் கவல்பு இன்றி – without mental confusion,  without mental distress, மாழாந்து எழுந்து – slept very well and rose up
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) தங்குதற்குரிய இருப்பிடம் தரல்
+",Not available,"மற்று அவன் திருக் கிளர் கோயில் – after that in his wealthy palace, ஒரு சிறைத் தங்கி – staying on one side, தவம் செய் மாக்கள் – those who do penances, தம் உடம்பு இடாஅது – not abandoning their bodies (இடாஅது – இசை நிறை அளபெடை), அதன் பயம் எய்திய – attained its benefits, அளவை மான – like that method (மான – உவம உருபு, a comparison word), ஆறு செல் – going on paths, வருத்தம் – sorrow, அகல நீக்கி – totally removed, அனந்தர் – intoxication, giddiness, நடுக்கம் – trembling, அல்லது – other, யாவதும் – even a little bit, மனம் கவல்பு இன்றி – without mental confusion,  without mental distress, மாழாந்து எழுந்து – slept very well and rose up", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) தங்குதற்குரிய இருப்பிடம் தரல்
+","Paadaan Thinai Providing a Place to Stay
 "
 11.0,முடத்தாமக் கண்ணியார்,"மாலை அன்னது ஓர் புன்மையும் காலைக்
-கண்டோர் மருளும் வண்டு சூழ் நிலையும்,
-கனவு என மருண்ட என் நெஞ்சு ஏமாப்ப,
-வல் அஞர் பொத்திய மனம் மகிழ் சிறப்ப,
-கல்லா இளைஞர் சொல்லிக் காட்டக்   100
-கதுமெனக் கரைந்து வம் எனக் கூஉய்,
-அதன் முறை கழிப்பிய பின்றைப் பதன் அறிந்து (96 – 102)
-","Paadaan Thinai Morning and Evening
-In the morning when bees
+கண்டோர் மருளும் வண்டு சூழ் நிலையும்
+கனவு என மருண்ட என் நெஞ்சு ஏமாப்ப
+வல் அஞர் பொத்திய மனம் மகிழ் சிறப்ப
+கல்லா இளைஞர் சொல்லிக் காட்டக்   
+கதுமெனக் கரைந்து வம் எனக் கூஉய்
+அதன் முறை கழிப்பிய பின்றைப் பதன் அறிந்து  – 
+","In the morning when bees
 swarmed around me,
 those who had seen me in poverty
 the previous evening, were awed.
@@ -297,30 +278,28 @@ me and announced me to the king.
 Rapidly he said, “Come here,” and I
 paid proper respects to him.  After
 that,
-","  அன்னது (96) – பொ. வே. சோமசுந்தரனார் உரை – பண்டறி சுட்டு. தன்னிடத்தே அஃதின்மையால் சேய்மைச் சுட்டால் சுட்டினான் என்க.
-","  மாலை அன்னது – in the evening (before meeting the king), ஓர் புன்மையும் – poverty situation, காலை கண்டோர் மருளும் – those who saw me in the morning were confused, வண்டு சூழ் நிலையும் – situation of bees swarming – because of the alcohol smell or perfume smell, கனவு என மருண்ட – confused that it was a dream, என் நெஞ்சும் – my heart, ஏமாப்ப – to be strong, to be happy, to have clarity, வல் அஞர் பொத்திய மனம் மகிழ் சிறப்ப – for my sorrow filled mind to become very happy, கல்லா இளைஞர் சொல்லிக் காட்ட – uneducated youngsters pointed and told (about me to the king), கதுமென – rapidly (விரைவுக்குறிப்பு), கரைந்து – said, வம்மெனக் கூஉய் – ‘come here’, he said loudly (கூஉய்  – இன்னிசை அளபெடை), அதன் முறை கழிப்பிய பின்றை – after paying the proper respects,
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) மாலையும் காலையும்
+",அன்னது (96) – பொ. வே. சோமசுந்தரனார் உரை – பண்டறி சுட்டு. தன்னிடத்தே அஃதின்மையால் சேய்மைச் சுட்டால் சுட்டினான் என்க.,"மாலை அன்னது – in the evening (before meeting the king), ஓர் புன்மையும் – poverty situation, காலை கண்டோர் மருளும் – those who saw me in the morning were confused, வண்டு சூழ் நிலையும் – situation of bees swarming – because of the alcohol smell or perfume smell, கனவு என மருண்ட – confused that it was a dream, என் நெஞ்சும் – my heart, ஏமாப்ப – to be strong, to be happy, to have clarity, வல் அஞர் பொத்திய மனம் மகிழ் சிறப்ப – for my sorrow filled mind to become very happy, கல்லா இளைஞர் சொல்லிக் காட்ட – uneducated youngsters pointed and told (about me to the king), கதுமென – rapidly (விரைவுக்குறிப்பு), கரைந்து – said, வம்மெனக் கூஉய் – ‘come here’, he said loudly (கூஉய்  – இன்னிசை அளபெடை), அதன் முறை கழிப்பிய பின்றை – after paying the proper respects,", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) மாலையும் காலையும்
+","Paadaan Thinai Morning and Evening
 "
 12.0,முடத்தாமக் கண்ணியார்,"அதன் முறை கழிப்பிய பின்றைப் பதன் அறிந்து
 துராஅய் துற்றிய துருவை அம் புழுக்கின்
 பராஅரை வேவை பருகு எனத்தண்டி
-காழின் சுட்ட கோழ் ஊன் கொழுங்குறை   105
-ஊழின் ஊழின் வாய் வெய்து ஒற்றி,
-அவை அவை முனிகுவம் எனினே, சுவைய
+காழின் சுட்ட கோழ் ஊன் கொழுங்குறை   
+ஊழின் ஊழின் வாய் வெய்து ஒற்றி
+அவை அவை முனிகுவம் எனினே சுவைய
 வேறு பல் உருவின் விரகு தந்து இரீஇ
 மண் அமை முழவின் பண் அமை சீறியாழ்
-ஒண்ணுதல் விறலியர் பாணி தூங்க,   110
+ஒண்ணுதல் விறலியர் பாணி தூங்க   
 மகிழ்ப்பதும் பல் நாள் கழிப்பி ஒரு நாள்
-“அவிழ்ப் பதம் கொள்க” என்று இரப்ப, முகிழ்த்தகை
+அவிழ்ப் பதம் கொள்க என்று இரப்ப முகிழ்த்தகை
 முரவை போகிய முரியா அரிசி
-விரல் என நிமிர்ந்த நிரல் அமை புழுக்கல்,
-பரல் வறைக் கருனை, காடியின் மிதப்ப,   115
-அயின்ற காலைப் பயின்று இனிது இருந்து,
-கொல்லை உழு கொழு ஏய்ப்ப பல்லே,
-எல்லையும் இரவும் ஊன் தின்று மழுங்கி,
-உயிர்ப்பிடம் பெறாஅது, ஊண் முனிந்து ஒரு நாள்(102 – 119)
-","Paadaan Thinai Food Served by the King
-knowing the time to eat, he urged us to eat
+விரல் என நிமிர்ந்த நிரல் அமை புழுக்கல்
+பரல் வறைக் கருனை காடியின் மிதப்ப   
+அயின்ற காலைப் பயின்று இனிது இருந்து
+கொல்லை உழு கொழு ஏய்ப்ப பல்லே
+எல்லையும் இரவும் ஊன் தின்று மழுங்கி
+உயிர்ப்பிடம் பெறாஅது ஊண் முனிந்து ஒரு நாள் – 
+","knowing the time to eat, he urged us to eat
 cooked, thick thigh meat of sheep that
 were fed arukam grass twisted to ropes,
 and fatty, big pieces of meat roasted on iron
@@ -343,23 +322,21 @@ Filled to my neck with food I ate continuously
 day and night and my teeth became blunted
 like a plow that plowed a field.
 There was no time to breathe.  I hated food.
-","  காடியின் (115) – நச்சினார்க்கினியர் உரை – கழுத்திடத்தே, காடியை புளிங்கறியாக்கிப் புளிங்கறியோடே நிரம்ப விழுங்கின காலை என்றும் உரைப்பர்.
-","  பதன் அறிந்து – knowing right the time, துராஅய் – arukam grass rolled as ropes, Cynodon grass (துராஅய் – இசைநிறை அளபெடை), துற்றிய – fed, துருவை அம் புழுக்கின் – with lovely cooked sheep meat, பராஅரை – thick thigh (இசைநிறை அளபெடை), வேவை – boiled meat, பருகு எனத் தண்டி – urged me to eat, காழின் சுட்ட – cooked on an iron rod, கோழ் ஊன் – fatty meat, கொழுங்குறை – big pieces of meat, ஊழின் ஊழின் – very methodically/regularly (moving them) on all sides, வாய் – in the mouth, வெய்து ஒற்றி – reduced heat, அவை அவை முனிகுவம் எனினே – we were refusing them again and again, சுவைய – tasty, வேறு பல் –  many other, உருவின் – in shapes, விரகு தந்து – gave pastries/ பணியாரம் (விரகு – ஈகை என்னும் பொருட்டு), இரீஇ – made me stay (இரீஇ – சொல்லிசை அளபெடை), மண் அமை முழவின் – of drums with clay, பண் அமை சீறியாழ் – played small lute with tune/melody, ஒண்ணுதல் விறலியர் – the singers/dancers with bright brows, பாணி தூங்க – danced to rhythm, மகிழ்ப்பதும் பல் நாள் – happily many days, கழிப்பி – we spent, ஒரு நாள் – one day, அவிழ்ப் பதம் – cooked rice, கொள்க என்று இரப்ப – he gave to me to eat saying ‘take it’, முகிழ்த் தகை – like (jasmine) buds, முரவை போகிய – lines removed (the left over streaks from hand pounding), முரியா அரிசி  – unbroken rice, விரல் என நிமிர்ந்த – long like fingers, நிரல் அமை புழுக்கல் – boiled rice that was of the same size, பரல் – fried hard like pebbles, வறை கருனை – fried poriyal dishes, காடியின் மிதப்ப – filled to the neck, with dishes made with tamarind, அயின்ற காலை – when I ate, பயின்று – continuously, இனிது இருந்து – stayed sweetly, கொல்லை உழு – plowed the field, கொழு ஏய்ப்ப – like the plow (ஏய்ப்ப – உவம உருபு, a comparison word), பல்லே – teeth, எல்லையும் இரவும் – day and night, ஊன் தின்று – eating meat, மழுங்கி – blunted, உயிர்ப்பு இடம் பெறாஅது – not getting time to rest, not getting time to breathe (பெறாஅது – இசை நிறை அளபெடை), ஊண் முனிந்து – hating food
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) அரசன் உணவளித்த பாங்கு
+","காடியின் (115) – நச்சினார்க்கினியர் உரை – கழுத்திடத்தே, காடியை புளிங்கறியாக்கிப் புளிங்கறியோடே நிரம்ப விழுங்கின காலை என்றும் உரைப்பர்.","பதன் அறிந்து – knowing right the time, துராஅய் – arukam grass rolled as ropes, Cynodon grass (துராஅய் – இசைநிறை அளபெடை), துற்றிய – fed, துருவை அம் புழுக்கின் – with lovely cooked sheep meat, பராஅரை – thick thigh (இசைநிறை அளபெடை), வேவை – boiled meat, பருகு எனத் தண்டி – urged me to eat, காழின் சுட்ட – cooked on an iron rod, கோழ் ஊன் – fatty meat, கொழுங்குறை – big pieces of meat, ஊழின் ஊழின் – very methodically/regularly (moving them) on all sides, வாய் – in the mouth, வெய்து ஒற்றி – reduced heat, அவை அவை முனிகுவம் எனினே – we were refusing them again and again, சுவைய – tasty, வேறு பல் –  many other, உருவின் – in shapes, விரகு தந்து – gave pastries/ பணியாரம் (விரகு – ஈகை என்னும் பொருட்டு), இரீஇ – made me stay (இரீஇ – சொல்லிசை அளபெடை), மண் அமை முழவின் – of drums with clay, பண் அமை சீறியாழ் – played small lute with tune/melody, ஒண்ணுதல் விறலியர் – the singers/dancers with bright brows, பாணி தூங்க – danced to rhythm, மகிழ்ப்பதும் பல் நாள் – happily many days, கழிப்பி – we spent, ஒரு நாள் – one day, அவிழ்ப் பதம் – cooked rice, கொள்க என்று இரப்ப – he gave to me to eat saying ‘take it’, முகிழ்த் தகை – like (jasmine) buds, முரவை போகிய – lines removed (the left over streaks from hand pounding), முரியா அரிசி  – unbroken rice, விரல் என நிமிர்ந்த – long like fingers, நிரல் அமை புழுக்கல் – boiled rice that was of the same size, பரல் – fried hard like pebbles, வறை கருனை – fried poriyal dishes, காடியின் மிதப்ப – filled to the neck, with dishes made with tamarind, அயின்ற காலை – when I ate, பயின்று – continuously, இனிது இருந்து – stayed sweetly, கொல்லை உழு – plowed the field, கொழு ஏய்ப்ப – like the plow (ஏய்ப்ப – உவம உருபு, a comparison word), பல்லே – teeth, எல்லையும் இரவும் – day and night, ஊன் தின்று – eating meat, மழுங்கி – blunted, உயிர்ப்பு இடம் பெறாஅது – not getting time to rest, not getting time to breathe (பெறாஅது – இசை நிறை அளபெடை), ஊண் முனிந்து – hating food", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) அரசன் உணவளித்த பாங்கு
+","Paadaan Thinai Food Served by the King
 "
-13.0,முடத்தாமக் கண்ணியார்,"உயிர்ப்பிடம் பெறாஅது, ஊண் முனிந்து ஒரு நாள்
-“செயிர்த்து எழு தெவ்வர் திறை துறை போகிய   120
-செல்வ! சேறும் எம் தொல் பதிப் பெயர்ந்து” என,
-மெல்லெனக் கிளந்தனம் ஆக, “வல்லே
-அகறிரோ எம் ஆயம் விட்டு?” என,
-சிரறியவன் போல் செயிர்த்த நோக்கமொடு,
-“துடி அடி அன்ன தூங்கு நடைக் குழவியொடு   125
-பிடி புணர் வேழம் பெட்டவை கொள்க!” எனத்
-தன் அறி அளவையின் தரத்தர, யானும்,
-என் அறி அளவையின் வேண்டுவ முகந்துகொண்டு,
-இன்மை தீர வந்தனென் வென்வேல்(119 – 129)
-","Paadaan Thinai Bard who tries to Return to His Town
-One day, I said to him softly,
+13.0,முடத்தாமக் கண்ணியார்,"உயிர்ப்பிடம் பெறாஅது ஊண் முனிந்து ஒரு நாள்
+செயிர்த்து எழு தெவ்வர் திறை துறை போகிய   
+செல்வ சேறும் எம் தொல் பதிப் பெயர்ந்து என
+மெல்லெனக் கிளந்தனம் ஆக வல்லே
+அகறிரோ எம் ஆயம் விட்டு என
+சிரறியவன் போல் செயிர்த்த நோக்கமொடு
+துடி அடி அன்ன தூங்கு நடைக் குழவியொடு   
+பிடி புணர் வேழம் பெட்டவை கொள்க எனத்
+தன் அறி அளவையின் தரத்தர யானும்
+என் அறி அளவையின் வேண்டுவ முகந்துகொண்டு
+இன்மை தீர வந்தனென் வென்வேல் – 
+","One day, I said to him softly,
 your enemies rising up with faults!  We are
 leaving for our ancient town.”  He asked me,
 in anger causing us sorrow.
@@ -369,32 +346,30 @@ along with calves with swaying walks, and bade us
 to take what we desired.  He also showered lots of
 gifts again and again.  I took what I needed
 and came away, thus ending my poverty.
-","  துறை போகிய (121) – பொ. வே. சோமசுந்தரனார் உரை – திறை கோடற்குரிய கூறுபாடுகள்.  பகை மன்னரின் தகுதிகளை அறிந்து பொருந்துமாற்றால் கோடலும் இன்னின்ன அரசர்பால் இன்னன்ன பொருள் கோடற்பாற்றெனத் தெளிதலும் பிறவும் என்க..  செயிர்த்த (124) – பொ. வே. சோமசுந்தரனார் உரை – செயிர் – குற்றம், செயிர்த்து குற்றம் செய்தென்க.  செயிர்த்து சினந்து எனின் ஈண்டுச் சிறவாமை உணர்க.  குழவி (125) – யானையும் குதிரையும் கழுதையும் கடமையும் மானொடு ஐந்தும் கன்று எனற்கு உரிய.  எருமையும் மரையும் வரையார் ஆண்டே.  கவரியும் கராமும் நிகர் அவற்றுள்ளே.  ஒட்டகம் அவற்றொடு ஒரு வழி நிலையும்.  குஞ்சரம் பெறுமே குழவிப் பெயர்க்கொடை.  ஆவும் எருமையும் அது சொலப்படுமே (தொல்காப்பியம், மரபியல் 15-20).
-","  ஒரு நாள் – one day, செயிர்த்து எழு – rising with faults, rising up with rage, தெவ்வர் – enemy, திறை துறை போகிய – received different tributes, செல்வ – O wealthy king, சேறும் எம் – we will leave, தொல் பதிப் பெயர்ந்து – leave for our ancient town, என – thus, மெல் என கிளந்தனம் ஆக – since we said slowly, வல்லே அகறிரோ எம் ஆயம் விட்டு – are you leaving so soon leaving my family/clan, என சிரறியவன் போல் – like he was angry, செயிர்த்த நோக்கமொடு – with anger, with sorrow-causing looks, துடி அடி அன்ன – feet like thudi drum, தூங்கு நடை – swaying walk, குழவியொடு – with calves, பிடி புணர் வேழம் – male elephants that united with their females, பெட்டவை – what I desired, கொள்க என – take them, தன் அறி அளவையின் – to his capacity, தரத்தர – gave again and again, யானும் – me, என் அறி அளவையின் வேண்டுவ – what I desired to my knowledge, முகந்துகொண்டு – took them, இன்மை தீர வந்தனென் – I came away ending my poverty
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) தம்மூர் செல்ல முனைந்த பொருநன்
+","துறை போகிய (121) – பொ. வே. சோமசுந்தரனார் உரை – திறை கோடற்குரிய கூறுபாடுகள்.  பகை மன்னரின் தகுதிகளை அறிந்து பொருந்துமாற்றால் கோடலும் இன்னின்ன அரசர்பால் இன்னன்ன பொருள் கோடற்பாற்றெனத் தெளிதலும் பிறவும் என்க..  செயிர்த்த (124) – பொ. வே. சோமசுந்தரனார் உரை – செயிர் – குற்றம், செயிர்த்து குற்றம் செய்தென்க.  செயிர்த்து சினந்து எனின் ஈண்டுச் சிறவாமை உணர்க.  குழவி (125) – யானையும் குதிரையும் கழுதையும் கடமையும் மானொடு ஐந்தும் கன்று எனற்கு உரிய.  எருமையும் மரையும் வரையார் ஆண்டே.  கவரியும் கராமும் நிகர் அவற்றுள்ளே.  ஒட்டகம் அவற்றொடு ஒரு வழி நிலையும்.  குஞ்சரம் பெறுமே குழவிப் பெயர்க்கொடை.  ஆவும் எருமையும் அது சொலப்படுமே (தொல்காப்பியம், மரபியல் 15-20).","ஒரு நாள் – one day, செயிர்த்து எழு – rising with faults, rising up with rage, தெவ்வர் – enemy, திறை துறை போகிய – received different tributes, செல்வ – O wealthy king, சேறும் எம் – we will leave, தொல் பதிப் பெயர்ந்து – leave for our ancient town, என – thus, மெல் என கிளந்தனம் ஆக – since we said slowly, வல்லே அகறிரோ எம் ஆயம் விட்டு – are you leaving so soon leaving my family/clan, என சிரறியவன் போல் – like he was angry, செயிர்த்த நோக்கமொடு – with anger, with sorrow-causing looks, துடி அடி அன்ன – feet like thudi drum, தூங்கு நடை – swaying walk, குழவியொடு – with calves, பிடி புணர் வேழம் – male elephants that united with their females, பெட்டவை – what I desired, கொள்க என – take them, தன் அறி அளவையின் – to his capacity, தரத்தர – gave again and again, யானும் – me, என் அறி அளவையின் வேண்டுவ – what I desired to my knowledge, முகந்துகொண்டு – took them, இன்மை தீர வந்தனென் – I came away ending my poverty", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) தம்மூர் செல்ல முனைந்த பொருநன்
+","Paadaan Thinai Bard who tries to Return to His Town
 "
 14.0,முடத்தாமக் கண்ணியார்,"இன்மை தீர வந்தனென் வென்வேல்
-உருவப் பஃறேர் இளையோன் சிறுவன்   130
-முருகன் சீற்றத்து உருகெழு குருசில்,
-தாய் வயிற்றிருந்து தாயம் எய்தி,
+உருவப் பஃறேர் இளையோன் சிறுவன்   
+முருகன் சீற்றத்து உருகெழு குருசில்
+தாய் வயிற்றிருந்து தாயம் எய்தி
 எய்யாத் தெவ்வர் ஏவல் கேட்பச்
 செய்யார் தேஎம் தெருமரல் கலிப்பப்
-பவ்வ மீமிசைப் பகல் கதிர் பரப்பி,   135
+பவ்வ மீமிசைப் பகல் கதிர் பரப்பி   
 வெவ்வெஞ் செல்வன் விசும்பு படர்ந்தாங்கு
 பிறந்து தவழ் கற்றதன் தொட்டுச் சிறந்த நல்
-நாடு செகிற் கொண்டு நாள்தொறும் வளர்ப்ப,
+நாடு செகிற் கொண்டு நாள்தொறும் வளர்ப்ப
 ஆளி நன் மான் அணங்குடைக் குருளை
-மீளி மொய்ம்பின் மிகு வலி செருக்கி   140
-முலைக் கோள் விடாஅ மாத்திரை, ஞெரேரென
-தலைக் கோள் வேட்டம் களிறு அட்டாங்கு,
+மீளி மொய்ம்பின் மிகு வலி செருக்கி   
+முலைக் கோள் விடாஅ மாத்திரை ஞெரேரென
+தலைக் கோள் வேட்டம் களிறு அட்டாங்கு
 இரும் பனம் போந்தைத் தோடும் கருஞ்சினை
-அர வாய் வேம்பின் அம் குழைத் தெரியலும்,
-ஓங்கு இருஞ் சென்னி மேம்பட மிலைந்த   145
-இரு பெரு வேந்தரும் ஒரு களத்து அவிய,
+அர வாய் வேம்பின் அம் குழைத் தெரியலும்
+ஓங்கு இருஞ் சென்னி மேம்பட மிலைந்த   
+இரு பெரு வேந்தரும் ஒரு களத்து அவிய
 வெண்ணித் தாக்கிய வெருவரு நோன் தாள்
-கண் ஆர் கண்ணிக் கரிகால் வளவன், (129 – 148)
-","Paadaan Thinai The Greatness of King Karikālan
-As a young son of Ilanchēt Chenni owning
+கண் ஆர் கண்ணிக் கரிகால் வளவன்  – 
+","As a young son of Ilanchēt Chenni owning
 victorious spears and many fine chariots,
 King Karikālan was fierce in appearance
 like angry Murukan.
@@ -416,41 +391,39 @@ at Venni – Pāndiyan wearing a strand braided with
 beautiful, tender, saw-edged leaves of neem with
 black branches, and Chēran wearing a tender
 palmyra frond strand, on their lifted, large heads.
-","  The word உருவ could go with the king, meaning ‘handsome’, or with the chariots as ‘fine’.  Scholars have interpreted it both ways.  Karikālan beat a Pāndiyan king, Chēramān Perunchēralāthan and eleven Vēlirs at the Venni battlefield in the Chōla country – காய்சின மொய்ம்பின் பெரும் பெயர்க் கரிகால் ஆர்கலி நறவின் வெண்ணி வாயில் சீர் கெழு மன்னர் மறலிய ஞாட்பின் இமிழிசை முரசம் பொரு களத்து ஒழியப் பதினொரு வேளிரொடு வேந்தர் சாய (அகநானூறு 246).  There are references to Venni battle in Akanānūru 55, 246, Puranānūru 65, 66 and Porunarātruppadai 147.  Natrinai 390 has a reference to Venni town belonging to Chōla king Killi.  There are references to Āli in Akanānūru 78, 252, 381, Kurinjippāttu 252, Natrinai 205, Puranānūru 207 and Porunarātruppadai 139.  It could be a lion, a mythical animal or an Indian striped hyena which is a fierce scavenger.  நற்றிணை 205 – ஆளி நன்மான் வேட்டு எழு கோள் உகிர்ப் பூம்பொறி உழுவை தொலைச்சிய வைந் நுதி ஏந்து வெண்கோட்டு வயக் களிறு இழுக்கும்.  ஆளி (140) – பொ. வே. சோமசுந்தரனார் உரை – அரிமா, அரிமாப் போன்ற வேறொரு விலங்கென எண்ணவும் இடமுள்ளது.
-","  வென் வேல் – victorious spears, உருவ – lovely, fine, handsome, பஃறேர் – many chariots (பல்தேர், லகர மெய் ஆய்தமாய்த்  திரிந்தது), இளையோன் சிறுவன் – young son (of Ilanchēt Chenni), முருகற் சீற்றத்து – angry like Murukan, உருகெழு குருசில் – leader/prince with fierce appearance, தாய் வயிற்றிருந்து தாயம் எய்தி – obtained rights to the throne in his mother’s stomach, எய்யாத் தெவ்வர் – enemies who are unaware (at first), ஏவல் கேட்ப – listened to his command (later), செய்யார் – those who did not do that, தேஎம் தெருமரல் கலிப்ப – their countries struggled in great pain (தேஎம் – இன்னிசை அளபெடை), பவ்வ மீமிசை – over the ocean (மீமிசை – ஒருபொருட் பன்மொழி), பகல் கதிர் பரப்பி – spread their rays during the day, வெவ்வெஞ் செல்வன் – very hot sun that is desired by all, விசும்பு படர்ந்தாங்கு – like how it moved on the sky, பிறந்து தவழ் கற்றதன் தொட்டு – since he learned starting from his birth and crawling days, சிறந்த நல் நாடு – fine splendid county, செகிற் கொண்டு – lifting on his shoulders, நாள்தொறும் – every day, வளர்ப்ப – causing growth, taking care, ஆளி நன் மான் அணங்குடைக் குருளை – like the fierce cub of a fine Āli, lion, hyena, a mythical animal, மீளி மொய்ம்பின் – with great strength, மிகு வலி – great sorrow, செருக்கி – with pride, with arrogance, முலைக் கோள் விடாஅ – not letting go of feeding breasts, மாத்திரை – winking of an eye, ஞெரேர் என – rapidly, தலைக்கோள் வேட்டம் – first hunting, களிறு அட்டாங்கு – like how it killed an elephant, இரும் பனம் போந்தைத் தோடும் – like one wearing a garland made from the tender frond of a palmyra tree (Cheran) (பனம் போந்தை – இருபெயரொட்டு), கருஞ்சினை – black branches, அர வாய் வேம்பின் – of neem trees with leaves with edges like saw edges, அம் குழை – beautiful sprouts, தெரியலும் – garlands, ஓங்கிருஞ் சென்னி – lifted big heads, மேம்பட – to be splendid, மிலைந்த – wearing splendidly, இரு பெரு வேந்தரும் – the two great kings, ஒரு களத்து – in one battlefield, அவிய – ruined, வெண்ணித் தாக்கிய – attacked them at Venni, வெருவரு – fierce, நோன் தாள் – strong efforts, கண் ஆர் – pretty to eyes, கண்ணி – garland, கரிகால் வளவன் – King Karikāl Valavan
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) கரிகாலனின் சிறப்புகள்
+","The word உருவ could go with the king, meaning ‘handsome’, or with the chariots as ‘fine’.  Scholars have interpreted it both ways.  Karikālan beat a Pāndiyan king, Chēramān Perunchēralāthan and eleven Vēlirs at the Venni battlefield in the Chōla country – காய்சின மொய்ம்பின் பெரும் பெயர்க் கரிகால் ஆர்கலி நறவின் வெண்ணி வாயில் சீர் கெழு மன்னர் மறலிய ஞாட்பின் இமிழிசை முரசம் பொரு களத்து ஒழியப் பதினொரு வேளிரொடு வேந்தர் சாய (அகநானூறு 246).  There are references to Venni battle in Akanānūru 55, 246, Puranānūru 65, 66 and Porunarātruppadai 147.  Natrinai 390 has a reference to Venni town belonging to Chōla king Killi.  There are references to Āli in Akanānūru 78, 252, 381, Kurinjippāttu 252, Natrinai 205, Puranānūru 207 and Porunarātruppadai 139.  It could be a lion, a mythical animal or an Indian striped hyena which is a fierce scavenger.  நற்றிணை 205 – ஆளி நன்மான் வேட்டு எழு கோள் உகிர்ப் பூம்பொறி உழுவை தொலைச்சிய வைந் நுதி ஏந்து வெண்கோட்டு வயக் களிறு இழுக்கும்.  ஆளி (140) – பொ. வே. சோமசுந்தரனார் உரை – அரிமா, அரிமாப் போன்ற வேறொரு விலங்கென எண்ணவும் இடமுள்ளது.","வென் வேல் – victorious spears, உருவ – lovely, fine, handsome, பஃறேர் – many chariots (பல்தேர், லகர மெய் ஆய்தமாய்த்  திரிந்தது), இளையோன் சிறுவன் – young son (of Ilanchēt Chenni), முருகற் சீற்றத்து – angry like Murukan, உருகெழு குருசில் – leader/prince with fierce appearance, தாய் வயிற்றிருந்து தாயம் எய்தி – obtained rights to the throne in his mother’s stomach, எய்யாத் தெவ்வர் – enemies who are unaware (at first), ஏவல் கேட்ப – listened to his command (later), செய்யார் – those who did not do that, தேஎம் தெருமரல் கலிப்ப – their countries struggled in great pain (தேஎம் – இன்னிசை அளபெடை), பவ்வ மீமிசை – over the ocean (மீமிசை – ஒருபொருட் பன்மொழி), பகல் கதிர் பரப்பி – spread their rays during the day, வெவ்வெஞ் செல்வன் – very hot sun that is desired by all, விசும்பு படர்ந்தாங்கு – like how it moved on the sky, பிறந்து தவழ் கற்றதன் தொட்டு – since he learned starting from his birth and crawling days, சிறந்த நல் நாடு – fine splendid county, செகிற் கொண்டு – lifting on his shoulders, நாள்தொறும் – every day, வளர்ப்ப – causing growth, taking care, ஆளி நன் மான் அணங்குடைக் குருளை – like the fierce cub of a fine Āli, lion, hyena, a mythical animal, மீளி மொய்ம்பின் – with great strength, மிகு வலி – great sorrow, செருக்கி – with pride, with arrogance, முலைக் கோள் விடாஅ – not letting go of feeding breasts, மாத்திரை – winking of an eye, ஞெரேர் என – rapidly, தலைக்கோள் வேட்டம் – first hunting, களிறு அட்டாங்கு – like how it killed an elephant, இரும் பனம் போந்தைத் தோடும் – like one wearing a garland made from the tender frond of a palmyra tree (Cheran) (பனம் போந்தை – இருபெயரொட்டு), கருஞ்சினை – black branches, அர வாய் வேம்பின் – of neem trees with leaves with edges like saw edges, அம் குழை – beautiful sprouts, தெரியலும் – garlands, ஓங்கிருஞ் சென்னி – lifted big heads, மேம்பட – to be splendid, மிலைந்த – wearing splendidly, இரு பெரு வேந்தரும் – the two great kings, ஒரு களத்து – in one battlefield, அவிய – ruined, வெண்ணித் தாக்கிய – attacked them at Venni, வெருவரு – fierce, நோன் தாள் – strong efforts, கண் ஆர் – pretty to eyes, கண்ணி – garland, கரிகால் வளவன் – King Karikāl Valavan", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) கரிகாலனின் சிறப்புகள்
+","Paadaan Thinai The Greatness of King Karikālan
 "
 15.0,முடத்தாமக் கண்ணியார்,"தாள் நிழல் மருங்கின் அணுகுபு குறுகித்
-தொழுது முன் நிற்குவிர் ஆயின், பழுது இன்று,  150
-ஈற்று ஆ விருப்பின் போற்றுபு நோக்கி, நும்
-கையது கேளா அளவை, ஒய் எனப்
+தொழுது முன் நிற்குவிர் ஆயின் பழுது இன்று  
+ஈற்று ஆ விருப்பின் போற்றுபு நோக்கி நும்
+கையது கேளா அளவை ஒய் எனப்
 பாசி வேரின் மாசொடு குறைந்த
 துன்னல் சிதாஅர் நீக்கித் தூய
-கொட்டைக் கரைய பட்டுடை நல்கிப்,   155
+கொட்டைக் கரைய பட்டுடை நல்கிப்   
 பெறல் அருங்கலத்தில் பெட்டாங்கு உண்க எனப்
-பூக்கமழ் தேறல் வாக்குபு தரத்தர,
-வைகல் வைகல் கைகவி பருகி,
+பூக்கமழ் தேறல் வாக்குபு தரத்தர
+வைகல் வைகல் கைகவி பருகி
 எரி அகைந்தன்ன ஏடு இல் தாமரை
-சுரி இரும் பித்தை பொலியச் சூட்டி,   160
+சுரி இரும் பித்தை பொலியச் சூட்டி   
 நூலின் வலவா நுணங்கு அரில் மாலை
 வால் ஒளி முத்தமொடு பாடினி அணியக்
 கோட்டின் செய்த கொடுஞ்சி நெடுந்தேர்
-ஊட்டு உளை துயல்வர, ஓரி நுடங்கப்
-பால் புரை புரவி நால்கு உடன் பூட்டிக்   165
+ஊட்டு உளை துயல்வர ஓரி நுடங்கப்
+பால் புரை புரவி நால்கு உடன் பூட்டிக்   
 காலின் ஏழ் அடிப் பின் சென்று கோலின்
-தாறு களைந்து, ஏறு என்று ஏற்றி, வீறு பெறு
-பேர்யாழ் முறையுளிக் கழிப்பி, நீர்வாய்த்
+தாறு களைந்து ஏறு என்று ஏற்றி வீறு பெறு
+பேர்யாழ் முறையுளிக் கழிப்பி நீர்வாய்த்
 தண் பணை தழீஇய தளரா இருக்கை
-நன் பல் ஊர நாட்டொடு, நன் பல்   170
-வெரூஉப் பறை நுவலும் பரூஉப் பெருந்தடக்கை,
+நன் பல் ஊர நாட்டொடு நன் பல்   
+வெரூஉப் பறை நுவலும் பரூஉப் பெருந்தடக்கை
 வெருவரு செலவின் வெகுளி வேழம்
 தரவு உடைத் தங்கல் ஓவிலனே வரவிடைப்
 பெற்றவை பிறர் பிறர்க்கு ஆர்த்தித் தெற்றெனச்
-செலவு கடைக்கூட்டுதிர் ஆயின், பல புலந்து,   175
+செலவு கடைக்கூட்டுதிர் ஆயின் பல புலந்து   
 நில்லா உலகத்து நிலைமை தூக்கி
-செல்க என விடுக்குவன் அல்லன் ஒல்லெனத்(149 – 177)
-","Paadaan Thinai Bard who Guides
-If you get close to his feet, worship him
+செல்க என விடுக்குவன் அல்லன் ஒல்லெனத் – 
+","If you get close to his feet, worship him
 and stand there.  He will look at you with
 tenderness, like a cow that looks at her
 young calf.
@@ -483,42 +456,40 @@ with others and decide to leave, he will hate it.
 He is not one to analyze the situation in this
 unstable world and give you permission
 to leave.
-","  பழுது (150) –  பொ. வே. சோமசுந்தரனார் உரை – பழுது – குற்றம், ஈண்டு ஆகுபெயராய் வறுமையைக் குறித்து நின்றது.  எரி அகைந்தன்ன ஏடு இல் தாமரை (159) – நெருப்புத் தழைத்தாற் போன்ற ஒருவன் செய்ததன்றித் தனக்கென இதழ் இல்லாத தாமரை, ஏடு இல் தாமரை – வெளிப்படை பொற்தாமரைக்கு, flame-like lotus blossoms that are created which do not have its own petals, implied that they are gold lotus flowers.  காலின் ஏழ் அடி பின் சென்று (166) – உயர்குடிப் பிறந்தோர் நண்பர் பெரியோர் முதலியோரை வரவேற்கும்போதும் வழிவிடும்போதும் நிரலே ஏழடி எதிர் சென்று வரவேற்றலும், ஏழடி பின் சென்று வழிவிடுதலும் ஆகிய மரபினைக் குறித்து நின்றது. தட – தடவும் கயவும் நளியும் பெருமை (தொல்காப்பியம், உரியியல் 24).
-","  தாள் நிழல் மருங்கின் – near the shade of his feet, at the shade of his feet, அணுகுபு குறுகி – getting close to him, தொழுது முன் – holding your palms together and worshipping him, நிற்குவிர் ஆயின் – if you stand in this manner, பழுது இன்று – to remove your poverty, ஈற்று ஆ விருப்பின் – like the desire of a new mother cow’s desire for her calf (ஈற்று – தொழிற்பெயர் , விருப்பின் – இன் ஒப்புப்பொருளில் வந்தது, ஐந்தாம் வேற்றுமை உருபு), போற்றுபு நோக்கி – looking at you with kindness, நும் கையது கேளா அளவை – even before listening to the music from the instruments in your hand, ஒய் என – rapidly, பாசி வேரின் – with roots of moss, lichen or duckweeds, மாசொடு – with dirt, குறைந்த – few, துன்னல் – stitches, சிதாஅர் –  patched rag, torn clothes (சிதாஅர் – இசை நிறை அளபெடை), நீக்கி removed, தூய – pure, கொட்டைக் கரைய – with the ends of the clothes tied with knots, பட்டுடை நல்கி – giving silk clothes, பெறல் அருங்கலத்தில் – in precious bowls, பெட்டாங்கு – according to desire, உண்க  – may you eat, என – thus, பூக்கமழ் தேறல் – flower fragrant alcohol, வாக்குபு தரத் தர – poured again and again, வைகல் வைகல் – each and every day, கை கவி – bending the hands (to block), பருகி – drinking, எரி அகந்தன்ன – like flame burning, ஏடு இல் தாமரை – lotus without petals (gold lotus flowers), சுரி இரும் பித்தை – wavy dark hair, wavy thick hair (பித்தை – male hair), பொலியச் சூட்டி – wearing splendidly, wearing beautifully, நூலின் வலவா – not tied with threads, strung with gold, நுணங்கு அரில் – finely woven, மாலை – garland, வால் – white, ஒளி – white bright, முத்தமொடு – with pearls, பாடினி – female musician, அணிய – to wear, கோட்டின் செய்த – made from ivory, கொடுஞ்சி – lotus shaped ornament, நெடுந்தேர் – tall chariots, ஊட்டு உளை – dyed horse tufts, துயல்வர – moving, ஓரி – tufts, நுடங்க – swaying, பால் புரை – milk-like (புரை – உவம உருபு, a comparison word), புரவி – horses, நால்கு உடன் பூட்டி – yoked four of them (நால்கு – நான்கு என்னும் எண்ணுப்பெயர் திரிசொல்), காலின் ஏழ் அடி பின் சென்று – walking behind seven steps, கோலின் தாறு களைந்து – removing the sharp ends of the goad, ஏறு என்று ஏற்றி – he made us climb, வீறு பெறு – with splendor, பேர் யாழ் – large lutes, முறையுளி – according to the right method, கழிப்பி – sending us off, நீர்வாய்த் தண் பணை– cool agriculture land with water (நீர்வாய் = நீர் பொருந்திய), குளிர்ச்சியான மருத நிலம் தழீஇய – embracing cool agricultural lands (தழீஇய – சொல்லிசை அளபெடை), தளரா இருக்கை – prosperous places, established places, நன் பல் – good many, ஊர நாட்டொடு – with land with towns, நன் பல் – fine many, வெரூஉப்பறை – fear causing parai drums (வெரூஉ – இன்னிசை அளபெடை), நுவலும் – they roar, படூஉப் பெருந் தடக்கை – huge curved trunks (படூஉ – இன்னிசை அளபெடை), வெருவரு செலவின் – fierce when they walk, வெகுளி வேழம் – angry elephants, தரவு உடை – charitable giving, தங்கல் – stable, without hindrances, தொய்வு இன்றி – without relaxing, ஓவிலனே – he is one who does not stop giving (ஏகாரம் – அசைநிலை, an expletive), வரவிடைப் பெற்றவை – what you obtained, பிறர் பிறர்க்கு ஆர்த்தி – giving the gifts you got to many others, தெற்றென – rapidly, செலவு கடைக்கூட்டுதிர் ஆயின் – if you decide to leave, பல புலந்து – saddened a lot, hating it a lot, நில்லா உலகத்து – in the unstable world, நிலைமை தூக்கி – analyzing the situation, செல்க என விடுக்குவன் அல்லன் – he is not one who will say ‘may you leave’ and let you go
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) ஆற்றுப்படுத்தும் பொருநன்
+","பழுது (150) –  பொ. வே. சோமசுந்தரனார் உரை – பழுது – குற்றம், ஈண்டு ஆகுபெயராய் வறுமையைக் குறித்து நின்றது.  எரி அகைந்தன்ன ஏடு இல் தாமரை (159) – நெருப்புத் தழைத்தாற் போன்ற ஒருவன் செய்ததன்றித் தனக்கென இதழ் இல்லாத தாமரை, ஏடு இல் தாமரை – வெளிப்படை பொற்தாமரைக்கு, flame-like lotus blossoms that are created which do not have its own petals, implied that they are gold lotus flowers.  காலின் ஏழ் அடி பின் சென்று (166) – உயர்குடிப் பிறந்தோர் நண்பர் பெரியோர் முதலியோரை வரவேற்கும்போதும் வழிவிடும்போதும் நிரலே ஏழடி எதிர் சென்று வரவேற்றலும், ஏழடி பின் சென்று வழிவிடுதலும் ஆகிய மரபினைக் குறித்து நின்றது. தட – தடவும் கயவும் நளியும் பெருமை (தொல்காப்பியம், உரியியல் 24).","தாள் நிழல் மருங்கின் – near the shade of his feet, at the shade of his feet, அணுகுபு குறுகி – getting close to him, தொழுது முன் – holding your palms together and worshipping him, நிற்குவிர் ஆயின் – if you stand in this manner, பழுது இன்று – to remove your poverty, ஈற்று ஆ விருப்பின் – like the desire of a new mother cow’s desire for her calf (ஈற்று – தொழிற்பெயர் , விருப்பின் – இன் ஒப்புப்பொருளில் வந்தது, ஐந்தாம் வேற்றுமை உருபு), போற்றுபு நோக்கி – looking at you with kindness, நும் கையது கேளா அளவை – even before listening to the music from the instruments in your hand, ஒய் என – rapidly, பாசி வேரின் – with roots of moss, lichen or duckweeds, மாசொடு – with dirt, குறைந்த – few, துன்னல் – stitches, சிதாஅர் –  patched rag, torn clothes (சிதாஅர் – இசை நிறை அளபெடை), நீக்கி removed, தூய – pure, கொட்டைக் கரைய – with the ends of the clothes tied with knots, பட்டுடை நல்கி – giving silk clothes, பெறல் அருங்கலத்தில் – in precious bowls, பெட்டாங்கு – according to desire, உண்க  – may you eat, என – thus, பூக்கமழ் தேறல் – flower fragrant alcohol, வாக்குபு தரத் தர – poured again and again, வைகல் வைகல் – each and every day, கை கவி – bending the hands (to block), பருகி – drinking, எரி அகந்தன்ன – like flame burning, ஏடு இல் தாமரை – lotus without petals (gold lotus flowers), சுரி இரும் பித்தை – wavy dark hair, wavy thick hair (பித்தை – male hair), பொலியச் சூட்டி – wearing splendidly, wearing beautifully, நூலின் வலவா – not tied with threads, strung with gold, நுணங்கு அரில் – finely woven, மாலை – garland, வால் – white, ஒளி – white bright, முத்தமொடு – with pearls, பாடினி – female musician, அணிய – to wear, கோட்டின் செய்த – made from ivory, கொடுஞ்சி – lotus shaped ornament, நெடுந்தேர் – tall chariots, ஊட்டு உளை – dyed horse tufts, துயல்வர – moving, ஓரி – tufts, நுடங்க – swaying, பால் புரை – milk-like (புரை – உவம உருபு, a comparison word), புரவி – horses, நால்கு உடன் பூட்டி – yoked four of them (நால்கு – நான்கு என்னும் எண்ணுப்பெயர் திரிசொல்), காலின் ஏழ் அடி பின் சென்று – walking behind seven steps, கோலின் தாறு களைந்து – removing the sharp ends of the goad, ஏறு என்று ஏற்றி – he made us climb, வீறு பெறு – with splendor, பேர் யாழ் – large lutes, முறையுளி – according to the right method, கழிப்பி – sending us off, நீர்வாய்த் தண் பணை– cool agriculture land with water (நீர்வாய் = நீர் பொருந்திய), குளிர்ச்சியான மருத நிலம் தழீஇய – embracing cool agricultural lands (தழீஇய – சொல்லிசை அளபெடை), தளரா இருக்கை – prosperous places, established places, நன் பல் – good many, ஊர நாட்டொடு – with land with towns, நன் பல் – fine many, வெரூஉப்பறை – fear causing parai drums (வெரூஉ – இன்னிசை அளபெடை), நுவலும் – they roar, படூஉப் பெருந் தடக்கை – huge curved trunks (படூஉ – இன்னிசை அளபெடை), வெருவரு செலவின் – fierce when they walk, வெகுளி வேழம் – angry elephants, தரவு உடை – charitable giving, தங்கல் – stable, without hindrances, தொய்வு இன்றி – without relaxing, ஓவிலனே – he is one who does not stop giving (ஏகாரம் – அசைநிலை, an expletive), வரவிடைப் பெற்றவை – what you obtained, பிறர் பிறர்க்கு ஆர்த்தி – giving the gifts you got to many others, தெற்றென – rapidly, செலவு கடைக்கூட்டுதிர் ஆயின் – if you decide to leave, பல புலந்து – saddened a lot, hating it a lot, நில்லா உலகத்து – in the unstable world, நிலைமை தூக்கி – analyzing the situation, செல்க என விடுக்குவன் அல்லன் – he is not one who will say ‘may you leave’ and let you go", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) ஆற்றுப்படுத்தும் பொருநன்
+","Paadaan Thinai Bard who Guides
 "
 16.0,முடத்தாமக் கண்ணியார்,"செல்க என விடுக்குவன் அல்லன் ஒல்லெனத்
 திரை பிறழிய இரும் பௌவத்துக்
-கரை சூழ்ந்த அகன் கிடக்கை,
-மா மாவின் வயின் வயின் நெல்,   180
+கரை சூழ்ந்த அகன் கிடக்கை
+மா மாவின் வயின் வயின் நெல்   
 தாழ் தாழைத் தண் தண்டலைக்
-கூடு கெழீஇய குடிவயினான்,
+கூடு கெழீஇய குடிவயினான்
 செஞ்சோற்ற பலி மாந்திய
-கருங்காக்கை கவவு முனையின்,
-மனை நொச்சி நிழல் ஆங்கண்,   185
+கருங்காக்கை கவவு முனையின்
+மனை நொச்சி நிழல் ஆங்கண்   
 ஈற்று யாமை தன் பார்ப்பு ஓம்பவும்
-இளையோர் வண்டல் அயரவும், முதியோர்
-அவை புகு பொழுதில் தம் பகை முரண் செலவும்,
-முடக்காஞ்சிச் செம்மருதின்,
-மடக்கண்ண மயில் ஆல   190
+இளையோர் வண்டல் அயரவும் முதியோர்
+அவை புகு பொழுதில் தம் பகை முரண் செலவும்
+முடக்காஞ்சிச் செம்மருதின்
+மடக்கண்ண மயில் ஆல   
 பைம்பாகற் பழம் துணரிய
-செஞ்சுளைய கனி மாந்தி,
+செஞ்சுளைய கனி மாந்தி
 அறைக் கரும்பின் அரி நெல்லின்
-இனக் களமர் இசை பெருக,
-வறள் அடும்பின் இவர் பகன்றைத்   195
+இனக் களமர் இசை பெருக
+வறள் அடும்பின் இவர் பகன்றைத்   
 தளிர்ப் புன்கின் தாழ் காவின்
 நனை ஞாழலொடு மரம் குழீஇய
-அவண் முனையின், அகன்று மாறி
-அவிழ் தளவின் அகன் தோன்றி,
-நகு முல்லை உகு தேறு வீ   200
+அவண் முனையின் அகன்று மாறி
+அவிழ் தளவின் அகன் தோன்றி
+நகு முல்லை உகு தேறு வீ   
 பொன் கொன்றை மணிக் காயா
-நற்புறவின் நடை முனையின்,
+நற்புறவின் நடை முனையின்
 சுற வழங்கும் இரும் பௌவத்து
 இறவு அருந்திய இன நாரை
-பூம் புன்னைச் சினைச் சேப்பின்   205
-ஓங்கு திரை ஒலி வெரீஇ, (177 – 206)
-","Paadaan Thinai Prosperity of the Chōla Country
-In the wide land near the large ocean
+பூம் புன்னைச் சினைச் சேப்பின்   
+ஓங்கு திரை ஒலி வெரீஇ  – 
+","In the wide land near the large ocean
 with loud rolling waves, surrounded
 by shores, in each mā measurement
 of land in each area, there are coconut
@@ -550,19 +521,17 @@ and flocks of storks rest on punnai
 trees with flowers after gorging on shrimp,
 and afraid of the roaring sounds of the
 tall ocean waves,
-","  மனை நொச்சி: அகநானூறு 21 – மனை இள நொச்சி, அகநானூறு 23 – மனைய தாழ்வின் நொச்சி, அகநானூறு 367 – மனை வளர் நொச்சி, நற்றிணை 246 – மனை மா நொச்சி, பொருநராற்றுப்படை 185 – மனை நொச்சி.  மா மாவின் வயின் வயின் (180) – பொ. வே. சோமசுந்தரனார் உரை – ஒரு மாநிலத்தில் ஒரு மாநிலத்தில் திடர்தோறும் திடர்தோறும், வை. மு. கோபாலகிருஷ்ணமாசாரி உரை – மா என்னும் அளவினையுடைய நிலத்தின் இடந்தோறும்.  பைம்பாகற் பழம் துணரிய செஞ்சுளைய கனி மாந்தி (191-192) – பொ. வே. சோமசுந்தரனார் உரை – சுளையை கனி என்றது பலாப்பழம் என்றவாறு.  மயில் பாகற் கனியை உண்ணுதலை பாகல் ஆர்கைப் பறைக் கண் பீலித்தோகை (அகநானூறு 15-4,5) என்றும், பைங்கொடிப் பாகற் செங்கனி நசைஇக் கான மஞ்ஞைக் கமஞ்சூல் மாப்பெடை  (அகநானூறு 177-9,10) என்றும் பிறர் கூறுமாற்றானும் அறிக.  இறா இறவு என வந்தது. ‘குறியதன் இறுதிச் சினை கெட உகரம் அறிய வருதல் செய்யுளுள் உரித்தே’ (தொல்காப்பியம், உயிர் மயங்கியல் 32).  வை. மு. கோபாலகிருஷ்ணமாசாரி உரை –  மா என்பது நூறு குழிகொண்ட நிலம் என்பர்.  இங்கு, மருத நிலத்துக் காக்கை நெய்தல் நிலத்து யாமை பார்ப்பைத் தின்னுமென்று கூறியது திணை மயக்கம்.  திணை மயக்கங் கூறுவதற்குக் காரணம் அந்நாட்டில் நால்வகை நிலங்களும் ஒன்றையொன்று அடுத்துள்ளன என்பது தோன்றுதற்கு ஆகும்.
-","  ஒல் எனத் திரை பிறழிய – with rolling waves with loud sounds, இரும் பௌவத்து கரை சூழ்ந்த – surrounded by the shores of the large ocean, அகன் கிடக்கை – wide space, மா மாவின் வயின் வயின் – land measurement of mā, in each region in all the places, நெல் – rice paddy, தாழ் தாழை – coconut with low fronds , தண் தண்டலை – cool groves, கூடு கெழீஇய குடிவயினான் – in the communities with grain silos (கெழீஇய – சொல்லிசை அளபெடை), செஞ்சோற்ற பலி – offering with red rice, மாந்திய – that ate, கருங்காக்கை – black crow, கவவு முனையின் – since it hated the contents (food), மனை நொச்சி நிழலாங்கண் – to the house nochi tree with shade, Chaste tree, Vitex leucoxylon, ஈற்று யாமை தன் –  the young ones of a tortoise, பார்ப்பு –   new hatchlings, ஓம்பவும் – protects, saves (பொ. வே. சோமசுந்தரனார் உரை – தான் பசித்த காலத்தில் தின்பதாய்ப் பாதுகாத்து வைப்பவும்), இளையோர் – youngsters, வண்டல் அயரவும் – play with sand dolls/houses, முதியோர் அவை புகு பொழுதில் – when elders enter the courts, தம் பகை முரண் – enmity and differences, செலவும் – to go, முடக்காஞ்சி – bent portia trees, பூவரச மரம், Thespesia populnea, செம் மருதின் – on a perfect marutham tree, Arjuna tree, Terminalia arjuna, மடக்கண்ண மயில் ஆல – peacocks with delicate eyes screech, பைம்பாகல் பழம் – ripe jackfruits, fresh jackfruits, துணரிய – are in clusters, செஞ்சுளைய கனி மாந்தி – eating the red segments of fruit, அறைக் கரும்பின் – of chopped sugarcane, அரி நெல்லின் – of harvested rice paddy, இனக் களமர் – farm workers who work together, இசை பெருக – loud sounds increasing, வறள் அடும்பின் – with adumpu which grows in parched land, Ipomoea pes caprae, இவர் பகன்றை – spreading pakandrai,  சிவதை, Indian jalap, Ipomaea Turpethum or Exogonium purge, தளிர்ப் புன்கின் – with punku trees with sprouts, Indian Beech, Pongamia Glabra or Pongamia Pinnata, தாழ் காவின் – in the low groves, நனை – buds, ஞாழலொடு – with cassia trees, புலிநகக்கொன்றை, Cassia sophera, Tigerclaw tree, மரம் குழீஇய – many trees together (குழீஇய – சொல்லிசை அளபெடை), அவண் முனையின் – hating to be there, அகன்று மாறி – moves away, அவிழ் தளவின் – open golden jasmine, செம்முல்லை, அகன் தோன்றி – open glory lilies, Gloriosa superba, நகு முல்லை – blossoming jasmine, laughing jasmine, bright jasmine, உகு தேறு வீ – dropped thētra flowers, Clearing nut tree flowers, Strychnos potatorum, பொன் கொன்றை – golden laburnum, மணிக் காயா – sapphire-like kāyā flowers,  Memecylon edule, நற் புறவின் நடை முனையின் – hating it in the fine grove, சுற வழங்கும் – where sharks swim (சுற – சுறா, கடைக்குறை), இரும் பௌவத்து – in the dark ocean, இறவு அருந்திய இன நாரை – flocks of storks that ate shrimp, பூம் புன்னைச் சினைச் சேப்பின் – go to rest in the punnai trees with flowers, நாகம் – Laurel Tree, Mast wood Tree, Calophyllum inophyllum, ஓங்கு திரை ஒலி வெரீஇ – afraid of the sounds of the tall waves (வெரீஇ – சொல்லிசை அளபெடை),
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) சோழ நாட்டு வளம்
+","மனை நொச்சி: அகநானூறு 21 – மனை இள நொச்சி, அகநானூறு 23 – மனைய தாழ்வின் நொச்சி, அகநானூறு 367 – மனை வளர் நொச்சி, நற்றிணை 246 – மனை மா நொச்சி, பொருநராற்றுப்படை 185 – மனை நொச்சி.  மா மாவின் வயின் வயின் (180) – பொ. வே. சோமசுந்தரனார் உரை – ஒரு மாநிலத்தில் ஒரு மாநிலத்தில் திடர்தோறும் திடர்தோறும், வை. மு. கோபாலகிருஷ்ணமாசாரி உரை – மா என்னும் அளவினையுடைய நிலத்தின் இடந்தோறும்.  பைம்பாகற் பழம் துணரிய செஞ்சுளைய கனி மாந்தி (191-192) – பொ. வே. சோமசுந்தரனார் உரை – சுளையை கனி என்றது பலாப்பழம் என்றவாறு.  மயில் பாகற் கனியை உண்ணுதலை பாகல் ஆர்கைப் பறைக் கண் பீலித்தோகை (அகநானூறு 15-4,5) என்றும், பைங்கொடிப் பாகற் செங்கனி நசைஇக் கான மஞ்ஞைக் கமஞ்சூல் மாப்பெடை  (அகநானூறு 177-9,10) என்றும் பிறர் கூறுமாற்றானும் அறிக.  இறா இறவு என வந்தது. ‘குறியதன் இறுதிச் சினை கெட உகரம் அறிய வருதல் செய்யுளுள் உரித்தே’ (தொல்காப்பியம், உயிர் மயங்கியல் 32).  வை. மு. கோபாலகிருஷ்ணமாசாரி உரை –  மா என்பது நூறு குழிகொண்ட நிலம் என்பர்.  இங்கு, மருத நிலத்துக் காக்கை நெய்தல் நிலத்து யாமை பார்ப்பைத் தின்னுமென்று கூறியது திணை மயக்கம்.  திணை மயக்கங் கூறுவதற்குக் காரணம் அந்நாட்டில் நால்வகை நிலங்களும் ஒன்றையொன்று அடுத்துள்ளன என்பது தோன்றுதற்கு ஆகும்.","ஒல் எனத் திரை பிறழிய – with rolling waves with loud sounds, இரும் பௌவத்து கரை சூழ்ந்த – surrounded by the shores of the large ocean, அகன் கிடக்கை – wide space, மா மாவின் வயின் வயின் – land measurement of mā, in each region in all the places, நெல் – rice paddy, தாழ் தாழை – coconut with low fronds , தண் தண்டலை – cool groves, கூடு கெழீஇய குடிவயினான் – in the communities with grain silos (கெழீஇய – சொல்லிசை அளபெடை), செஞ்சோற்ற பலி – offering with red rice, மாந்திய – that ate, கருங்காக்கை – black crow, கவவு முனையின் – since it hated the contents (food), மனை நொச்சி நிழலாங்கண் – to the house nochi tree with shade, Chaste tree, Vitex leucoxylon, ஈற்று யாமை தன் –  the young ones of a tortoise, பார்ப்பு –   new hatchlings, ஓம்பவும் – protects, saves (பொ. வே. சோமசுந்தரனார் உரை – தான் பசித்த காலத்தில் தின்பதாய்ப் பாதுகாத்து வைப்பவும்), இளையோர் – youngsters, வண்டல் அயரவும் – play with sand dolls/houses, முதியோர் அவை புகு பொழுதில் – when elders enter the courts, தம் பகை முரண் – enmity and differences, செலவும் – to go, முடக்காஞ்சி – bent portia trees, பூவரச மரம், Thespesia populnea, செம் மருதின் – on a perfect marutham tree, Arjuna tree, Terminalia arjuna, மடக்கண்ண மயில் ஆல – peacocks with delicate eyes screech, பைம்பாகல் பழம் – ripe jackfruits, fresh jackfruits, துணரிய – are in clusters, செஞ்சுளைய கனி மாந்தி – eating the red segments of fruit, அறைக் கரும்பின் – of chopped sugarcane, அரி நெல்லின் – of harvested rice paddy, இனக் களமர் – farm workers who work together, இசை பெருக – loud sounds increasing, வறள் அடும்பின் – with adumpu which grows in parched land, Ipomoea pes caprae, இவர் பகன்றை – spreading pakandrai,  சிவதை, Indian jalap, Ipomaea Turpethum or Exogonium purge, தளிர்ப் புன்கின் – with punku trees with sprouts, Indian Beech, Pongamia Glabra or Pongamia Pinnata, தாழ் காவின் – in the low groves, நனை – buds, ஞாழலொடு – with cassia trees, புலிநகக்கொன்றை, Cassia sophera, Tigerclaw tree, மரம் குழீஇய – many trees together (குழீஇய – சொல்லிசை அளபெடை), அவண் முனையின் – hating to be there, அகன்று மாறி – moves away, அவிழ் தளவின் – open golden jasmine, செம்முல்லை, அகன் தோன்றி – open glory lilies, Gloriosa superba, நகு முல்லை – blossoming jasmine, laughing jasmine, bright jasmine, உகு தேறு வீ – dropped thētra flowers, Clearing nut tree flowers, Strychnos potatorum, பொன் கொன்றை – golden laburnum, மணிக் காயா – sapphire-like kāyā flowers,  Memecylon edule, நற் புறவின் நடை முனையின் – hating it in the fine grove, சுற வழங்கும் – where sharks swim (சுற – சுறா, கடைக்குறை), இரும் பௌவத்து – in the dark ocean, இறவு அருந்திய இன நாரை – flocks of storks that ate shrimp, பூம் புன்னைச் சினைச் சேப்பின் – go to rest in the punnai trees with flowers, நாகம் – Laurel Tree, Mast wood Tree, Calophyllum inophyllum, ஓங்கு திரை ஒலி வெரீஇ – afraid of the sounds of the tall waves (வெரீஇ – சொல்லிசை அளபெடை),", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) சோழ நாட்டு வளம்
+","Paadaan Thinai Prosperity of the Chōla Country
 "
-17.0,முடத்தாமக் கண்ணியார்,"தீம் பெண்ணை மடல் சேப்பவும்,
-கோள் தெங்கின், குலை வாழை,
-கொழுங் காந்தள், மலர் நாகத்து,
-துடிக் குடிஞை குடிப் பாக்கத்து   210
-யாழ் வண்டின் கொளைக்கு ஏற்ப,
+17.0,முடத்தாமக் கண்ணியார்,"தீம் பெண்ணை மடல் சேப்பவும்
+கோள் தெங்கின் குலை வாழை
+கொழுங் காந்தள் மலர் நாகத்து
+துடிக் குடிஞை குடிப் பாக்கத்து   
+யாழ் வண்டின் கொளைக்கு ஏற்ப
 கலவம் விரித்த மட மஞ்ஞை
-நிலவு எக்கர்ப் பல பெயரத், (207 – 213)
-","Paadaan Thinai No Title
-they rest on the leaves of sweet palmyra
+நிலவு எக்கர்ப் பல பெயரத்  – 
+","they rest on the leaves of sweet palmyra
 trees, in a village community on the shore with
 coconut palms with clusters of nuts, banana
 trees with bunches of fruits, flourishing glory
@@ -571,20 +540,18 @@ great owl hoots in thudi drum tones, and the
 delicate peacocks spread open their feathers
 and dance on many moon-like bright sand
 dunes, to the lute-like music of bees.
-","  நிலவு மணல்: அகநானூறு 20 – நிலவு மணல், அகநானூறு 200 – நிலாவின் இலங்கு மணல் மலி மறுகில், நற்றிணை 31 – நிலவு மணல், நற்றிணை 140 – நிலவு மணல், நற்றிணை 159 – நிலவுக் குவித்தன்ன மோட்டு மணல், நற்றிணை 183 – நிலவு மணல், குறுந்தொகை 123 – நிலவுக் குவித்தன்ன வெண்மணல், கலித்தொகை 17 – வாள் நிலா ஏய்க்கும் வயங்கு ஒளி எக்கர், புறநானூறு 17 – நிலவு மணல் வியன் கானல், பொருநராற்றுப்படை 213 – நிலவு எக்கர், மதுரைக்காஞ்சி 114 – நிலவுக் கானல்.
-","  தீம் பெண்ணை மடல் சேப்பவும் – resting on the fronds of sweet palmyra, கோள் தெங்கின் – of coconut palms with clusters, குலை வாழை – bunches of bananas, கொழுங் காந்தள் – flourishing glory lilies, மலர் நாகத்து – with flowering surapunnai trees, long-leaved two-sepalled gamboge trees, or punnai trees, Laurel Tree, Mast wood Trees, Calophyllum inophyllum  according to the University of Madras Lexicon, துடிக் குடிஞை – great owl hoots like thudi drum beats, குடிப்பாக்கத்து – in the seashore village community, யாழ் வண்டின் கொளைக்கு ஏற்ப – to the lute-like music of bees, கலவம் விரித்த – spreading their feathers, the delicate peacocks, மட மஞ்ஞை நிலவு எக்கர்ப் பல பெயர – in naïve peacocks move around in many white/bright heaps of sand that are like the moon,
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) No Title
-"
-18.0,முடத்தாமக் கண்ணியார்,"தேனெய்யொடு கிழங்கு மாறியோர்,
-மீன் நெய்யொடு நறவு மறுகவும்,   215
-தீங் கரும்போடு அவல் வகுத்தோர்,
-மான் குறையொடு மது மறுகவும்,
-குறிஞ்சி பரதவர் பாட, நெய்தல்
-நறும் பூங்கண்ணி குறவர் சூட,
-கானவர் மருதம் பாட, அகவர்   220
-நீல் நிற முல்லைப் பல் திணை நுவல, (214 – 221)
+","நிலவு மணல்: அகநானூறு 20 – நிலவு மணல், அகநானூறு 200 – நிலாவின் இலங்கு மணல் மலி மறுகில், நற்றிணை 31 – நிலவு மணல், நற்றிணை 140 – நிலவு மணல், நற்றிணை 159 – நிலவுக் குவித்தன்ன மோட்டு மணல், நற்றிணை 183 – நிலவு மணல், குறுந்தொகை 123 – நிலவுக் குவித்தன்ன வெண்மணல், கலித்தொகை 17 – வாள் நிலா ஏய்க்கும் வயங்கு ஒளி எக்கர், புறநானூறு 17 – நிலவு மணல் வியன் கானல், பொருநராற்றுப்படை 213 – நிலவு எக்கர், மதுரைக்காஞ்சி 114 – நிலவுக் கானல்.","தீம் பெண்ணை மடல் சேப்பவும் – resting on the fronds of sweet palmyra, கோள் தெங்கின் – of coconut palms with clusters, குலை வாழை – bunches of bananas, கொழுங் காந்தள் – flourishing glory lilies, மலர் நாகத்து – with flowering surapunnai trees, long-leaved two-sepalled gamboge trees, or punnai trees, Laurel Tree, Mast wood Trees, Calophyllum inophyllum  according to the University of Madras Lexicon, துடிக் குடிஞை – great owl hoots like thudi drum beats, குடிப்பாக்கத்து – in the seashore village community, யாழ் வண்டின் கொளைக்கு ஏற்ப – to the lute-like music of bees, கலவம் விரித்த – spreading their feathers, the delicate peacocks, மட மஞ்ஞை நிலவு எக்கர்ப் பல பெயர – in naïve peacocks move around in many white/bright heaps of sand that are like the moon,", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) No Title
 ","Paadaan Thinai No Title
-People barter honey and yams for
+"
+18.0,முடத்தாமக் கண்ணியார்,"தேனெய்யொடு கிழங்கு மாறியோர்
+மீன் நெய்யொடு நறவு மறுகவும்   
+தீங் கரும்போடு அவல் வகுத்தோர்
+மான் குறையொடு மது மறுகவும்
+குறிஞ்சி பரதவர் பாட நெய்தல்
+நறும் பூங்கண்ணி குறவர் சூட
+கானவர் மருதம் பாட அகவர்   
+நீல் நிற முல்லைப் பல் திணை நுவல  – 
+","People barter honey and yams for
 fish oil and toddy.
 Those who sell sweet sugarcane and
 portions of flattened rice, barter for
@@ -594,22 +561,20 @@ wear waterlily flower strands from neythal
 land, forest dwellers sing in marutham
 tune and farmers sing about the many
 mullai lands with blue colored jasmine vines.
-","  Barter is mentioned in Akanānūru 60, 61, 126, 140, 245, 296, 390, Natrinai 183, Kurunthokai 221, 269, Ainkurunūru 47, Porunarātruppadai 214-215, 216-7, Pattinappālai 28-30, and Malaipadukādam 413-414.  This rare description of different thinais being mixed in this manner (218-221) is interesting – fishermen (Neythal – seashore) sing kurinji (Kurinji – mountain) melodies, mountain dwellers (Kurinji – mountain) sing marutham (Marutham – agricultural land), and farmers from the marutham land sing Mullai (Mullai – woodland) melodies.  தேன் நெய்யொடு (214) – பொ. வே. சோமசுந்தரனார் உரை –  தேனெய், இருபெயரொட்டுப் பண்புத் தொகை, தேனாகிய நெய் என்க,  வை. மு. கோபாலகிருஷ்ணமாசாரி உரை – நெய்யென்று தேனை வழங்கப்படுவதனை ‘தேனெய் தோய்ந்தன’ என்ற சீவக சிந்தாமணியாலும் தேனை வடிப்பதற்கு உதவும் பன்னாடையை நெய்யரி என்று வழங்குவதாலும் அறியலாம்.
-","  தேன் நெய்யொடு கிழங்கு மாறியோர் – those who barter honey and yams (valli yams), மீன் நெய்யொடு நறவு – toddy with fish oil (நறவு – நறா நற என்றாகி உகரம் ஏற்றது), மறுகவும் – they go and barter, தீங்கரும்போடு – with sweet sugarcane, அவல் வகுத்தோர் – those who sell flattened rice in portions, மான் குறையொடு – with deer meat, மது மறுகவும் – they go and barter liquor, குறிஞ்சி பரதவர் பாட – fishermen sing Kurinji tune, நெய்தல் நறும் பூங்கண்ணி குறவர் சூட – mountain dwellers wear fragrant waterlily garlands, கானவர் மருதம் பாட – those in woodlands sing Marutham tune, அகவர் நீல் நிற முல்லைப் பல் திணை நுவல – farmers in agricultural lands sing songs of the many woodlands with blue colored jasmine vines (பொ வே. சோமசுந்தரனார் உரை –  முல்லை என்பதற்கு முல்லை நிலம் எனப் பொருள்கொண்டு முல்லை நிலம் காடு நிறைந்ததாகலின் நீனிறக்காடெனக் கொள்ளலுமாம்) (நீல் – கடைக்குறை),
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) No Title
-"
-19.0,முடத்தாமக் கண்ணியார்,"கானக் கோழி கதிர் குத்த,
-மனைக் கோழி தினைக் கவர,
-வரை மந்தி கழி மூழ்க,
-கழி நாரை வரை இறுப்ப,  225
-தண் வைப்பின் நால் நாடு குழீஇ,
-மண் மருங்கினான் மறு இன்றி,
-ஒரு குடையான் ஒன்று கூற,
-பெரிது ஆண்ட பெருங்கேண்மை
-அறனொடு புணர்ந்த திறன் அறி செங்கோல்,   230
-அன்னோன் வாழி, வென் வேல் குருசில்! (222 – 231)
+","Barter is mentioned in Akanānūru 60, 61, 126, 140, 245, 296, 390, Natrinai 183, Kurunthokai 221, 269, Ainkurunūru 47, Porunarātruppadai 214-215, 216-7, Pattinappālai 28-30, and Malaipadukādam 413-414.  This rare description of different thinais being mixed in this manner (218-221) is interesting – fishermen (Neythal – seashore) sing kurinji (Kurinji – mountain) melodies, mountain dwellers (Kurinji – mountain) sing marutham (Marutham – agricultural land), and farmers from the marutham land sing Mullai (Mullai – woodland) melodies.  தேன் நெய்யொடு (214) – பொ. வே. சோமசுந்தரனார் உரை –  தேனெய், இருபெயரொட்டுப் பண்புத் தொகை, தேனாகிய நெய் என்க,  வை. மு. கோபாலகிருஷ்ணமாசாரி உரை – நெய்யென்று தேனை வழங்கப்படுவதனை ‘தேனெய் தோய்ந்தன’ என்ற சீவக சிந்தாமணியாலும் தேனை வடிப்பதற்கு உதவும் பன்னாடையை நெய்யரி என்று வழங்குவதாலும் அறியலாம்.","தேன் நெய்யொடு கிழங்கு மாறியோர் – those who barter honey and yams (valli yams), மீன் நெய்யொடு நறவு – toddy with fish oil (நறவு – நறா நற என்றாகி உகரம் ஏற்றது), மறுகவும் – they go and barter, தீங்கரும்போடு – with sweet sugarcane, அவல் வகுத்தோர் – those who sell flattened rice in portions, மான் குறையொடு – with deer meat, மது மறுகவும் – they go and barter liquor, குறிஞ்சி பரதவர் பாட – fishermen sing Kurinji tune, நெய்தல் நறும் பூங்கண்ணி குறவர் சூட – mountain dwellers wear fragrant waterlily garlands, கானவர் மருதம் பாட – those in woodlands sing Marutham tune, அகவர் நீல் நிற முல்லைப் பல் திணை நுவல – farmers in agricultural lands sing songs of the many woodlands with blue colored jasmine vines (பொ வே. சோமசுந்தரனார் உரை –  முல்லை என்பதற்கு முல்லை நிலம் எனப் பொருள்கொண்டு முல்லை நிலம் காடு நிறைந்ததாகலின் நீனிறக்காடெனக் கொள்ளலுமாம்) (நீல் – கடைக்குறை),", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) No Title
 ","Paadaan Thinai No Title
-Forest fowl eat grains in the agricultural
+"
+19.0,முடத்தாமக் கண்ணியார்,"கானக் கோழி கதிர் குத்த
+மனைக் கோழி தினைக் கவர
+வரை மந்தி கழி மூழ்க
+கழி நாரை வரை இறுப்ப  
+தண் வைப்பின் நால் நாடு குழீஇ
+மண் மருங்கினான் மறு இன்றி
+ஒரு குடையான் ஒன்று கூற
+பெரிது ஆண்ட பெருங்கேண்மை
+அறனொடு புணர்ந்த திறன் அறி செங்கோல்   
+அன்னோன் வாழி வென் வேல் குருசில்  – 
+","Forest fowl eat grains in the agricultural
 land, house fowl steal millet from the mountains,
 female monkeys from the mountains dive and play
 in the backwaters, storks from the backwaters
@@ -619,29 +584,27 @@ which are under one umbrella of Karikālan who rules
 for a long time combining friendship with fairness
 and in a faultless manner, praised by the world.
 May he live long, the King with victory spears!
-","  The rare mixing of four thinais in this manner (222-225) is interesting – Mullai land fowl eat grains in the Marutham land, house fowl in the Marutham land steal millet from the Kurinji land, monkeys from the Kurinji land dive and play in the Neythal backwaters, and pelicans from the Neythal backwaters move to the mountains.
-","  கானக்கோழி கதிர் குத்த – forest fowl peck at the grain spears in the agricultural land, Gallus soneratii, மனைக் கோழி தினைக் கவர – house fowl steal millet from the Kurinji land, வரை மந்தி கழி மூழ்க – mountain monkeys dive and play in the backwaters, கழி நாரை வரை இறுப்ப – storks from the backwaters go and stay in the mountains, தண் வைப்பின் நால் நாடு – in the cool land with four environments, குழீஇ – together (சொல்லிசை அளபெடை), மண் மருங்கினான் – in the land, மறு இன்றி – without fault, ஒரு குடையான் – குடையால், under one umbrella, ஒன்று கூற – the whole world praising him, பெரிதாண்ட – ruled for a long time, பெருங்கேண்மை – great friendship, அறனொடு புணர்ந்த – combined with fairness, திறன் அறி செங்கோல் – just rule known to others, அன்னோன் – the king, வாழி – may he live long, வென்வேல் குருசில் – king with victorious spears
-", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) No Title
+","The rare mixing of four thinais in this manner (222-225) is interesting – Mullai land fowl eat grains in the Marutham land, house fowl in the Marutham land steal millet from the Kurinji land, monkeys from the Kurinji land dive and play in the Neythal backwaters, and pelicans from the Neythal backwaters move to the mountains.","கானக்கோழி கதிர் குத்த – forest fowl peck at the grain spears in the agricultural land, Gallus soneratii, மனைக் கோழி தினைக் கவர – house fowl steal millet from the Kurinji land, வரை மந்தி கழி மூழ்க – mountain monkeys dive and play in the backwaters, கழி நாரை வரை இறுப்ப – storks from the backwaters go and stay in the mountains, தண் வைப்பின் நால் நாடு – in the cool land with four environments, குழீஇ – together (சொல்லிசை அளபெடை), மண் மருங்கினான் – in the land, மறு இன்றி – without fault, ஒரு குடையான் – குடையால், under one umbrella, ஒன்று கூற – the whole world praising him, பெரிதாண்ட – ruled for a long time, பெருங்கேண்மை – great friendship, அறனொடு புணர்ந்த – combined with fairness, திறன் அறி செங்கோல் – just rule known to others, அன்னோன் – the king, வாழி – may he live long, வென்வேல் குருசில் – king with victorious spears", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) No Title
+","Paadaan Thinai No Title
 "
 20.0,முடத்தாமக் கண்ணியார்,"மன்னர் நடுங்கத் தோன்றிப் பல் மாண்
-எல்லை தருநன், பல் கதிர் பரப்பிக்,
-குல்லை கரியவும், கோடு எரி நைப்பவும்,
-அருவி மா மலை நிழத்தவும், மற்று அக்   235
-கருவி வானம் கடற் கோள் மறப்பவும்,
-பெரு வறன் ஆகிய பண்பு இல் காலையும்,
-நறையும், நரந்தமும், அகிலும், ஆரமும்,
-துறை துறை தோறும் பொறை உயிர்த்து ஒழுகி,
-நுரைத் தலைக் குரைப் புனல் வரைப்பு அகம் புகுதொறும்,  240
-புனல் ஆடு மகளிர் கதுமெனக் குடையக்,
+எல்லை தருநன் பல் கதிர் பரப்பிக்
+குல்லை கரியவும் கோடு எரி நைப்பவும்
+அருவி மா மலை நிழத்தவும் மற்று அக்   
+கருவி வானம் கடற் கோள் மறப்பவும்
+பெரு வறன் ஆகிய பண்பு இல் காலையும்
+நறையும் நரந்தமும் அகிலும் ஆரமும்
+துறை துறை தோறும் பொறை உயிர்த்து ஒழுகி
+நுரைத் தலைக் குரைப் புனல் வரைப்பு அகம் புகுதொறும்  
+புனல் ஆடு மகளிர் கதுமெனக் குடையக்
 கூனிக் குயத்தின் வாய் நெல் அரிந்து
 சூடு கோடாகப் பிறக்கி நாள்தொறும்
 குன்று எனக் குவைஇய குன்றாக் குப்பை
-கடுந்தெற்று மூடையின் இடம் கெடக் கிடக்கும்,  245
-சாலி நெல்லின் சிறை கொள் வேலி,
+கடுந்தெற்று மூடையின் இடம் கெடக் கிடக்கும்  
+சாலி நெல்லின் சிறை கொள் வேலி
 ஆயிரம் விளையுட்டு ஆகக்
-காவிரி புரக்கும் நாடு கிழவோனே. (232 – 248)
-","Paadaan Thinai Prosperity showered by River Kāviri
-His enemy kings tremble as he appears.
+காவிரி புரக்கும் நாடு கிழவோனே  – 
+","His enemy kings tremble as he appears.
 The sun which provides light during the day
 spreads its fine rays and scorches.
 Even when there is dryness, marijuana plants are
@@ -661,6 +624,6 @@ Fine paddy in packed sacks, are stacked densely in
 places protected by fences, growing in thousands of
 measures, in the land of the king, where River Kāviri
 provides abundance.
-","  Narai, Akil, Sandal and Narantham are fragrant woods.  புறநானூறு 23 – காவிரி புரக்கும் நன்னாட்டுப் பொருந.  புறநானூறு 285 – கடுந்தெற்று மூடையின்.  கருவி வானம் (236) – பொ. வே. சோமசுந்தரனார் உரை – இடி மின்னல் முதலிய தொகுதிகளையுடைய முகில்கள்.  கருவி – கருவி தொகுதி (தொல்காப்பியம், உரியியல் 58).
-","  மன்னர் நடுங்க தோன்றி – he appears causing enemy kings to tremble, பல் மாண் – many times, எல்லை தருநன் – the one who provides light, the sun (தருநன் – தருபவன், கதிரவன்), பல் கதிர் பரப்பி – spreading its many fine rays, குல்லை – marijuana or basil, கரியவும் – have dried, கோடு எரி – flames on branches, நைப்பவும் – have burned, அருவி மா மலை நிழத்தவும் – waterfalls on huge mountains are ruined, மற்ற – other, கருவி வானம் – clouds crowded with thunder and lightning, கடல் கோள் மறப்பவும் – forgetting to take from the oceans, பெரு வறன் – great dryness, ஆகிய பண்பு இல் காலையும் – even when there everything was ruined, நறையும் நரந்தமும் அகிலும் ஆரமும் – fragrant narai (nutmeg tree, Myristica fragrans), fragrant bitter orange (Cymbopogon flexuosus), akil wood (Eaglewood) and sandal wood (Santalum Album), துறை துறை தோறும் – in all the shores, பொறை உயிர்த்து – resting after carrying load (உயிர்த்து – இளைப்பாறி), ஒழுகி – flowing, நுரைத் தலைக் குரைப்புனல் – loud river with foam on top, வரைப்பு அகம் – where river water is saved – ponds and gardens, புகுதொறும் – wherever water enters, புனல் ஆடு மகளிர் – women play in the water, கதுமென – rapidly (விரைவுக்குறிப்பு), குடைய – diving, playing, கூனிக் குயத்தின் வாய் நெல் அரிந்து – bend their bodies and cut paddy with sickle ends, சூடு கோடாகப் பிறக்கி – stacking the sheaves like a mountain, நாள்தொறும் குன்று எனக் குவைஇய – heaped up daily like mountains (குவைஇய – சொல்லிசை அளபெடை), குன்றா குப்பை – heaps that do not become small, கடுந்தெற்று மூடையின் – with sacks which are densely stacked (தெற்று – அடைப்பு), இடம் கெடக் கிடக்கும் – like lying around ruining the place, சாலி நெல்லின் – of red paddy, சிறை கொள் வேலி – fence which protects, ஆயிரம் விளையுட்டு ஆக – growing a thousand measures, காவிரி புரக்கும் நாடு கிழவோனே – lord of the river Kāviri which provides (கிழவோனே – ஏகாரம் அசைநிலை, an expletive)", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) காவிரி வளம்
+","Narai, Akil, Sandal and Narantham are fragrant woods.  புறநானூறு 23 – காவிரி புரக்கும் நன்னாட்டுப் பொருந.  புறநானூறு 285 – கடுந்தெற்று மூடையின்.  கருவி வானம் (236) – பொ. வே. சோமசுந்தரனார் உரை – இடி மின்னல் முதலிய தொகுதிகளையுடைய முகில்கள்.  கருவி – கருவி தொகுதி (தொல்காப்பியம், உரியியல் 58).","மன்னர் நடுங்க தோன்றி – he appears causing enemy kings to tremble, பல் மாண் – many times, எல்லை தருநன் – the one who provides light, the sun (தருநன் – தருபவன், கதிரவன்), பல் கதிர் பரப்பி – spreading its many fine rays, குல்லை – marijuana or basil, கரியவும் – have dried, கோடு எரி – flames on branches, நைப்பவும் – have burned, அருவி மா மலை நிழத்தவும் – waterfalls on huge mountains are ruined, மற்ற – other, கருவி வானம் – clouds crowded with thunder and lightning, கடல் கோள் மறப்பவும் – forgetting to take from the oceans, பெரு வறன் – great dryness, ஆகிய பண்பு இல் காலையும் – even when there everything was ruined, நறையும் நரந்தமும் அகிலும் ஆரமும் – fragrant narai (nutmeg tree, Myristica fragrans), fragrant bitter orange (Cymbopogon flexuosus), akil wood (Eaglewood) and sandal wood (Santalum Album), துறை துறை தோறும் – in all the shores, பொறை உயிர்த்து – resting after carrying load (உயிர்த்து – இளைப்பாறி), ஒழுகி – flowing, நுரைத் தலைக் குரைப்புனல் – loud river with foam on top, வரைப்பு அகம் – where river water is saved – ponds and gardens, புகுதொறும் – wherever water enters, புனல் ஆடு மகளிர் – women play in the water, கதுமென – rapidly (விரைவுக்குறிப்பு), குடைய – diving, playing, கூனிக் குயத்தின் வாய் நெல் அரிந்து – bend their bodies and cut paddy with sickle ends, சூடு கோடாகப் பிறக்கி – stacking the sheaves like a mountain, நாள்தொறும் குன்று எனக் குவைஇய – heaped up daily like mountains (குவைஇய – சொல்லிசை அளபெடை), குன்றா குப்பை – heaps that do not become small, கடுந்தெற்று மூடையின் – with sacks which are densely stacked (தெற்று – அடைப்பு), இடம் கெடக் கிடக்கும் – like lying around ruining the place, சாலி நெல்லின் – of red paddy, சிறை கொள் வேலி – fence which protects, ஆயிரம் விளையுட்டு ஆக – growing a thousand measures, காவிரி புரக்கும் நாடு கிழவோனே – lord of the river Kāviri which provides (கிழவோனே – ஏகாரம் அசைநிலை, an expletive)", Mudathaamak Kanniyaar,"பாடப்பட்டவன்:சோழன் கரிகால் பெருவளத்தான் பாடாண் ஆற்றுப்படை அகவல்பா (ஆசிரியப்பா) காவிரி வளம்
+","Paadaan Thinai Prosperity showered by River Kāviri
 "
