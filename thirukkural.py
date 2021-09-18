@@ -10,27 +10,35 @@ from tkinter import *
 import regex
 import json
 cdeeplearn = __import__("cdeeplearn")
+tamil_utils = __import__("tamil_utils")
 
 bot_config_file = "./ChatBot.json"
 config = {}
 with open(bot_config_file, 'r', encoding='utf-8') as f:
     config = json.load(f)
-"""  Message Patterns """
-_RE_DICT = {
-    'contains': regex.compile(r"^\s?contains\s?(?P<contains>[\p{L}*+|\p{L}\p{M}*+].*)\s?.*", regex.IGNORECASE),
-    'ends_with': regex.compile(r"^\s?ends\s?(with)?\s?(?P<ends_with>[\p{L}*+|\p{L}\p{M}*+].*)\s?.*", regex.IGNORECASE),
-    'ends_with_1': regex.compile(r"^\s?(?P<ends_with>[\p{L}*+|\p{L}\p{M}*+])\s?[என]?\s?முடியும்.*", regex.IGNORECASE),
-    'starts_with': regex.compile(r"^\s?(starts|begins)\s?(with)?\s?(?P<starts_with>[\p{L}*+|\p{L}\p{M}*+].*)\s?.*", regex.IGNORECASE),
-    'starts_with_1': regex.compile(r"^\s?(?P<starts_with>[\p{L}*+|\p{L}\p{M}*+])\s?[எனத்]?\s?தொடங்கும்.*", regex.IGNORECASE),
-    'get':regex.compile(r"^\s?get\s?(?P<Chapter>\d+)?\s?,?\s?(?P<Verse>\d+)?\s?.*", regex.IGNORECASE),
-    'Kural':regex.compile(r"^\s?குறள்|Kural\s?(?P<Kural>\d+)?.*", regex.IGNORECASE),
-    'Help':regex.compile(r"^\s?Help|உதவி\s?.*", regex.IGNORECASE),
-    'Quit':regex.compile(r"^\s?Quit|Thanks|Bye|நன்றி\s?.*", regex.IGNORECASE),
-    'Greet':regex.compile(r"^\s?Welcome|Greet|Hello|வணக்கம்|வாழ்த்து|நல்வரவு\s?.*", regex.IGNORECASE),
-    'New':regex.compile(r"^\s?New|Generate|Create|புதிய|உருவாக்கு\s?.*", regex.IGNORECASE),
-    }
 END_OF_KURAL = "."
 flatten_list = lambda list: [item for sublist in list for item in sublist]
+def _build_regex_dictionary(key_list):
+    ta_regex_str = "[\p{L}*+|\p{L}\p{M}*+]"
+    regex_dict = {}
+    regex_dict_extn = {    
+    'get':regex.compile(r"^\s?get\s?(?P<Chapter>\d+)?\s?,?\s?(?P<Verse>\d+)?\s?.*", regex.IGNORECASE),
+    'kural':regex.compile(r"^\s?குறள்|Kural\s?(?P<Kural>\d+)?.*", regex.IGNORECASE),
+    'new':regex.compile(r"^\s?New|Generate|Create|புதிய|உருவாக்கு\s?.*", regex.IGNORECASE),
+    }
+    for key in key_list:
+        values = config["key_words"][key]
+        counter = 0
+        for value in values:
+            counter+=1            
+            regex_dict[key+"_"+str(counter)] = '^\s?'+ value + '\s?(?P<' + key + '>'+ ta_regex_str + '.*)\s?.*'
+            counter+=1            
+            regex_dict[key+"_"+str(counter)] = '^\s?(?P<' + key + '>'+ ta_regex_str + '.*)\s?' + value + '\s?.*'
+    _RE_DICT = {}
+    for key in regex_dict.keys():
+        _RE_DICT[key] = regex.compile(regex_dict[key], regex.IGNORECASE)
+    _RE_DICT.update(regex_dict_extn)
+    return _RE_DICT
 def frequency_of_occurrence(words, specific_words=None):
     """
     Returns a list of (instance, count) sorted in total order and then from most to least common
@@ -95,9 +103,32 @@ class Thirukural:
         else:
             Exception("data file:"+data_file+" not found.")
         df=pd.read_csv(data_file,header=None,encoding='utf-8')
+        df[Thirukural.VERSE] = df[Thirukural.VERSE].str.strip()
         self.df = df
+        key_list = ["contains","ends_with","begins_with"]
+        self.regex_dictionary = _build_regex_dictionary(key_list)
+        
+    def _build_action_dictionary(self,bot_user_input,key,match):
+        action_dictionary = {"greet":(self._greet,[],{}),
+                     "help":(self._help,[],{}),
+                     "quit":(self._quit,[],{}),
+                     "contains":(self._contains,[bot_user_input,key,match],{}),
+                     "begins_with":(self._starts_with,[bot_user_input,key,match],{}),
+                     "ends_with":(self._ends_with,[bot_user_input,key,match],{}),
+                     "get" : (self._get_new,[bot_user_input,match],{}),
+                     "kural" : (self._get_kural,[bot_user_input,match],{}),
+                     "new":(self._deep_learn,[bot_user_input],{}),
+                    }
+        act_dict_extn = {}
+        for act_key in action_dictionary.keys():
+            for regex_key in self.regex_dictionary.keys():
+                if act_key in regex_key:
+                    act_dict_extn[regex_key] = action_dictionary[act_key]
+        action_dictionary.update(act_dict_extn)
+        return action_dictionary
     def _format_output(self, kural_id_list, random_kural=False):
         result =[]
+        #print('kural id list',kural_id_list)
         df = self.df
         for kural_id in kural_id_list:
             pd_series = df.loc[ (df[Thirukural.KURAL_INDEX]==kural_id)]
@@ -113,6 +144,7 @@ class Thirukural:
                 result.append(chapter+"\t"+adhikaram+"\n"+verse1+"\n"+meaning+"\n")
             else:
                 result.append(chapter+"\t"+adhikaram+"\n"+verse1+"\n")
+        #print('_format_output',result)
         random_kural_msg = ""
         if (random_kural):
             random_kural_msg = Thirukural.RANDOM_KURAL_MSG
@@ -126,23 +158,27 @@ class Thirukural:
         print('Number of unique words in thirukuraL',len(freq_words))
         print('Top 10 words\n',freq_words[:10])        
     def contains(self, word):
+        word = word.strip()
+        #print("inside old thirukural contains>"+word+"<")
         df = self.df
         temp_str = df.loc[df[Thirukural.VERSE].str.contains(word)][Thirukural.KURAL_INDEX]
+        #print("inside old thirukural contains",temp_str)
         return self._format_output(temp_str)
     def endswith(self, word):
+        word = word.strip()
         if not word.endswith(END_OF_KURAL):
             word += END_OF_KURAL
         df = self.df
-        end_char = '\t'
-        if not word.endswith(end_char):
-            word += end_char
+        #print('thirukural old endswith>'+word+"<")
         temp_str = df[df[Thirukural.VERSE].str.endswith(word)][Thirukural.KURAL_INDEX]
         return self._format_output(temp_str)
     def startswith(self, word):
-        df = self.df
+        word = word.strip()
         end_char = '\t'
         if not word.endswith(end_char):
             word += end_char
+        df = self.df
+        #print('thirukural old startswith>'+word+"<")
         temp_str = df[df[Thirukural.VERSE].str.startswith(word)][Thirukural.KURAL_INDEX]
         return self._format_output(temp_str)
     def get(self, chapter_number=None,verse_number=None, kural_number=None):
@@ -172,70 +208,105 @@ class Thirukural:
         kural_number = random.randint(1,Thirukural.kural_max)
         temp_str = df.loc[ (df[Thirukural.KURAL_INDEX]==kural_number)  ][Thirukural.KURAL_INDEX]
         return self._format_output(temp_str)
-    def respond_to_bot_user_input(self, bot_user_input):
-        key, match = self._parse_line(bot_user_input)
-        print('thirukural key match',key,match[:])
-        response = ""
-        if key == "contains":
-            word = match.group("contains")
-            response = self.contains(word)
+    def _help(self):
+        return config["HELP_MSG"]
+    def _greet(self):
+        return config["GREET_MSG"]
+    def _quit(self):
+        return config["QUIT_MSG"]
+    def _get_new(self,bot_user_input,match):
+        #print('inside _get_new match chapter',match)
+        if match.group("Chapter")==None:
+            #print('match chapter is None')
+            response = self.get()
             if not response:
-                return bot_user_input + config["SEARCH_FAIL_MSG"]
-        elif key == "ends_with" or key == "ends_with_1":
-            word = match.group("ends_with")
-            response = self.endswith(word)
+                response = bot_user_input + config["SEARCH_FAIL_MSG"]
+            return response
+        else:
+            chapter_number = int(match.group("Chapter"))
+            #print('match chapter is',chapter_number)
+        verse_number = None
+        if match.group("Verse")==None:
+            #print('match chapter ok verse none')
+            response = self.get(chapter_number)
             if not response:
-                return bot_user_input + config["SEARCH_FAIL_MSG"]
-        elif key == "starts_with" or key == "starts_with_1":
-            word = match.group("starts_with")
-            response = self.startswith(word)
+                response = bot_user_input + config["SEARCH_FAIL_MSG"]
+        else:
+            verse_number = int(match.group("Verse"))
+            #print('match verse is',verse_number)
+            response = self.get(chapter_number, verse_number)
             if not response:
-                return bot_user_input + config["SEARCH_FAIL_MSG"]
-            response = self.startswith(word)
-        elif key == "get":
-            if match.group("Chapter")==None:
-                response = self.get()
-                if not response:
-                    return bot_user_input + config["SEARCH_FAIL_MSG"]
-                return response
-            else:
-                chapter_number = int(match.group("Chapter"))
-            verse_number = None
-            if match.group("Verse")==None:
-                response = self.get(chapter_number)
-                if not response:
-                    return bot_user_input + config["SEARCH_FAIL_MSG"]
-            else:
-                verse_number = int(match.group("Verse"))
-                response = self.get(chapter_number, verse_number)
-                if not response:
-                    return bot_user_input + config["SEARCH_FAIL_MSG"]
-        elif key == "Kural":
-            if match.group("Kural") is None:
-                kural_number = None
-            else:
-                kural_number = int(match.group("Kural"))
-            response = self.get(kural_number=kural_number)     
-            if not response:
-                return bot_user_input + config["SEARCH_FAIL_MSG"]
-        elif key == "New":
-            poem = "kural"
+                response = bot_user_input + config["SEARCH_FAIL_MSG"]
+        return response        
+    def _get_kural(self,bot_user_input,match):
+        if match.group("Kural") is None:
+            kural_number = None
+        else:
+            kural_number = int(match.group("Kural"))
+        response = self.get(kural_number=kural_number)     
+        if not response:
+            response = bot_user_input + config["SEARCH_FAIL_MSG"]
+        return response
+    def _deep_learn(self,bot_user_input):
+        #print("inside deep learn")
+        poem = "kural"
+        try:
             cdeeplearn.set_parameters(corpus_file=poem+'_corpus.json', model_weights_file=poem+'_corpus.h5', starting_word_file=poem+'_starting_words.json', 
                    ending_word_file=poem+'_ending_words.json')
             response = cdeeplearn.generate_tokens_from_corpus(corpus_files=['sangam_tamil_poems/thirukural_poems.txt'], 
                     length=7,perform_training=False)
-        elif key == "Help":
-            response = config["HELP_MSG"]
-        elif key == "Greet":
-            response = config["GREET_MSG"]
-        elif key == "Quit":
-            response = config["QUIT_MSG"]
-        else:
-            response = config['FALLBACK_MSG']
+            response = tamil_utils._cleanup_generated_poem(response)
+        except:
+            response = bot_user_input+config['SEARCH_FAIL_MSG']
         return response
+    def _contains(self,bot_user_input,key,match):
+        #print("_contains ",key,match)
+        if "contains" in key:
+            word = match.group("contains").strip()
+            response = self.contains(word)
+            #print('contains word=',word,'response:',response)
+            if not response:
+                response = bot_user_input + config["SEARCH_FAIL_MSG"]
+        else:
+            response = bot_user_input + config["SEARCH_FAIL_MSG"]
+        return response
+    def _starts_with(self,bot_user_input,key,match):
+        #print("_begins_with ",key,match)
+        if "begins_with" in key:
+            word = match.group("begins_with")
+            response = self.startswith(word)
+            if not response:
+                response = bot_user_input + config["SEARCH_FAIL_MSG"]
+            response = self.startswith(word)
+        else:
+            response = bot_user_input + config["SEARCH_FAIL_MSG"]
+        return response
+    def _ends_with(self,bot_user_input,key,match):
+        #print("_ends_with ",key,match)
+        if "ends_with" in key:
+            word = match.group("ends_with")
+            response = self.endswith(word)
+            if not response:
+                response = bot_user_input + config["SEARCH_FAIL_MSG"]
+        else:
+            response = bot_user_input + config["SEARCH_FAIL_MSG"]
+        return response
+    def respond_to_bot_user_input(self, bot_user_input):
+        #key, match = self._parse_line(bot_user_input)
+        key, match = self._parse_line(bot_user_input)
+        #word = match.group(regex.sub("_\d","",key))
+        #print('thirukural key match',key,match)
+        response = ""
+        action_dict = self._build_action_dictionary(bot_user_input,key,match)
+        if key in action_dict.keys():
+            function, args, kwargs = action_dict[key]
+            return function(*args,**kwargs)
+        else:
+            return config['FALLBACK_MSG']
     def _parse_line(self, line):
-        for key, rx in _RE_DICT.items():
+        for key, rx in self.regex_dictionary.items():#_RE_DICT.items():
             match = rx.search(line)
+            #print('thirukural key',key,'match',match)
             if match:
                 return key, match
         # if there are no matches

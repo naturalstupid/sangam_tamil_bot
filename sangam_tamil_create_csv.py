@@ -33,6 +33,8 @@ def _remove_punctuation_numbers(text):
     text = text.replace("’", '')
     text = text.replace("“", '')
     text = text.replace("”", '')
+    text = text.replace("–",'')
+    text = text.replace("…",'')
     text = regex.sub("\d+",'',text)
     return text
 print("Please wait until processing completed...")
@@ -134,14 +136,21 @@ for i, sangam_poem in enumerate(data_files):
     df = pd.read_csv(csv_file,encoding='utf-8',sep=csv_separator,header=0)
     log_file.write("Number of poems read:"+str(len(df))+"\n")
     poems = '\n'.join(map(str,df['poem'].values))
-    import string
     log_file.write("Removing punctuation\n")
-    poems = poems.translate(str.maketrans('', '', string.punctuation))
-    poems = poems.replace("‘", '')
-    poems = poems.replace("’", '')
-    poems = poems.replace("“", '')
-    poems = poems.replace("”", '')
-    poems = regex.sub("\d+",'',poems)
+    def _remove_non_unicode_characters(poems):
+        import string
+        poems = poems.translate(str.maketrans('', '', string.punctuation))
+        poems = poems.replace("‘", '')
+        poems = poems.replace("’", '')
+        poems = poems.replace("“", '')
+        poems = poems.replace("”", '')
+        poems = poems.replace("–","")
+        poems = poems.replace("…","")
+        poems = regex.sub("\d+",'',poems)
+        #latin_pattern = "[a-zA-Z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u024F]+"
+        #poems = regex.sub(latin_pattern,'', poems)
+        return poems
+    poems = __remove_non_unicode_characters(poems)
     latin_pattern = "[a-zA-Z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u024F]+"
     for i,line in enumerate(poems.split("\n")):
         if line.strip() != "" and len(regex.findall(latin_pattern,line))>0:

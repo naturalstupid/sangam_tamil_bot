@@ -42,7 +42,7 @@
                    "மலைபடுகடாம்" : ["malaipadukadaam","malaippadukadaam","malaipadukadam", "மலைபடுகடாம்"],
                    "மதுரைக்காஞ்சி":["Maduraikaanji", "maduraikanji","madhuraikaanji", "madhuraikanji", "madhuraikkanji","மதுரைக்காஞ்சி"],
                    "பொருநராற்றுப்படை":["porunaraatrupadai","porunaratrupadai","porunar aatrupadai","porunar atrupadai","பொருநராற்றுப்படை"],
-                   "பெரும்பாணாற்றுப்படை":["Perumpaanatrupadai","Perumpanaatrupadai","Perumpaan aatrupadai","Perumpaanaatrupadai","பெரும்பாணாற்றுப்படை"],
+                   "பெரும்பாணாற்றுப்படை":["perupanatrupadai","perumpanatrupadai","Perumpaanatrupadai","Perumpanaatrupadai","Perumpaan aatrupadai","Perumpaanaatrupadai","பெரும்பாணாற்றுப்படை"],
                    "சிறுபாணாற்றுப்படை":["sirupanatrupadai","Sirupaanatrupadai","Sirupanaatrupadai","Sirupaan aatrupadai","Sirupaanaatrupadai","சிறுபாணாற்றுப்படை"],
                    "திருமுருகாற்றுப்படை":["Thirumurugaatrupadai","thirumurugatrupadai","thiru murugaatrupadai","thiru murugatrupadai","திருமுருகாற்றுப்படை"],
                    "திருக்குறள்" : ["thirukural","thirukuraL", "thirukkural","thirukkuraL","kural","திருகுறள்","திருக்குறள்","குறள்"],
@@ -53,14 +53,15 @@
                    "கைந்நிலை":["kainnilai","kainilai","kai nilai","கை நிலை","கைந்நிலை"],
                    "திணைமாலை நூற்றைம்பது":["thinaimaalainootraimbathu","thinnai maalai nootru aimpathu","thinnai maalai nootru aimbathu","thinnaimaalai nootru aimpathu","thinnaimaalai nootru aimbathu","thinnai maalai nootraimpathu","thinnai maalai nootraimbathu","thinnaimaalai nootraimpathu","thinnaimaalai nootraimbathu","திணைமாலை நூற்றைம்பது","திணை மாலை நூற்றைம்பது","திணைமாலை நூற்று ஐம்பது","திணை மாலை நூற்று ஐம்பது","திணைமாலை நூற்றைம்பது"],
                    "poet_count":["how many poets","list of poets","poet list","poet count","count of poets","count","poets","புலவர்கள் எத்தனை பேர்","புலவர்கள் எவ்வளவு பேர்","புலவர்கள் எவ்வளவு ","புலவர்கள் எத்தனை","புலவர்கள்"],
-                   "poet_poems":["poems written", "list poems by poet","written by poet","எழுதிய பாடல்கள்", "poems", "poet", "பாடல்கள்"],
+                   "poet_poems":["poems written by","poems written", "list poems by poet","written by poet","எழுதிய பாடல்கள்", "poems", "poet", "பாடல்கள்"],
                    "contains":["contains","உடைய","கொண்ட"],
                    "ends_with":["ends with","ends", "என்று முடியும்","என முடியும்","முடியும்"],
                    "begins_with":["starts with", "begins with","starts","begins","எனத் தொடங்கும்","என தொடங்கும்","என்று தொடங்கும்", "தொடங்கும்"],
-                   "new":["new","generate","deep learn","create","புதிய","உருவாக்கு","ஆழ்ந்த கற்றல் "],
+                   "new":["new","generate","deep learn","create","deeplearn","produce","தோற்றுவி", "உண்டாக்கு", "புதிய","உருவாக்கு","ஆழ்ந்த கற்றல் "],
                    "quit": ["Quit", "Bye", "have a good day", "மீண்டும் சந்திப்போம்","விடை கொடுங்கள்","ok bye", "okay bye"],
                    "help" : ["Help", "Hints", "Hint", "Info", "what to type"],
-                   "greet": ["Thanks", "Thank you", "How are you","How are you doing","How are you?","Hello", "Greetings", "Welcome","Greet","Greeting", "nandri","நன்றி", "மிக்க நன்றி","எப்படி இருக்கிறீர்கள்","நலமா", "நலம்"],
-                   "meaning": ["=","meaning of", "meaning", "dictionary", "பொருள் ", "அர்த்தம்", "அகராதி", "நிகண்டு"]
+                   "greet": ["vanakkam", "vanakam", "Thanks", "Thank you", "How are you","How are you doing","How are you?","Hello", "Greetings", "Welcome","Greet","Greeting", "nandri","வணக்கம்","நன்றி", "மிக்க நன்றி","எப்படி இருக்கிறீர்கள்","நலமா", "நலம்"],
+                   "meaning": ["=","meaning of", "meaning", "dictionary", "பொருள் ", "அர்த்தம்", "அகராதி", "நிகண்டு"],
+                   "introduce":["introduce","who are you","about you","you"]
                    }
 }

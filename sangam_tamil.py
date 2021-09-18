@@ -1,3 +1,4 @@
+import random
 import requests
 from lxml import html
 from googlesearch import search
@@ -9,6 +10,7 @@ import json
 import os
 cdeeplearn = __import__("cdeeplearn")
 thirukkural = __import__("thirukkural")
+tamil_utils = __import__("tamil_utils")
 
 WIKI_DEFAULT_LANG = 'ta'
 GOOGLE_SENTENCE_COUNT = 10
@@ -42,97 +44,6 @@ POEM_TYPES = ['அகநானூறு', 'புறநானூறு', 'ஐங
               'முல்லைப்பாட்டு', 'நெடுநல்வாடை','குறிஞ்சிப்பாட்டு','மலைபடுகடாம்', 'மதுரைக்காஞ்சி','பொருநராற்றுப்படை',
               'பெரும்பாணாற்றுப்படை', 'சிறுபாணாற்றுப்படை','திருமுருகாற்றுப்படை','ஐந்திணை எழுபது','ஐந்திணை ஐம்பது','கார் நாற்பது',
               'திணைமொழி ஐம்பது','கைந்நிலை','திணைமாலை நூற்றைம்பது']#,'திருக்குறள்']
-_UYIRGAL = ["அ","ஆ","இ","ஈ","உ","ஊ","எ","ஏ","ஐ","ஒ","ஓ","ஔ"]
-_MEYGAL=("க்","ங்","ச்","ஞ்","ட்","ண்","த்","ந்","ன்","ப்","ம்","ய்","ர்","ற்","ல்","ள்","ழ்","வ்","ஜ்","ஷ்","ஸ்","ஹ்","க்ஷ்","ஃ","்",)
-_VALLINAM = ("க","கா","கி","கீ","கூ","கு","கெ","கே","கை","கொ","கோ","கௌ","ச","சா","சி","சீ","சூ","சு","செ","சே","சை","சொ","சோ","சௌ","ட","டா","டி","டீ","டூ","டு","டெ","டே","டை","டொ","டோ","டௌ","த","தா","தி","தீ","தூ","து","தெ","தே","தை","தொ","தோ","தௌ","ப","பா","பி","பீ","பூ","பு","பெ","பே","பை","பொ","போ","பௌ","ற","றா","றி","றீ","றூ","று","றெ","றே","றை","றொ","றோ","றௌ", "க்","ச்", "ட்", "த்", "ப்", "ற்", )
-_TAMIL_UNICODE_1_TA = ["க","ங","ச","ஞ","ட","ண","த","ந","ன","ப","ம","ய","ர","ற","ல","ள","ழ","வ",]
-_TAMIL_UNICODE_1_SAN = ["ஜ", "ஷ", "ஸ", "ஹ", "க்ஷ",]
-_TAMIL_UNICODE_1 = _TAMIL_UNICODE_1_TA+_TAMIL_UNICODE_1_SAN
-_TAMIL_UNICODE_2 = ["ா","ி","ீ","ூ","ு","ெ","ே","ை","ொ","ோ","ௌ","்",]
-def _is_uyir_ezhuthu(tamil_char):
-    return _list_has_element(_UYIRGAL, tamil_char)
-def _is_mey_ezhuthu(tamil_char):
-    return _list_has_element(_MEYGAL, tamil_char)
-def _is_vallinam(tamil_char):
-    return _list_has_element(_VALLINAM, tamil_char)
-def _get_last_morpheme(word):
-    if word.strip()=='':
-        return '' 
-    last_char = word[-1]
-    if last_char == "்":
-        last_char = _MEYGAL[_TAMIL_UNICODE_1.index(word[-2])]
-    if _is_uyir_ezhuthu(last_char) or _is_mey_ezhuthu(last_char):
-        return last_char
-    index = _get_index(_TAMIL_UNICODE_2,last_char)
-    if (index == -1):
-        return "அ"
-    index = _get_index(_TAMIL_UNICODE_2,last_char)
-    if index != -1:
-        return _UYIRGAL[index+1]
-    return last_char
-
-def _get_first_morpheme(word):
-    if word.strip()=='':
-        return '' 
-    first_char = word[0]
-    if _is_uyir_ezhuthu(first_char) or _is_mey_ezhuthu(first_char):
-        return first_char
-    index = _get_index(_TAMIL_UNICODE_1,first_char)
-    if (index != -1 ):
-        return _MEYGAL[index]
-    index = _get_index(_YIYAIBU_ENDING_LETTERS,first_char)
-    if index != -1:
-        return _UYIRGAL[index+1]
-    return first_char
-
-def _get_index(list, element):
-    index = -1
-    try:
-        index = list.index(element)
-    except:
-        index = -1
-    return index
-def _list_has_element(list,element):
-    try:
-        return element in list
-    except:
-        return False
-def _get_unicode_characters(word):
-    import regex
-    if (' ' in word):
-        return regex.findall('\p{L}\p{M}*|\p{Z}*',word)
-    else:
-        return regex.findall('\p{L}\p{M}*',word)
-    
-
-
-def _cleanup_generated_poem(text):
-    print(text)
-    new_text = ''
-    lines = text.split("\n")
-    text_words = [[ word for word in line.split()] for line in lines if line.strip()!='']
-    print('last word of the poem',text_words[-1][-1])
-    for l,line in enumerate(lines):
-        line_words = line.split()
-        for w,word2 in enumerate(line_words):
-            if l==0 and w==0:
-                continue
-            if w==0:
-                word1 = text_words[l-1][-1]
-            else:
-                word1 = text_words[l][w-1]
-            last_char = _get_last_morpheme(word1)
-            first_char = _get_first_morpheme(word2)
-            corrected_word1 = word1
-            if (_is_vallinam(last_char) and _is_mey_ezhuthu(last_char) and 
-                first_char != last_char ):
-                corrected_word1 = ''.join(_get_unicode_characters(word1)[:-1])                    
-            #print(word1,last_char,first_char,word2,'corrected word1',corrected_word1)
-            new_text += corrected_word1 + " "
-            if w==0:
-                new_text+="\n"
-    new_text += " " + text_words[-1][-1]
-    return new_text
 def get_wikipedia_response(input,lang=WIKI_DEFAULT_LANG):
     wiki = ''
     if lang != WIKI_DEFAULT_LANG:
@@ -140,7 +51,6 @@ def get_wikipedia_response(input,lang=WIKI_DEFAULT_LANG):
     topic = input #reg_ex.group(1)
     wiki = wk.summary(topic, sentences = WIKI_SENTENCE_COUNT)
     return wiki
-
 def get_google_search_response(query, index=0,sentence_count=GOOGLE_SENTENCE_COUNT):
     result = ''
     #print('google searching',query)
@@ -273,6 +183,7 @@ class SangamPoems():
             print('reading csv',data_folder+data_file+data_ext)
             dfs = pd.read_csv(data_folder+data_file+data_ext,encoding='utf-8',na_filter=False)
             dfs = dfs.replace({'poem' : {"\n":"<br>"}})
+            dfs['poem'] = dfs['poem'].apply(tamil_utils._remove_punctuation_numbers)
             dfs = dfs.replace({"poet_name":{"பாடியவர்:":""}})
             dfs['poet_name'] = dfs['poet_name'].str.strip()
             dfs['poet_name_e'] = dfs['poet_name_e'].str.strip()
@@ -287,24 +198,43 @@ class SangamPoems():
         return config["GREET_MSG"]
     def _quit(self):
         return config["QUIT_MSG"]
-    def _deep_learn(self,poem_type,bot_user_input,value):
+    def _get_poem_line_word_count(self, poem_type):
+        poems = [poem for poem in self.df.loc[self.df['poem_type']==poem_type]['poem'].tolist()]
+        lines = flatten_list([poem.split("\n") for poem in poems])
+        line_count = random.choice([len(poem.split("\n")) for poem in poems])
+        word_count = sorted([len(line.split()) for line in lines if line.strip() != ''])
+        minimum_word_count = word_count[0]
+        maximum_word_count = word_count[-1]
+        #print('line_count,minimum_word_count,maximum_word_count',line_count,minimum_word_count,maximum_word_count)
+        return line_count,minimum_word_count,maximum_word_count
+    def _deep_learn(self,poem_type,bot_user_input,value,include_meaning=False,minimum_words_per_sentence=4):
         poem = data_files[POEM_TYPES.index(poem_type)]
-        print('calling sangam tamil _deep_learn()',poem_type,poem)
-        tokens_per_sentence = 5
-        poem_token_count = 13 * tokens_per_sentence # 7 for Kural  76 for sangam aga,/puram
+        #print('calling sangam tamil _deep_learn()',poem_type,poem)
+        sentence_count, word_count_min, word_count_max = self._get_poem_line_word_count(poem_type)
+        words_per_sentence = random.randrange(max(word_count_min,minimum_words_per_sentence),word_count_max)
+        poem_word_count = sentence_count * words_per_sentence # 7 for Kural  76 for sangam aga,/puram
+        #print('sentence count',sentence_count,'words per sentence',words_per_sentence)
         response = config["SEARCH_FAIL_MSG"]
-        corpus_file=poem+'_corpus.json'
-        model_weights_file=poem+'_corpus.h5'
-        starting_word_file=poem+'_starting_words.json'
-        ending_word_file=poem+'_ending_words.json'
+        corpus_file=poem+'_poems_corpus.json'
+        model_weights_file=poem+'_poems_corpus.h5'
+        starting_word_file=poem+'_poems_starting_words.json'
+        ending_word_file=poem+'_poems_ending_words.json'
         model_weights_folder = "./model_weights/"
+        files_not_found = [model_weights_folder+file for file in [corpus_file,model_weights_file,starting_word_file,ending_word_file] if not os.path.exists(model_weights_folder+file) ]
+        if len(files_not_found)>0:
+            print("Following files needed for deep learning are missing:",files_not_found)
+            return response
         if os.path.exists(model_weights_folder+corpus_file) and os.path.exists(model_weights_folder+model_weights_file) and \
-                os.path.exists(model_weights_folder+starting_word_file) and os.path.exists(model_weights_folder+ending_word_file): 
+                os.path.exists(model_weights_folder+starting_word_file) and os.path.exists(model_weights_folder+ending_word_file):
             cdeeplearn.set_parameters(corpus_file=corpus_file, model_weights_file=model_weights_file, 
                 starting_word_file=starting_word_file,ending_word_file=ending_word_file)
             response = cdeeplearn.generate_tokens_from_corpus(corpus_files=[poem_folder+poem+"_poems.txt"], 
-                    length=poem_token_count,perform_training=False,tokens_per_sentence=tokens_per_sentence)
-            response = _cleanup_generated_poem(response)
+                    length=poem_word_count,perform_training=False,tokens_per_sentence=words_per_sentence)
+            response = tamil_utils._cleanup_generated_poem(response)
+            if include_meaning:
+                meaning = self.get_meaning(response)
+                for key,value in meaning.items():
+                    response += "\n" + key+"="+''.join(value)
         return response
     def _contains(self,poem_type,bot_user_input,value):
         response = self.df.index[ (self.df['poem_type']==poem_type) & (self.df['poem'].str.contains(value))].tolist()#.to_string(index=False)
@@ -335,7 +265,7 @@ class SangamPoems():
             return get_google_search_response(bot_user_input)
         return response
     def _poet_poems(self,poem_type,bot_user_input,value):
-        #print('value',value)
+        #print('_poet_poems value',value)
         response = self.list_poems_by_poet(poem_type, value)
         #print(poem_type,'key == ends_with',value,response)
         if not response:
@@ -392,8 +322,11 @@ class SangamPoems():
         if bot_user_input.split()[0] in config['key_words']["திருக்குறள்"]:
             response = self.tk.respond_to_bot_user_input(' '.join(bot_user_input.split()[1:]))
             return response
-        poem_type,key,value,verse_index = self._split_user_input(bot_user_input)
-        print('poem_type',poem_type,'key',key,'value',value,'verse_index',verse_index)
+        try:
+            poem_type,key,value,verse_index = self._split_user_input(bot_user_input)
+        except:
+            return config["FALLBACK_MSG"]
+        #print('poem_type',poem_type,'key',key,'value',value,'verse_index',verse_index)
         if verse_index != -1:
             return self._get_poem_from_poem_id(poem_type, verse_index)
         action_dict={"greet":(self._greet,[],{}),
@@ -402,113 +335,19 @@ class SangamPoems():
                      "contains":(self._contains,[poem_type,bot_user_input,value],{}),
                      "begins_with":(self._begins_with,[poem_type,bot_user_input,value],{}),
                      "ends_with":(self._ends_with,[poem_type,bot_user_input,value],{}),
-                     "new":(self._deep_learn,[poem_type,bot_user_input,value],{}),
+                     "new":(self._deep_learn,[poem_type,bot_user_input,value],{"include_meaning":False}),
                      "poet_count" : (self._poet_count,[poem_type,bot_user_input],{}),
                      "poet_poems" : (self._poet_poems,[poem_type,bot_user_input,value],{}),
                      "meaning" : (self._get_meaning,[bot_user_input],{}),
+                     "introduce": (self._introduce_bot,[bot_user_input],{})
                     }
         if key in action_dict.keys() or poem_type in action_dict.keys():
             function, args, kwargs = action_dict[key]
             return function(*args,**kwargs)
         else:
             return config['FALLBACK_MSG']
-    def _respond_to_bot_user_input_old(self, bot_user_input):
-        #print('user_input',bot_user_input)
-        pd.set_option('display.max_colwidth',1000)
-        if bot_user_input.split()[0] in config['key_words']["திருக்குறள்"]:
-            response = self.tk.respond_to_bot_user_input(' '.join(bot_user_input.split()[1:]))
-            return response
-        inputs = self._get_key_words(bot_user_input)
-        #print('inputs',inputs)
-        if len(inputs)==0:
-            response = get_google_search_response(bot_user_input)
-            if len(response)>0:
-                return response
-            else:
-                return config['FALLBACK_MSG']
-        poem_type = ''
-        key = ''
-        value = ''
-        response = []
-        verse_index = -1
-        try:
-            poem_type = inputs[0]
-            if poem_type in POEM_TYPES and len(inputs)>1:
-                if str(inputs[1]).isnumeric():
-                    verse_index = int(inputs[1])
-                else:
-                    key = inputs[1]
-                    value = ''
-                    if len(inputs)>2:
-                        value = ' '.join(inputs[2:])
-            else:
-                key = inputs[0]
-            if key =='contains':
-                response = self.df.index[ (self.df['poem_type']==poem_type) & (self.df['poem'].str.contains(value))].tolist()#.to_string(index=False)
-                #print(poem_type,'key == contains',value,response)
-                if not response:
-                    return get_google_search_response(bot_user_input)
-                    #return bot_user_input + config["SEARCH_FAIL_MSG"]
-                return self._format_output(response)
-            elif key =='begins_with':
-                response = self.df.index[ (self.df['poem_type']==poem_type) & (self.df['poem'].str.startswith(value))].tolist()#.to_string(index=False)
-                #print(poem_type,'key == begins_with',value,response)
-                if not response:
-                    return get_google_search_response(bot_user_input)
-                    #return bot_user_input + config["SEARCH_FAIL_MSG"]
-                return self._format_output(response)
-            elif key =='ends_with':
-                response = self.df.index[ (self.df['poem_type']==poem_type) & (self.df['poem'].str.endswith(value))].tolist()#.to_string(index=False)
-                #print(poem_type,'key == ends_with',value,response)
-                if not response:
-                    return get_google_search_response(bot_user_input)
-                    #return bot_user_input + config["SEARCH_FAIL_MSG"]
-                return self._format_output(response)
-            elif key =='poet_count':
-                response = self.list_of_poets(poem_type)
-                #print(poem_type,'key == ends_with',value,response)
-                if not response:
-                    return get_google_search_response(bot_user_input)
-                return response
-            elif key =='poet_poems':
-                #print('value',value)
-                response = self.list_poems_by_poet(poem_type, value)
-                #print(poem_type,'key == ends_with',value,response)
-                if not response:
-                    return get_google_search_response(bot_user_input)
-                return response
-            if verse_index != -1:
-                poem_id_min, poem_id_max = self._get_poem_min_max(poem_type)
-                #print(poem_type,poem_id_min, verse_index, poem_id_max)
-                if verse_index < poem_id_min or verse_index > poem_id_max:
-                    response = "(" + str(int(poem_id_min)) + " - "+ str(int(poem_id_max)) + ") "+config["NUMBER_LIMIT_MSG"]
-                    return response
-                response = self.df.index[ (self.df['poem_type']==poem_type) & (self.df['poem_id']==verse_index)].tolist()#.to_string(index=False)
-                return self._format_output(response)
-            if poem_type.lower() == "help" or key.lower() == "help":
-                response = config["HELP_MSG"]
-            elif poem_type.lower() == "meaning" or key.lower() == "meaning":
-                #print('inside meaning',inputs)
-                if len(inputs)>1:
-                    try:
-                        meaning = self.get_meaning(inputs[1])
-                        #print('meaning',meaning)
-                        response = ''
-                        for key,value in meaning.items():
-                            response += key+"="+''.join(value) +"\n"
-                    except:
-                        return bot_user_input + config["SEARCH_FAIL_MSG"]
-            elif poem_type.lower() == "greet" or key.lower() == "greet":
-                self._greet()
-            elif poem_type.lower() == "quit" or key.lower() == "quit":
-                self._quit()
-            else:
-                response = get_google_search_response(bot_user_input)
-                #return bot_user_input + config["SEARCH_FAIL_MSG"]
-            return response
-        except:
-            print('Exception reached')
-            return config['FALLBACK_MSG']
+    def _introduce_bot(self, user_message):
+        return "எனது பெயர் " + config["BOT_NAME"]        
     def _get_key_words(self, user_message):
         user_message = user_message.lower()
         user_words = user_message.split()
@@ -537,6 +376,8 @@ class SangamPoems():
         poem_id_max = self.df.loc[self.df['poem_type']==poem_type]['poem_id'].max()
         return poem_id_min, poem_id_max
     def list_poems_by_poet(self,poem_type,poet_name):
+        poem_type = poem_type.strip()
+        poet_name = poet_name.strip()
         if not poem_type in POEM_TYPES:
             return config["INVALID_POEM_TYPE_MSG"]
         #print('list_poems_by_poet',poem_type,poet_name)
@@ -560,7 +401,7 @@ class SangamPoems():
         result = cdeeplearn.generate_tokens_from_corpus(corpus_files=poem_files, 
                         length=poem_token_count, save_to_file='sangam_corpus.h5',perform_training=perform_training,
                         tokens_per_sentence=5)
-        print(result)
+        return result
     def list_of_poets(self, poem_type):
         #print('List of poets')
         if poem_type in POEM_TYPES:
@@ -591,15 +432,43 @@ if __name__ == "__main__":
     #user_message = "How are You?"
     #user_message = "Help"
     #user_message = "Bye"
-    #user_message = "thirukural  get 12"
+    #user_message = "thirukural contains   தாள்சேர்ந்தார்க்   "
     #user_message = 'திணை மாலை நூற்று ஐம்பது list of poets'
     #user_message = "thirukural contains தாள்சேர்ந்தார்க்"
     #user_message = "திருக்குறள்  new"
-    #user_message = "திருக்குறள் ends with பாற்று"
+    #user_message = "திருக்குறள் ends with பாற்று."
+    #user_message = "thirukural starts with இருள்சேர்"
     #user_message="pathitrupathu 91"
-    user_message="அகநானூறு பாடல் ஒன்றை உருவாக்குங்கள்"
+    user_message="thirukural contains தாள்சேர்ந்தார்க்"
+    user_message="thirukural தாள்சேர்ந்தார்க்  contains "
+    user_message="thirukural கொண்ட  தாள்சேர்ந்தார்க் "
+    user_message="thirukural தாள்சேர்ந்தார்க்  கொண்ட  "
+    #user_message="thirukural உடைய  தாள்சேர்ந்தார்க் "
+    #user_message="thirukural தாள்சேர்ந்தார்க்  உடைய  "
+    #user_message="thirukural ends with குறிப்பு."
+    #user_message="thirukural ends குறிப்பு."
+    #user_message="thirukural ends with குறிப்பு."
+    #user_message="thirukural ends குறிப்பு."
+    #user_message="thirukural குறிப்பு என முடியும் "
+    #user_message="thirukural குறிப்பு. முடியும் "
+    #user_message="thirukural செறாஅச்  தொடங்கும்"
+    #user_message="thirukural begins செறாஅச் "
+    #user_message="thirukural starts with செறாஅச் "
     #user_message="create a new agananuru song" 
+    #user_message = "thirukural     தாள்சேர்ந்தார்க்        contains "
+    #user_message = "thirukural kural 1234"
+    user_message = "thirukural get 13,4"
+    user_message = "what is your name?"
     sp = SangamPoems()
+    response = sp.respond_to_bot_user_input(user_message)
+    print(user_message,"\n",response)
+    exit()
+    #exit()
+    for poem in POEM_TYPES:
+        user_message = poem +' poet_count'
+        response = sp.respond_to_bot_user_input(user_message)
+        print(poem, ' poet_count \n',response+"\n\n")
+    exit()
     """
     meaning = sp.get_meaning("இலாட்டியேன்")
     response = ''
@@ -610,6 +479,7 @@ if __name__ == "__main__":
     """
     #print(sp.list_of_poets('திணை மாலை நூற்று ஐம்பது'))
     #exit()
+    #user_message = "உண்துறைம் மன்ற"
     bot_response = sp.respond_to_bot_user_input(user_message)
     print('bot_response',bot_response)
     exit()
